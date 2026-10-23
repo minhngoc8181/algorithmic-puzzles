@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0057",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Ngày 10 tháng 6. Số khả năng qua các bước: 20→13→3→1.",
+  "outline": "Loại mọi tháng chứa một ngày chỉ xuất hiện một lần trong danh sách ban đầu. Trong tập còn lại, giữ các ngày chỉ xuất hiện một lần; cuối cùng giữ các tháng chỉ còn một ngày. Thông báo đầu dùng thông tin về tập ban đầu, không dùng một tập đã lọc sai thời điểm. Khác bài số nhà/tuổi: hai người được biết hai tọa độ của cùng một ngày, không phải tổng và tích của các tuổi.",
+  "teaching_notes": "Khởi động tùy lớp: Tự tạo một bảng ngày 6–8 dòng có ngày chỉ xuất hiện một lần và xem người biết tháng suy ra điều gì.",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn ghi rõ mỗi người biết riêng tọa độ nào và tập thông tin ở từng lượt nói. So với bài tổng/tích và bài tuổi để học sinh thấy chung kỹ thuật lọc nhưng khác quan hệ thông tin và điều kiện ẩn."
+}

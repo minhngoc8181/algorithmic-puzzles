@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0031",
+  "title": "Bảng 25 bóng đèn và số lần nhấn ít nhất",
+  "statement": "Có 25 bóng đèn xếp thành bảng $5\\times5$. Nhấn một ô đảo trạng thái ô đó và các ô kề cạnh trên, dưới, trái, phải, nếu có. Không nối cạnh đối diện của bảng. Hình cho trạng thái ban đầu: ô vàng đang bật, ô trắng đang tắt; hàng và cột đếm từ trên xuống, từ trái sang.\n\nCó thể tắt hết bóng không? Nếu có, hãy tìm cách dùng ít lần nhấn nhất và chứng minh không có cách ngắn hơn.",
+  "aliases": [],
+  "figure_id": "ART-LIGHTS",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Lưới 5×5, có nhiều nghiệm và yêu cầu tối thiểu số nhấn.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-algebra",
+      "C-state-space",
+      "C-optimization"
+    ],
+    "technique_ids": [
+      "T-linear-algebra",
+      "T-subset-search"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Biến đổi bật/tắt, điều kiện đạt đích và tối thiểu số thao tác. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-algebra": "primary",
+      "C-state-space": "primary",
+      "C-optimization": "primary"
+    },
+    "technique_roles": {
+      "T-linear-algebra": "primary",
+      "T-subset-search": "supporting"
+    }
+  },
+  "instance": {
+    "kind": "lights",
+    "grid": [
+      [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    ]
+  },
+  "figure_model": null
+}

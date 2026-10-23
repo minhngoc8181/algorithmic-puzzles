@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0034",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Có; cần 1365 miếng.",
+  "outline": "Chia thành bốn phần bằng nhau, đặt một tromino qua ba ô kề tâm thuộc ba phần chưa có ô thiếu. Mỗi phần có đúng một ô thiếu; lặp đến bảng 2×2. Tổng số ô còn là 4095, chia 3 được 1365. Kích thước lũy thừa của 2 là giả thiết của chứng minh này, không tự áp dụng cho 2026×2026.",
+  "teaching_notes": "Khởi động tùy lớp: Tự thử 2×2 và 4×4, đổi vị trí ô thiếu. ",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn giữ giả thiết của quy nạp và thiết kế một bước giảm bài đúng dạng. Giữ cạnh là lũy thừa hai có chủ đích; đổi thành 2026 chỉ để tăng số sẽ làm lời giải chia bốn không còn áp dụng nguyên dạng."
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0037",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Cặp P07–P24, khoảng cách $\\sqrt{13}$. Đây là cặp tối thiểu duy nhất.",
+  "outline": "Kiểm tra chính xác bằng bình phương khoảng cách. Với dữ liệu lớn, chia theo x, giữ danh sách sắp theo y và xử lý dải qua đường chia; cần lập luận đóng gói để giới hạn số ứng viên. Duyệt mọi cặp chỉ dùng làm oracle kiểm tra bộ 30 điểm, không coi là đáp án hiệu quả cho một triệu điểm.",
+  "teaching_notes": "Khởi động tùy lớp: Tự đặt một ví dụ 4–6 điểm có cặp gần nhất nằm ở hai phía đường chia. ",
+  "proof": null,
+  "complexity": "O(n log n) cho chia để trị khi duy trì thứ tự y; oracle bộ nhỏ O(n²).",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn phối hợp chia để trị với lập luận hình học giới hạn số ứng viên ở dải giữa. Hình scatterplot chỉ giúp trực giác; cặp gần nhất phải kiểm bằng tọa độ và cùng tỉ lệ hai trục."
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0029",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Có thể tới hàng 4, không tới hàng 5.",
+  "outline": "Pagoda function chứng minh giới hạn; xây dựng cụ thể chuỗi nước để đạt hàng 4.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn xây dựng thế năng để chặn mọi chuỗi nước đi, kể cả chuỗi chưa nghĩ tới. Cận không tới hàng 5 và xây dựng tới hàng 4 là hai nhiệm vụ độc lập; thiếu chuỗi đạt được thì chưa chứng minh hàng tối đa."
+}

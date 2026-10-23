@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0041",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "19 lượt cho chuỗi 33 ký tự.",
+  "outline": "Có thể nén các đoạn ký tự bằng nhau kề nhau. Trên i..j, hoặc in riêng ký tự đầu, hoặc ghép lượt in của nó với một vị trí k có cùng ký tự và giải phần giữa. Lập DP đoạn, lấy min các khả năng, lưu lựa chọn để dựng kế hoạch. Cận dưới là sự phân hoạch theo lượt chứa ô đầu, không phải số chữ cái phân biệt.",
+  "teaching_notes": "Khởi động tùy lớp: Tự thử ABA, ABAB và một chuỗi có chữ lặp kề; yêu cầu kế hoạch cụ thể. ",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn nhìn việc ghi đè như quyền khai thác trong tối ưu, không mặc định mỗi ký tự cần một lượt. Khi lập công thức, phải giải thích việc tái sử dụng một lượt in cho hai vị trí có cùng ký tự."
+}

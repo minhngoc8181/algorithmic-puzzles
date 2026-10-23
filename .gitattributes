@@ -1,0 +1,11 @@
+* text=auto
+
+# Checksummed evidence: preserve bytes exactly (original CRLF/whitespace).
+sources/candidates/** -text -whitespace
+# Knowledge cards hash the exact solution file bytes.
+knowledge/puzzles/*/solution.json -text -whitespace
+
+*.pdf binary
+*.jpg binary
+*.png binary
+*.ttf binary

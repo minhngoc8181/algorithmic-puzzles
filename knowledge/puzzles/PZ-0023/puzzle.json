@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0023",
+  "title": "Bốn đống que diêm với số lượng lớn",
+  "statement": "Có bốn đống que diêm, lần lượt chứa 2026, 1537, 987 và 654 que. Hai người luân phiên chơi. Mỗi lượt phải chọn đúng một đống và lấy đi ít nhất một que, có thể lấy hết đống. Người lấy que cuối cùng thắng.\n\nAi có thể bảo đảm thắng và chơi như thế nào? Với số đống và số que trong mỗi đống bất kỳ, hãy xác định người có thể bảo đảm thắng.",
+  "aliases": [],
+  "figure_id": "ART-MATCHES",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Thay cấu hình 1,3,5,7 dễ nhận ra bằng 4 số lớn, yêu cầu nước đi và chiến lược phản hồi.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-games",
+      "C-algebra"
+    ],
+    "technique_ids": [
+      "T-game-positions",
+      "T-xor",
+      "T-grundy"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Chiến lược phản hồi duy trì trạng thái thua trong Nim. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-games": "primary",
+      "C-algebra": "primary"
+    },
+    "technique_roles": {
+      "T-game-positions": "primary",
+      "T-xor": "primary",
+      "T-grundy": "generalization"
+    }
+  },
+  "instance": {
+    "kind": "nim",
+    "heaps": [
+      2026,
+      1537,
+      987,
+      654
+    ]
+  }
+}

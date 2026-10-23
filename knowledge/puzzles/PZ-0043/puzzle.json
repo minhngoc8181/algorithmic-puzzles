@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0043",
+  "title": "Quan sát 20 đoạn đường bằng ít cảm biến",
+  "statement": "Có 20 đoạn đường đóng như bảng. Một cảm biến ở x quan sát mọi đoạn chứa x, kể cả đầu mút; không có giới hạn số đoạn một cảm biến theo dõi.\n\n{{DATA}}\n\nCần ít nhất bao nhiêu cảm biến? Hãy xác định vị trí đặt chúng và một phương pháp áp dụng cho các đoạn đường bất kỳ.",
+  "aliases": [],
+  "figure_id": "ART-SENSORS",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "5→20 đoạn; yêu cầu kèm chứng nhận bằng các đoạn không giao nhau.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-optimization",
+      "C-geometry"
+    ],
+    "technique_ids": [
+      "T-greedy"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "5→20 đoạn; yêu cầu kèm chứng nhận bằng các đoạn không giao nhau."
+  },
+  "instance": {
+    "kind": "stabbing",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Đoạn"
+      },
+      {
+        "field": "left",
+        "label": "Trái"
+      },
+      {
+        "field": "right",
+        "label": "Phải"
+      }
+    ],
+    "records": [
+      {
+        "id": "1",
+        "left": 1,
+        "right": 6
+      },
+      {
+        "id": "2",
+        "left": 2,
+        "right": 9
+      },
+      {
+        "id": "3",
+        "left": 5,
+        "right": 11
+      },
+      {
+        "id": "4",
+        "left": 8,
+        "right": 13
+      },
+      {
+        "id": "5",
+        "left": 10,
+        "right": 15
+      },
+      {
+        "id": "6",
+        "left": 12,
+        "right": 17
+      },
+      {
+        "id": "7",
+        "left": 14,
+        "right": 20
+      },
+      {
+        "id": "8",
+        "left": 18,
+        "right": 23
+      },
+      {
+        "id": "9",
+        "left": 19,
+        "right": 25
+      },
+      {
+        "id": "10",
+        "left": 22,
+        "right": 28
+      },
+      {
+        "id": "11",
+        "left": 24,
+        "right": 30
+      },
+      {
+        "id": "12",
+        "left": 27,
+        "right": 32
+      },
+      {
+        "id": "13",
+        "left": 29,
+        "right": 35
+      },
+      {
+        "id": "14",
+        "left": 31,
+        "right": 38
+      },
+      {
+        "id": "15",
+        "left": 34,
+        "right": 40
+      },
+      {
+        "id": "16",
+        "left": 37,
+        "right": 43
+      },
+      {
+        "id": "17",
+        "left": 39,
+        "right": 45
+      },
+      {
+        "id": "18",
+        "left": 42,
+        "right": 48
+      },
+      {
+        "id": "19",
+        "left": 44,
+        "right": 51
+      },
+      {
+        "id": "20",
+        "left": 49,
+        "right": 54
+      }
+    ]
+  }
+}

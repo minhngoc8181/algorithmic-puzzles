@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0044",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Thưởng 220; một lịch A, C, D, G, J, L, N, O, R.",
+  "outline": "Sắp theo thời điểm kết thúc, tìm tiết mục tương thích cuối cùng trước mỗi mục. DP so không chọn mục hiện tại với chọn nó cộng tối ưu ở phần tương thích. Lưu dấu để khôi phục lịch; quy tắc kết thúc sớm của bài không trọng số không giải quyết mục tiêu tiền thưởng.",
+  "teaching_notes": "Khởi động tùy lớp: Tự tạo 3 tiết mục mà chọn nhiều tiết mục hơn lại nhận ít thưởng hơn. ",
+  "proof": null,
+  "complexity": "O(n log n) với tìm kiếm nhị phân cho mục tương thích.",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn thấy trọng số làm chọn tiết mục kết thúc sớm nhất mất tính tối ưu. Dùng bài đoạn không trọng số trước để học sinh giải thích vì sao cùng hình dạng thời gian nhưng yêu cầu cần quy hoạch động."
+}

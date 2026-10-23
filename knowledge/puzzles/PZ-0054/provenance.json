@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0054",
+  "catalog_headings": [],
+  "external_source_status": "partial",
+  "external_sources": [
+    {
+      "url": "https://web-static.stern.nyu.edu/om/faculty/pinedo/scheduling/shakhlevich/handout08.pdf",
+      "title": "NYU scheduling course: Flow Shop, sections 1–2",
+      "role": "technical-support-not-source-of-authored-numbers"
+    }
+  ]
+}

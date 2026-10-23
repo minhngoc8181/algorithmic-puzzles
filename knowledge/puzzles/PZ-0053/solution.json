@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0053",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "2 bếp: 241 phút; 3 bếp: 165 phút; 4 bếp: 130 phút.",
+  "outline": "Tổng 481. Với 2 bếp cận ít nhất 241, có hai nhóm tổng 241,240. Với 3 bếp phải có bếp làm ≥5 món, tổng 5 món ngắn nhất là 165; các món còn lại chia hai nhóm 158. Với 4 bếp phải có bếp làm ≥4 món, tổng 4 món ngắn nhất là 130; còn lại chia ba nhóm 117. Các nhóm cụ thể nằm trong certificate kiểm tra. Quy tắc xếp món dài nhất trước vào bếp đang ít tải là heuristic, không chứng minh tối ưu tổng quát.",
+  "teaching_notes": "Khởi động tùy lớp: Tự chọn 5–6 món tạo một lịch tham lam chưa tốt; tìm cả cận khối lượng và cận số món trên một bếp.",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn kết hợp cận tổng tải với cận số món bắt buộc trên một bếp. Học sinh cần dựng nhóm đạt cận, không chỉ chia tổng cho số bếp hoặc xem một lịch LPT là tối ưu mà chưa chứng minh."
+}

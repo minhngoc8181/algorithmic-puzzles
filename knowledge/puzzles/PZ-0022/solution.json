@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0022",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Người đi trước thắng khi m,n>1.",
+  "outline": "Chứng minh strategy stealing cho Chomp; không bắt buộc tìm ngay nước đi đầu tiên cụ thể.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn phân biệt chứng minh tồn tại chiến lược thắng với thuật toán tìm một nước thắng. Cho học sinh chỉ ra điều kiện làm phép “cướp chiến lược” hợp lệ thay vì xem lập luận phi xây dựng là chưa giải bài."
+}

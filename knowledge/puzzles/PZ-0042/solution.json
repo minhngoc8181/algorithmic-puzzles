@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0042",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Xuất phát được ở các trạm 3, 5, 7, 9, 10, 11, 13.",
+  "outline": "Tổng a−b không âm là điều kiện cần và đủ với bình không giới hạn. Chọn vị trí sau một prefix có tổng nhỏ nhất để lấy một điểm xuất phát. Đề hỏi tất cả điểm: dùng prefix sum nhân đôi và cửa sổ cực tiểu để tránh thử từng vòng; oracle thử 16 vòng xác nhận danh sách.",
+  "teaching_notes": "Khởi động tùy lớp: Tự tạo hai vòng nhỏ có tổng bằng 0 và tổng âm; thử thay sức chứa không giới hạn bằng một bình hữu hạn. ",
+  "proof": null,
+  "complexity": "O(n) cho một điểm; O(n) với deque cho tất cả điểm.",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn biến thất bại ở một đoạn thành chứng cứ loại cả nhóm điểm bắt đầu. Đề phân biệt tìm một trạm với liệt kê mọi trạm hợp lệ; thuật toán cho nhiệm vụ đầu không tự hoàn thành nhiệm vụ sau."
+}

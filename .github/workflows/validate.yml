@@ -1,0 +1,25 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate knowledge system
+        run: python tools/puzzles.py validate
+      - name: INDEX.md is up to date
+        run: python tools/puzzles.py index --check
+      - name: Tests (data integrity, answers, render pipeline)
+        run: python -m unittest discover -s tests -v
+      - name: Render LaTeX (no XeLaTeX on CI)
+        run: python build.py --render-only

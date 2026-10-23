@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0002",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "A giữ 98, chia C và E mỗi người 1, B và D nhận 0.",
+  "outline": "Lần lượt xét tình huống chỉ còn 1,2,3,4,5 cướp biển. Khi còn 5 người cần 3 phiếu thuận. Trong phương án của B, C và E nhận 0 nên có thể được A mua phiếu bằng 1 đồng.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn đọc chính xác ngưỡng biểu quyết và thứ tự ưu tiên. Thay “ít nhất một nửa” bằng “quá một nửa” là một biến thể có thể đổi phân phối; cần suy từ nhóm nhỏ lên, không học thuộc 98/1/1."
+}

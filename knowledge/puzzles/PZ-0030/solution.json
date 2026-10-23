@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0030",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Không.",
+  "outline": "Tô bàn cờ hai màu; hai góc đối diện cùng màu nên số ô hai màu còn lại chênh nhau.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn bỏ chi tiết hình học để đếm hai loại ô mà mỗi miếng đều phủ như nhau. Hỏi biến thể bỏ hai ô khác màu để thấy điều kiện cần không tự là điều kiện đủ cho mọi bảng có lỗ."
+}

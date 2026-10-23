@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "SRC-CATALOG-72",
+      "kind": "local-family-catalog",
+      "path": "sources/candidates/catalog-72-v0.1.md",
+      "sha256": "f8d94f9558c3d2b5c225e7e0f5db67e858eb26f084757a42c5a0c3d1ee27ea1a",
+      "note": "72 candidate summaries for future puzzles; AP headings are catalogue headings, not verified publications."
+    }
+  ]
+}

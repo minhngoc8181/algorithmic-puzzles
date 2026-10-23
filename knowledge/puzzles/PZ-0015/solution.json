@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0015",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Hai số nhà 4 và 13.",
+  "outline": "Liệt kê 2352 cặp trong miền đã cho. Thông báo thứ hai giữ các tổng mà mọi cách tách đều có tích không xác định duy nhất trong miền ban đầu. Theo các thông báo tiếp theo, lọc theo tích duy nhất trong tập còn lại rồi theo tổng duy nhất. Kết quả cuối chỉ có (4,13). Không diễn giải câu thứ hai thành “sau khi nghe bạn, tôi mới biết”.",
+  "teaching_notes": "Khởi động tùy lớp: Cho người học tự dựng một miền rất nhỏ và mô phỏng các tập khả dĩ; so sánh “biết từ đầu” với “bây giờ mới biết”. ",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn suy luận về điều người khác có thể biết, không chỉ về giá trị số. Bắt học sinh ghi tập khả dĩ ở đúng thời điểm; câu “biết từ đầu” mạnh hơn “bây giờ mới biết”."
+}

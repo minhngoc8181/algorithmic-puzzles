@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0038",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "153 cặp đổi thứ tự.",
+  "outline": "Lập ánh xạ mã thí sinh→hạng ở bảng 1, chuyển bảng 2 thành hoán vị hạng. Khi trộn hai nửa đã sắp, mỗi phần tử phía phải đi trước các phần tử còn lại phía trái đóng góp đúng số phần tử còn lại. Duyệt mọi cặp kiểm tra 24 thí sinh độc lập với phép đếm khi trộn.",
+  "teaching_notes": "Khởi động tùy lớp: Tự lập hai bảng 4 người, trong đó bảng 1 cũng xáo trộn; làm rõ đếm cặp, không đếm số người đổi hạng. ",
+  "proof": null,
+  "complexity": "O(n log n) thời gian, O(n) bộ nhớ.",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn ánh xạ một bài so hai thứ hạng thành một hoán vị tương đối. Bảng thứ nhất cố ý chưa theo mã để tránh lẫn nghịch thế của mã thí sinh với sự bất đồng giữa hai hội đồng."
+}

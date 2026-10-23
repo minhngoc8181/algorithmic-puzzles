@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-11",
+  "references": [
+    {
+      "id": "REF-TOP2",
+      "title": "Princeton CS423: finding the second largest",
+      "url": "https://www.cs.princeton.edu/courses/archive/spring98/cs423/handouts/hw02/index.html",
+      "supports": "Bound n+ceil(log2 n)-2 and tournament certificate; exercise 3."
+    },
+    {
+      "id": "REF-ANT",
+      "title": "Ting-Yang Hsiao, The Ant on a Rubber Rope Paradox",
+      "url": "https://arxiv.org/abs/2101.03890",
+      "supports": "Uniform stretching preserves fraction; linearly growing rope gives harmonic series."
+    },
+    {
+      "id": "REF-JOHNSON",
+      "title": "NYU scheduling course: Flow Shop, sections 1–2",
+      "url": "https://web-static.stern.nyu.edu/om/faculty/pinedo/scheduling/shakhlevich/handout08.pdf",
+      "supports": "Two-machine flow shop with waiting: optimal permutation schedule and Johnson rule; does not justify applying rule to no-wait model."
+    }
+  ]
+}

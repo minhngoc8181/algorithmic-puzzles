@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0039",
+  "title": "Đường chân trời với 16 tòa nhà chồng nhau",
+  "statement": "Mỗi tòa nhà là bộ $(L,R,H)$: chiếm đoạn $[L,R)$ và cao $H$. Ở mỗi hoành độ, đường chân trời là chiều cao lớn nhất trong các tòa đang phủ vị trí đó; ngoài các tòa, chiều cao bằng 0.\n\n{{DATA}}\n\nHãy xác định đường chân trời bằng danh sách các điểm đổi chiều cao, gồm cả điểm cuối trở về 0. Tìm một phương pháp áp dụng cho số lượng tòa nhà bất kỳ.",
+  "aliases": [],
+  "figure_id": "ART-SKYLINE",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "5→16 tòa; nâng độ khó bằng sự kiện trùng x, độ cao trùng và khoảng trống, không chỉ thêm hình chữ nhật.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-geometry",
+      "C-recursion"
+    ],
+    "technique_ids": [
+      "T-divide-conquer",
+      "T-sweep"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Quản lý sự kiện cùng tọa độ và đa tập chiều cao. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-geometry": "primary",
+      "C-recursion": "alternative"
+    },
+    "technique_roles": {
+      "T-divide-conquer": "alternative",
+      "T-sweep": "primary"
+    }
+  },
+  "instance": {
+    "kind": "skyline",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Tòa"
+      },
+      {
+        "field": "left",
+        "label": "L"
+      },
+      {
+        "field": "right",
+        "label": "R"
+      },
+      {
+        "field": "height",
+        "label": "H"
+      }
+    ],
+    "records": [
+      {
+        "id": "B01",
+        "left": 2,
+        "right": 8,
+        "height": 11
+      },
+      {
+        "id": "B02",
+        "left": 5,
+        "right": 14,
+        "height": 17
+      },
+      {
+        "id": "B03",
+        "left": 8,
+        "right": 12,
+        "height": 17
+      },
+      {
+        "id": "B04",
+        "left": 12,
+        "right": 19,
+        "height": 9
+      },
+      {
+        "id": "B05",
+        "left": 14,
+        "right": 22,
+        "height": 23
+      },
+      {
+        "id": "B06",
+        "left": 17,
+        "right": 25,
+        "height": 14
+      },
+      {
+        "id": "B07",
+        "left": 19,
+        "right": 27,
+        "height": 23
+      },
+      {
+        "id": "B08",
+        "left": 22,
+        "right": 30,
+        "height": 8
+      },
+      {
+        "id": "B09",
+        "left": 25,
+        "right": 32,
+        "height": 19
+      },
+      {
+        "id": "B10",
+        "left": 30,
+        "right": 36,
+        "height": 19
+      },
+      {
+        "id": "B11",
+        "left": 32,
+        "right": 40,
+        "height": 7
+      },
+      {
+        "id": "B12",
+        "left": 38,
+        "right": 44,
+        "height": 21
+      },
+      {
+        "id": "B13",
+        "left": 40,
+        "right": 47,
+        "height": 13
+      },
+      {
+        "id": "B14",
+        "left": 44,
+        "right": 50,
+        "height": 13
+      },
+      {
+        "id": "B15",
+        "left": 54,
+        "right": 59,
+        "height": 10
+      },
+      {
+        "id": "B16",
+        "left": 56,
+        "right": 63,
+        "height": 16
+      }
+    ]
+  }
+}

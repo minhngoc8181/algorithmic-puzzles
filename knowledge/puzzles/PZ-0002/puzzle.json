@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0002",
+  "title": "Năm cướp biển chia 100 đồng vàng",
+  "statement": "Năm cướp biển A, B, C, D, E xếp theo thứ bậc từ cao xuống thấp phải chia 100 đồng vàng nguyên vẹn. Người có thứ bậc cao nhất còn sống đề nghị cách chia toàn bộ số vàng. Tất cả người còn sống, kể cả người đề nghị, cùng bỏ phiếu. Đề nghị được chấp nhận nếu có ít nhất một nửa số phiếu thuận; nếu không, người đề nghị bị loại và người có thứ bậc tiếp theo đưa ra đề nghị mới.\n\nMỗi cướp biển ưu tiên theo đúng thứ tự: sống sót; nếu đều sống thì lấy được nhiều vàng hơn; nếu cả hai điều trên như nhau thì muốn người đề nghị bị loại. Mọi người đều biết các ưu tiên đó và suy luận hoàn hảo.\n\nA phải đề nghị chia như thế nào để giữ cho mình nhiều vàng nhất mà chắc chắn được chấp nhận?",
+  "aliases": [],
+  "figure_id": "NEW-PIRATES",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ 5/100 nhưng hiệu chỉnh sao: luật “ít nhất một nửa”, có tự bỏ phiếu và tie preference đều phải dùng.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-games",
+      "C-common-knowledge"
+    ],
+    "technique_ids": [
+      "T-backward"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giữ 5/100 nhưng hiệu chỉnh sao: luật “ít nhất một nửa”, có tự bỏ phiếu và tie preference đều phải dùng."
+  }
+}

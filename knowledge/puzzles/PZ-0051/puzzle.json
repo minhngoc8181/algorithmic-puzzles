@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0051",
+  "title": "Kiến bò trên sợi dây",
+  "statement": "Có $n$ con kiến ở các vị trí phân biệt bất kỳ trên một sợi dây thẳng dài $L$. Mỗi con bò về một đầu dây với cùng tốc độ $v$. Khi hai con gặp nhau, cả hai lập tức đổi hướng và tiếp tục bò; khi đến đầu dây, kiến rơi khỏi dây.\n\nVới các vị trí ban đầu đã cho, thời điểm tất cả kiến rơi khỏi dây có thể sớm nhất và muộn nhất là bao nhiêu?",
+  "aliases": [],
+  "figure_id": "ART-ANTS",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Đề tổng quát n kiến trên dây L, tốc độ v, vị trí bất kỳ. Không bảng cố định hoặc gợi ý bỏ mô phỏng va chạm; hình là kiến đang bò.",
+    "stars": 2,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-invariants",
+      "C-optimization"
+    ],
+    "technique_ids": [
+      "T-equivalent-model"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Đổi cách nhìn chuyển động, rồi xác định hai cận thời điểm. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-invariants": "primary",
+      "C-optimization": "primary"
+    },
+    "technique_roles": {
+      "T-equivalent-model": "primary"
+    }
+  },
+  "instance": {
+    "kind": "ants-general",
+    "length_symbol": "L",
+    "speed_symbol": "v",
+    "count_symbol": "n"
+  }
+}

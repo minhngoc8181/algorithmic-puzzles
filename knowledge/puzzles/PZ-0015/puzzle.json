@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0015",
+  "title": "Hai số nhà và bốn lời thông báo",
+  "statement": "Hai người bạn cần tìm hai ngôi nhà trong một khu dân cư. Số nhà là hai số nguyên $x,y$ thỏa mãn $2\\le x<y$ và $x+y\\le100$. Tờ chỉ dẫn của S chỉ ghi tổng $x+y$; tờ chỉ dẫn của P chỉ ghi tích $xy$. Cả hai biết đúng miền giá trị đó, biết người kia nhận thông tin gì và đều suy luận hoàn hảo.\n\nP: “Tôi chưa biết hai số nhà.”\n\nS: “Tôi đã biết từ đầu rằng bạn chưa thể biết.”\n\nP: “Bây giờ tôi biết rồi.”\n\nS: “Bây giờ tôi cũng biết rồi.”\n\nHai số nhà là bao nhiêu?",
+  "aliases": [],
+  "figure_id": "ART-HOUSES",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Ngữ cảnh số nhà, vẫn giữ nguyên miền toán học để tránh đổi đáp án ngoài ý muốn; bổ sung hai bài số nhà/tuổi và sinh nhật với điều kiện thông tin khác.",
+    "stars": 5,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-information",
+      "C-common-knowledge"
+    ],
+    "technique_ids": [
+      "T-elimination"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Ngữ cảnh số nhà, vẫn giữ nguyên miền toán học để tránh đổi đáp án ngoài ý muốn; bổ sung hai bài số nhà/tuổi và sinh nhật với điều kiện thông tin khác."
+  }
+}

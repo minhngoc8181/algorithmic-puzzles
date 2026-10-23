@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0004",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Có; ba lần cân đủ.",
+  "outline": "Gọi 12 đồng A..L. Cân ABCD với EFGH. Nếu bằng, cân IJK với ABC; nếu vẫn bằng, so L với A, nếu lệch thì so I với J để xác định I/J/K theo chiều lệch. Nếu ABCD nặng hơn, nghi A..D nặng hoặc E..H nhẹ: cân ABE với CDF. Trái nặng: nghi A,B nặng/F nhẹ, so A với B. Phải nặng: nghi C,D nặng/E nhẹ, so C với D. Bằng: nghi G,H nhẹ, so G với H. Nếu cân đầu lệch ngược, đảo chiều nặng/nhẹ trong các suy luận. Cả 24 giả thuyết đã được mô phỏng.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn chia nhánh theo quan sát và bảo đảm mỗi nhánh vẫn giải được. Cận 24 giả thuyết so với 27 kết quả chỉ là điều kiện thông tin; học sinh còn phải thiết kế các phép cân hợp lệ."
+}

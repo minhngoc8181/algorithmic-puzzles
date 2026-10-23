@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0048",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Ít nhất 4 người; một tập A, B, E, H.",
+  "outline": "Mã hóa tập ủy ban được phủ, thử tập ứng viên theo kích thước hoặc tìm kiếm có cận. Bộ dữ liệu đã kiểm tra mọi nhóm ≤3 đều thiếu ít nhất một ủy ban; tập được nêu phủ đủ 14. Đây là set cover, khác matching: một người có thể phủ nhiều ủy ban, nên không áp dụng Hall như một đáp án tối ưu.",
+  "teaching_notes": "Khởi động tùy lớp: Người học tự tìm trường hợp chọn người phủ nhiều nhất trước tạo phương án chưa tối ưu. ",
+  "proof": null,
+  "complexity": "Liệt kê O(2^k·m) theo k ứng viên; xấp xỉ tham lam phải kèm giới hạn, không chứng nhận tối ưu.",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn phân biệt tìm một phủ hợp lệ, tìm phủ nhỏ nhất và xấp xỉ. Đây là ví dụ để thảo luận khi duyệt chính xác hợp lý ở dữ liệu nhỏ, còn lời hứa tham lam tối ưu cho mọi dữ liệu cần bị chất vấn."
+}

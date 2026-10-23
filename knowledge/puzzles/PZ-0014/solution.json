@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0014",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Xác suất tối đa 1/2.",
+  "outline": "Người cuối nói mã cho parity 39 mũ phía trước; 39 người đoán đúng, người đầu tiên nói đúng với xác suất 1/2.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn dành một lời nói làm mã kiểm tra cho cả nhóm, rồi cập nhật thông tin qua các câu đã nghe. Phân biệt bảo đảm 39 người đúng với xác suất cả 40 người đúng và giải thích cận trên từ người nói đầu."
+}

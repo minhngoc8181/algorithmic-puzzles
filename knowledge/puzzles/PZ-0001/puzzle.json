@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0001",
+  "title": "Năm con sói và một con cừu",
+  "statement": "Trên một hòn đảo có năm con sói và một con cừu. Nếu một con sói ăn cừu, ngay lập tức chính con sói đó biến thành cừu. Mỗi con sói đều muốn ăn cừu, nhưng ưu tiên sống sót hơn việc được ăn. Tất cả đều suy luận hoàn hảo, đều biết các con khác cũng như vậy, và không con nào cần phải ăn để sống.\n\nCon cừu có bị ăn không? Nếu trên đảo có $n$ con sói thay vì năm con, câu trả lời thay đổi thế nào?",
+  "aliases": [],
+  "figure_id": "NEW-WOLVES",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ 5 rồi hỏi n tổng quát; quy nạp ngược là điểm vào mức 2, không cần nhân số sói.",
+    "stars": 2,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-induction",
+      "C-games"
+    ],
+    "technique_ids": [
+      "T-backward"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giữ 5 rồi hỏi n tổng quát; quy nạp ngược là điểm vào mức 2, không cần nhân số sói."
+  }
+}

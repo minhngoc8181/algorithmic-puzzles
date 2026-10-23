@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0039",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Các điểm đổi chiều cao: (2,11), (5,17), (14,23), (27,19), (36,7), (38,21), (44,13), (50,0), (54,10), (56,16), (63,0).",
+  "outline": "Gộp toàn bộ sự kiện cùng x rồi lấy chiều cao lớn nhất sau cập nhật; dùng multiset hoặc heap với cơ chế xóa hợp lệ. Đếm multiplicity để xóa một tòa không xóa nhầm tòa khác cùng chiều cao. Bỏ điểm liên tiếp có cùng độ cao. Khoảng trống 50–54 phải có đoạn cao 0.",
+  "teaching_notes": "Khởi động tùy lớp: Tự dựng ba trường hợp: hai tòa bằng chiều cao, một tòa kết thúc đúng khi tòa khác bắt đầu, và một khoảng trống. ",
+  "proof": null,
+  "complexity": "O(n log n) với sự kiện đã sắp và cấu trúc chiều cao.",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn quản lý sự kiện đồng thời và đa tập khi quét dữ liệu. Các đầu mút trùng và chiều cao lặp giúp học sinh tìm lỗi trong cách chỉ giữ một tập độ cao hoặc xuất điểm sau từng sự kiện đơn."
+}

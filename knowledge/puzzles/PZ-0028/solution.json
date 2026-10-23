@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0028",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Không.",
+  "outline": "Sử dụng parity của hoán vị kết hợp vị trí ô trống; đổi đúng 14 và 15 là bất khả thi.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn chứng minh bất khả thi bằng bất biến thay vì thử nhiều đường đi rồi kết luận không có. Cần tính cả vị trí ô trống; parity của các số riêng lẻ thay đổi theo loại bước trên bảng rộng chẵn."
+}

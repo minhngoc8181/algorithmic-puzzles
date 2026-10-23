@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0001",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Với 5 con sói, có sói ăn cừu; với n sói, ăn khi n lẻ.",
+  "outline": "Suy luận quy nạp từ 1,2,3,... con sói; một con sói chỉ ăn nếu sau khi biến đổi thành cừu, những con còn lại không ăn nó.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn quy nạp ngược trên hành vi có ưu tiên, thay trực giác “đói thì ăn” bằng việc xét hậu quả. Cho học sinh giải thích trường hợp hai sói trước khi nêu quy luật chẵn–lẻ."
+}

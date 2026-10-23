@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0035",
+  "title": "Nối mười tám sợi dây với chi phí nhỏ nhất",
+  "statement": "Có 18 sợi dây có độ dài nguyên tính bằng mét như bảng. Mỗi lần nối được chọn bất kỳ hai sợi hiện có, dài $a,b$; chi phí là $a+b$ và thu được một sợi dài $a+b$. Không mất độ dài khi nối.\n\n{{DATA}}\n\nTổng chi phí nhỏ nhất để nối thành một sợi là bao nhiêu? Hãy lập kế hoạch nối và tìm một phương pháp cho các độ dài bất kỳ.",
+  "aliases": [],
+  "figure_id": "ART-ROPES",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "4→18 dây, số không sắp xếp sẵn; yêu cầu chứng minh trao đổi, không chỉ nhẩm tổng.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-optimization"
+    ],
+    "technique_ids": [
+      "T-greedy"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "4→18 dây, số không sắp xếp sẵn; yêu cầu chứng minh trao đổi, không chỉ nhẩm tổng."
+  },
+  "instance": {
+    "kind": "rope-merge",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Dây"
+      },
+      {
+        "field": "length",
+        "label": "Mét"
+      }
+    ],
+    "records": [
+      {
+        "id": "1",
+        "length": 17
+      },
+      {
+        "id": "2",
+        "length": 43
+      },
+      {
+        "id": "3",
+        "length": 8
+      },
+      {
+        "id": "4",
+        "length": 29
+      },
+      {
+        "id": "5",
+        "length": 61
+      },
+      {
+        "id": "6",
+        "length": 12
+      },
+      {
+        "id": "7",
+        "length": 37
+      },
+      {
+        "id": "8",
+        "length": 5
+      },
+      {
+        "id": "9",
+        "length": 54
+      },
+      {
+        "id": "10",
+        "length": 21
+      },
+      {
+        "id": "11",
+        "length": 46
+      },
+      {
+        "id": "12",
+        "length": 9
+      },
+      {
+        "id": "13",
+        "length": 33
+      },
+      {
+        "id": "14",
+        "length": 68
+      },
+      {
+        "id": "15",
+        "length": 14
+      },
+      {
+        "id": "16",
+        "length": 26
+      },
+      {
+        "id": "17",
+        "length": 49
+      },
+      {
+        "id": "18",
+        "length": 7
+      }
+    ]
+  }
+}

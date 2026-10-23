@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0040",
+  "title": "Sáp nhập 16 khối slime kề nhau",
+  "statement": "Có 16 khối slime xếp theo đúng thứ tự trong bảng. Mỗi lượt chỉ ghép được hai khối đang kề nhau; khối mới có kích thước bằng tổng hai khối cũ, cũng là chi phí lượt đó. Không được đổi vị trí các khối.\n\n{{DATA}}\n\nTổng chi phí nhỏ nhất để còn một khối là bao nhiêu? Hãy lập kế hoạch ghép và tìm một phương pháp cho dãy kích thước bất kỳ.",
+  "aliases": [],
+  "figure_id": "ART-SLIMES",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "4→16 khối và phải phục hồi kế hoạch; đối chiếu trực tiếp sự khác biệt ràng buộc với bài 35.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-optimization",
+      "C-dp"
+    ],
+    "technique_ids": [
+      "T-interval-dp"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "4→16 khối và phải phục hồi kế hoạch; đối chiếu trực tiếp sự khác biệt ràng buộc với bài 35."
+  },
+  "instance": {
+    "kind": "adjacent-merge",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Vị trí"
+      },
+      {
+        "field": "size",
+        "label": "Kích thước"
+      }
+    ],
+    "records": [
+      {
+        "id": "1",
+        "size": 28
+      },
+      {
+        "id": "2",
+        "size": 7
+      },
+      {
+        "id": "3",
+        "size": 31
+      },
+      {
+        "id": "4",
+        "size": 12
+      },
+      {
+        "id": "5",
+        "size": 45
+      },
+      {
+        "id": "6",
+        "size": 9
+      },
+      {
+        "id": "7",
+        "size": 18
+      },
+      {
+        "id": "8",
+        "size": 36
+      },
+      {
+        "id": "9",
+        "size": 5
+      },
+      {
+        "id": "10",
+        "size": 27
+      },
+      {
+        "id": "11",
+        "size": 14
+      },
+      {
+        "id": "12",
+        "size": 40
+      },
+      {
+        "id": "13",
+        "size": 11
+      },
+      {
+        "id": "14",
+        "size": 23
+      },
+      {
+        "id": "15",
+        "size": 6
+      },
+      {
+        "id": "16",
+        "size": 34
+      }
+    ]
+  }
+}

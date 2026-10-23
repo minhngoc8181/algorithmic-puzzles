@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0024",
+  "title": "Hai kho đá và một lượt lấy chung",
+  "statement": "Hai đống có 2026 và 3278 viên đá. Mỗi lượt được lấy một số dương viên từ đúng một đống, hoặc lấy cùng một số dương viên từ cả hai đống. Ai lấy viên cuối cùng thắng.\n\nNgười đi trước có bảo đảm thắng không? Nếu có, hãy nêu một chiến lược. Với hai số viên đá ban đầu bất kỳ, ai có thể bảo đảm thắng?",
+  "aliases": [],
+  "figure_id": "ART-WYTHOFF",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Cấu hình 2026/3278; mức khó đến từ chứng minh họ trạng thái, không từ hai đống hay số lớn.",
+    "stars": 5,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-games"
+    ],
+    "technique_ids": [
+      "T-game-positions"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Cấu hình 2026/3278; mức khó đến từ chứng minh họ trạng thái, không từ hai đống hay số lớn."
+  },
+  "instance": {
+    "kind": "wythoff",
+    "heaps": [
+      2026,
+      3278
+    ]
+  }
+}

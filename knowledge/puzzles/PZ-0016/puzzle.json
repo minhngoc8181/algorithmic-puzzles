@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0016",
+  "title": "Bảy học sinh và thông báo về vết bùn",
+  "statement": "Bảy học sinh đứng thành vòng và nhìn thấy trán của mọi người khác nhưng không thấy trán mình. Thực tế cả bảy đều có bùn. Giáo viên công khai nói: “Ít nhất một em có bùn trên trán.”\n\nỞ mỗi vòng, tất cả cùng trả lời câu hỏi “Em có biết chắc mình có bùn không?”. Không ai nghe câu trả lời của vòng đang diễn ra trước khi trả lời; sau vòng, tất cả nghe toàn bộ các câu trả lời. Mọi người suy luận hoàn hảo và biết các bạn cũng vậy.\n\nỞ vòng nào cả bảy cùng trả lời “biết”? Nếu chỉ có $k$ em có bùn, với $1\\le k\\le7$, câu trả lời thay đổi thế nào?",
+  "aliases": [],
+  "figure_id": "ART-MUDDY",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Tăng từ 3 lên 7, yêu cầu giải thích vai trò của common knowledge và tính đồng thời; không chỉ tính số vòng.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-induction",
+      "C-common-knowledge"
+    ],
+    "technique_ids": [
+      "T-induction",
+      "T-elimination"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Tri thức chung, thông báo đồng thời và quy nạp theo số người. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-induction": "primary",
+      "C-common-knowledge": "primary"
+    },
+    "technique_roles": {
+      "T-induction": "primary",
+      "T-elimination": "supporting"
+    }
+  },
+  "instance": {
+    "kind": "muddy",
+    "n": 7
+  }
+}

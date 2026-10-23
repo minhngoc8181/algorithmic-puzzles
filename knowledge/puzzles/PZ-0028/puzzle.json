@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0028",
+  "title": "15-puzzle: đổi chỗ 14 và 15",
+  "statement": "Một bảng trượt $4\\times4$ chứa 15 ô số từ 1 đến 15 và một ô trống. Ban đầu, các ô số được xếp tăng dần từ trái sang phải, từ trên xuống dưới; ô trống ở góc dưới bên phải. Mỗi bước chỉ được trượt một ô số kề cạnh vào ô trống. Có thể đi từ bảng chuẩn đến bảng giống hệt bảng chuẩn, ngoại trừ hai ô 14 và 15 đổi chỗ, bằng một dãy bước trượt hợp lệ không?",
+  "aliases": [],
+  "figure_id": "AP-55",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ 4×4, đổi đúng 14/15 và cùng vị trí trống; chứng minh parity, không cần tăng ô.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-invariants",
+      "C-permutations"
+    ],
+    "technique_ids": [
+      "T-parity"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giữ 4×4, đổi đúng 14/15 và cùng vị trí trống; chứng minh parity, không cần tăng ô."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0036",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Có thuật toán đạt kỳ vọng O(n log n); phiên bản phân hoạch ngẫu nhiên đơn giản có trường hợp xấu nhất O(n²).",
+  "outline": "Chọn ngẫu nhiên một đai ốc, phân hoạch các bu lông theo nó, lấy bu lông vừa khít để phân hoạch lại các đai ốc. Đệ quy ở hai phía; mọi so sánh đều khác loại. Kỳ vọng O(n log n), xấu nhất O(n²) nếu các pivot liên tục lệch. Cần log₃(n!) quan sát trong mô hình phân biệt n! ghép cặp, cho cận Ω(n log n); không khẳng định một số lần thử chính xác tối thiểu.",
+  "teaching_notes": "Bài là bài thiết kế và phân tích, không yêu cầu một con số tối thiểu chính xác theo n. Khi học sinh đề xuất cách làm, hỏi tiếp trường hợp xấu nhất và kỳ vọng; chưa nêu quyền chọn ngẫu nhiên như một gợi ý trong đề.",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn thiết kế thuật toán khi phép so sánh bị hạn chế và phân biệt kỳ vọng với trường hợp xấu nhất. Không đem sort thông thường vào hai nhóm; mỗi phép thử của bước phân hoạch phải có một đai ốc và một bu lông."
+}

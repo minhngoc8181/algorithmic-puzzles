@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0058",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "2 bếp: 240,5 phút; 3 bếp: $481/3$ phút; 4 bếp: 120,25 phút.",
+  "outline": "Cận $T\\ge\\max(\\max p_i,\\sum p_i/m)$. Dựng các hàng bếp dài T, xếp công việc nối tiếp và cắt tại ranh giới hàng (McNaughton). Một món chia ở hai hàng có hai khoảng thời gian không chồng vì $p_i\\le T$; không được hiểu chuyển bếp thành nấu song song một món. Giá trị lần này đạt cận tổng, khác 241/165/130 của bản không ngắt.",
+  "teaching_notes": "Khởi động tùy lớp: Tự thử một lịch mà cắt rồi chuyển vô tình khiến cùng một món chạy đồng thời ở hai bếp; sửa lịch để hợp lệ.",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn nhận ra quyền tạm dừng thay đổi miền nghiệm và có thể biến cận tổng thành đạt được. Lịch chia một món qua hai bếp vẫn phải chứng minh các khoảng không chồng; chuyển bếp không có nghĩa nấu một món song song."
+}

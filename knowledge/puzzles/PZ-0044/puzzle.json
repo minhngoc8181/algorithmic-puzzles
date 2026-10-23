@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0044",
+  "title": "Chọn lịch trong 18 buổi biểu diễn",
+  "statement": "Một sân khấu có 18 đề nghị biểu diễn; mỗi đề nghị ghi thời điểm bắt đầu, kết thúc và tiền thưởng. Mỗi lúc chỉ diễn một tiết mục; tiết mục sau có thể bắt đầu đúng lúc tiết mục trước kết thúc. Không được rút ngắn hay dời một tiết mục.\n\n{{DATA}}\n\nHãy chọn một lịch có tổng tiền thưởng lớn nhất. Với số buổi biểu diễn bất kỳ, bạn sẽ tìm lịch như thế nào?",
+  "aliases": [],
+  "figure_id": "ART-THEATER",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "5→18 mục, có thời điểm chạm nhau và tiết mục dài thưởng lớn cạnh tranh với nhiều mục ngắn.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-optimization",
+      "C-dp"
+    ],
+    "technique_ids": [
+      "T-scheduling"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "5→18 mục, có thời điểm chạm nhau và tiết mục dài thưởng lớn cạnh tranh với nhiều mục ngắn."
+  },
+  "instance": {
+    "kind": "weighted-schedule",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Mục"
+      },
+      {
+        "field": "start",
+        "label": "Bắt đầu"
+      },
+      {
+        "field": "end",
+        "label": "Kết thúc"
+      },
+      {
+        "field": "reward",
+        "label": "Thưởng"
+      }
+    ],
+    "records": [
+      {
+        "id": "A",
+        "start": 1,
+        "end": 4,
+        "reward": 17
+      },
+      {
+        "id": "B",
+        "start": 2,
+        "end": 7,
+        "reward": 35
+      },
+      {
+        "id": "C",
+        "start": 4,
+        "end": 6,
+        "reward": 15
+      },
+      {
+        "id": "D",
+        "start": 6,
+        "end": 9,
+        "reward": 23
+      },
+      {
+        "id": "E",
+        "start": 3,
+        "end": 10,
+        "reward": 52
+      },
+      {
+        "id": "F",
+        "start": 8,
+        "end": 12,
+        "reward": 31
+      },
+      {
+        "id": "G",
+        "start": 9,
+        "end": 11,
+        "reward": 18
+      },
+      {
+        "id": "H",
+        "start": 11,
+        "end": 14,
+        "reward": 27
+      },
+      {
+        "id": "I",
+        "start": 10,
+        "end": 16,
+        "reward": 49
+      },
+      {
+        "id": "J",
+        "start": 13,
+        "end": 17,
+        "reward": 33
+      },
+      {
+        "id": "K",
+        "start": 14,
+        "end": 18,
+        "reward": 29
+      },
+      {
+        "id": "L",
+        "start": 17,
+        "end": 20,
+        "reward": 25
+      },
+      {
+        "id": "M",
+        "start": 18,
+        "end": 23,
+        "reward": 43
+      },
+      {
+        "id": "N",
+        "start": 20,
+        "end": 22,
+        "reward": 16
+      },
+      {
+        "id": "O",
+        "start": 22,
+        "end": 25,
+        "reward": 32
+      },
+      {
+        "id": "P",
+        "start": 24,
+        "end": 28,
+        "reward": 39
+      },
+      {
+        "id": "Q",
+        "start": 25,
+        "end": 29,
+        "reward": 36
+      },
+      {
+        "id": "R",
+        "start": 27,
+        "end": 31,
+        "reward": 41
+      }
+    ]
+  }
+}

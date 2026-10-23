@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0019",
+  "title": "Bốn viên thuốc của người kiếm sĩ mù",
+  "statement": "Một kiếm sĩ mù phải uống thuốc trong hai ngày liên tiếp. Mỗi ngày anh phải uống đúng một viên đỏ và một viên xanh; uống sai liều sẽ nguy hiểm. Ban đầu, túi đỏ chứa đúng hai viên đỏ, túi xanh chứa đúng hai viên xanh. Trong mô hình này, hoạt chất phân bố đều trong mỗi viên; các viên có thể cắt chính xác, các phần giữ nguyên tác dụng và cộng được liều. Các viên giống hệt nhau về mọi đặc điểm anh có thể cảm nhận.\n\nAnh lấy một viên đỏ ra đặt lên bàn. Khi lấy thuốc từ túi xanh, anh vô tình làm cả hai viên xanh rơi ra cạnh viên đỏ. Ba viên trên bàn bị trộn lẫn; trong túi đỏ vẫn còn một viên đỏ. Anh phải dùng hết cả bốn viên trong hai ngày, không được bỏ viên nào.\n\nAnh có thể làm gì để mỗi ngày uống đúng liều?",
+  "aliases": [],
+  "figure_id": "NEW-PILLS",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ 4 viên: số lượng không phải điểm khó. Làm rõ phép chia liều hợp lệ, nếu không đề thiếu giả thiết cho lời giải.",
+    "stars": 2,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-invariants"
+    ],
+    "technique_ids": [
+      "T-symmetry"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giữ 4 viên: số lượng không phải điểm khó. Làm rõ phép chia liều hợp lệ, nếu không đề thiếu giả thiết cho lời giải."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0027",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "A bảo đảm 372 trong tổng 646.",
+  "outline": "Trên đoạn i..j, xét chênh lệch điểm tối ưu $D(i,j)=\\max(v_i-D(i+1,j),v_j-D(i,j-1))$. Điểm A bằng $(\\sum v+D(1,n))/2$. Lưu lựa chọn để khôi phục các lượt; mỗi nhánh phải xét đối thủ tối ưu, không cố định một phản ứng tham lam.",
+  "teaching_notes": "Khởi động tùy lớp: Người học tự tìm một hàng 4 đồng làm phản ví dụ cho quy tắc lấy đồng lớn hơn. ",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn chọn một đại lượng phù hợp khi hai bên luân phiên tối ưu: lợi thế ròng dễ ghép hơn hai tổng độc lập. Đối chiếu chọn đồng lớn ở đầu với một phản ví dụ để thấy giá trị ngay trước mắt chưa quyết định."
+}

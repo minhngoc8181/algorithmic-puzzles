@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0020",
+  "title": "Các câu hỏi cố định và một lời nói dối",
+  "statement": "Một người bí mật chọn một số nguyên từ 0 đến 15. Bạn được hỏi các câu chỉ có câu trả lời “có” hoặc “không”. Trước khi nghe bất kỳ câu trả lời nào, bạn phải ghi ra toàn bộ các câu hỏi sẽ dùng; không được sửa câu sau dựa trên câu trả lời trước. Người giữ bí mật có thể trả lời sai nhiều nhất một câu, còn những câu khác đều đúng.\n\nCần ít nhất bao nhiêu câu hỏi để chắc chắn tìm đúng số đã chọn?",
+  "aliases": [],
+  "figure_id": "ART-QUESTIONS",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "",
+    "stars": 5,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-information",
+      "C-coding"
+    ],
+    "technique_ids": [
+      "T-error-correction"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Nhãn đề xuất, đối chiếu với hướng giải."
+  }
+}

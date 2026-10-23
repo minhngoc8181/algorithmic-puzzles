@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0045",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Chênh lệch tối thiểu 0; đội 1 gồm các mã 1, 2, 3, 7, 8, 9, 11, 13, 15, 17, 19, đội 2 là phần còn lại.",
+  "outline": "Chia danh sách thành hai nửa, liệt kê tổng từng tập con ở mỗi nửa, ghép hai tổng gần một nửa tổng toàn bộ. Khôi phục mask để lấy thành viên. Chênh 0 là chứng nhận tối ưu tức thời; nếu không đạt 0 phải kiểm tra tất cả cặp tổng phù hợp, không chỉ chia xen kẽ sau khi sắp.",
+  "teaching_notes": "Khởi động tùy lớp: Tự tạo một bộ 6 người mà chia cân số lượng không cân tổng, rồi thử điểm lớn. ",
+  "proof": null,
+  "complexity": "O(n·2^(n/2)) liệt kê, bộ nhớ O(2^(n/2)); khác DP theo tổng điểm.",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn khai thác số người vừa phải khi giá trị số rất lớn. Đề không yêu cầu cân số người hai đội; đặt thêm điều kiện đó sẽ đổi bài và phải đổi trạng thái/cách tìm nghiệm."
+}

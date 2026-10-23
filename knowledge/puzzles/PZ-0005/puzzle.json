@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0005",
+  "title": "Kiện nhẹ nhất và kiện nặng nhất",
+  "statement": "Có $n\\ge2$ kiện hàng với khối lượng đôi một khác nhau. Mỗi lần cân chỉ được đặt một kiện lên mỗi đĩa của cân thăng bằng để biết kiện nào nặng hơn.\n\nCần ít nhất bao nhiêu lần cân trong trường hợp xấu nhất để tìm cả kiện nhẹ nhất và kiện nặng nhất? Tính kết quả cho $n=2026$.",
+  "aliases": [],
+  "figure_id": "ART-MINMAX",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Đề tổng quát theo n; trường hợp 2026 cho đáp số kiểm chứng. Không gợi ghép cặp hoặc chia số chẵn/lẻ trong câu hỏi.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-order",
+      "C-optimization"
+    ],
+    "technique_ids": [
+      "T-pairing"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Gợi ý phân tích nội bộ, không in trong đề sinh viên. Đề tổng quát theo n; trường hợp 2026 cho đáp số kiểm chứng. Không gợi ghép cặp hoặc chia số chẵn/lẻ trong câu hỏi."
+  },
+  "instance": {
+    "kind": "comparisons",
+    "n": 2026
+  }
+}

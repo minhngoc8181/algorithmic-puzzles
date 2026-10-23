@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0035",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "2095 đơn vị chi phí.",
+  "outline": "Biểu diễn kế hoạch bằng cây nhị phân; mỗi độ dài đóng góp theo độ sâu lá. Trong một cây tối ưu có thể đưa hai độ dài nhỏ nhất vào hai lá anh em sâu nhất mà không tăng chi phí. Gộp chúng, quy nạp trên số dây; dùng min-heap để thực hiện. Các phép nối và tổng được lưu trong certificate kiểm tra.",
+  "teaching_notes": "Khởi động tùy lớp: Tự chọn 3–5 dây và tìm một thứ tự nối tốn hơn thứ tự khác; không đưa danh sách 1,2,4,5 cố định làm đề chính. ",
+  "proof": null,
+  "complexity": "O(n log n) thời gian, O(n) bộ nhớ.",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn chứng minh lựa chọn tham lam bằng đổi chỗ trong một cây ghép. Tăng lên 18 sợi khiến thao tác cần tổ chức, nhưng mục tiêu sư phạm vẫn là vì sao có thể ghép hai sợi nhỏ nhất trước."
+}

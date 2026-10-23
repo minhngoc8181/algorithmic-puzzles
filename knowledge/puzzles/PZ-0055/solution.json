@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0055",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Hai con 2 tuổi và một con 9 tuổi; số nhà 13.",
+  "outline": "Liệt kê các bộ a≤b≤c, abc=36. Chỉ tổng 13 có hai bộ (1,6,6) và (2,2,9); việc B chưa biết sau khi thấy tổng xác định tổng này. Thông báo có đúng một tuổi lớn nhất loại (1,6,6). Cụm “con lớn” trong đời thường không đủ nếu tuổi chỉ tính theo năm đã hoàn thành; đề đã nói rõ điều kiện so sánh tuổi để tránh dựa vào một giả thiết không chắc.",
+  "teaching_notes": "Khởi động tùy lớp: Tự liệt kê một tích nhỏ và nhóm các bộ theo tổng; hỏi vì sao người đọc không cần nhìn số nhà.",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn suy thông tin từ sự thiếu xác định của người đã thấy số nhà. Điều kiện tuổi lớn nhất duy nhất phải được nói rõ; cách diễn đạt đời thường “con lớn” có thể không xác nhận chênh lệch tuổi nguyên."
+}

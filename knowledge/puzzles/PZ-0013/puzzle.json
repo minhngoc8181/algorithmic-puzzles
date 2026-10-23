@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0013",
+  "title": "100 tù nhân và một bóng đèn",
+  "statement": "Có 100 tù nhân bị giam riêng. Một căn phòng chung có đúng một bóng đèn, ban đầu chắc chắn tắt. Mỗi ngày quản ngục đưa một tù nhân bất kỳ vào phòng; người đó thấy đèn đang bật hay tắt và có thể thay đổi hoặc giữ nguyên trạng thái. Họ không được liên lạc theo cách nào khác. Nếu quá trình kéo dài vô hạn thì mỗi tù nhân chắc chắn được vào phòng vô số lần.\n\nTrước khi bị giam riêng, cả nhóm được thỏa thuận một kế hoạch. Làm cách nào để cuối cùng một tù nhân có thể tuyên bố chắc chắn rằng cả 100 người đều đã từng vào phòng ít nhất một lần?",
+  "aliases": [],
+  "figure_id": "NEW-BULB",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giả thiết fairness vô hạn và đèn tắt ban đầu quan trọng hơn số lượng tù nhân.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-information",
+      "C-state-space"
+    ],
+    "technique_ids": [
+      "T-counter-protocol"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Thiết kế giao thức tích lũy tín hiệu; bảo đảm kết thúc nhờ lịch công bằng. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-information": "primary",
+      "C-state-space": "primary"
+    },
+    "technique_roles": {
+      "T-counter-protocol": "primary"
+    }
+  }
+}

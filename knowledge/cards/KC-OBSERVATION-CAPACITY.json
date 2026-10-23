@@ -1,0 +1,45 @@
+{
+  "id": "KC-OBSERVATION-CAPACITY",
+  "title": "Dung lượng quan sát và mã hóa giả thuyết",
+  "concept_ids": [
+    "C-information",
+    "C-coding"
+  ],
+  "technique_ids": [
+    "T-encoding",
+    "T-decision-tree"
+  ],
+  "claim": "Nếu m quan sát mỗi quan sát có nhiều nhất b kết quả, có nhiều nhất b^m chuỗi kết quả. Phân biệt chắc chắn N giả thuyết đòi hỏi b^m >= N.",
+  "conditions": [
+    "Đếm đúng các kết quả phân biệt được theo luật và thời hạn.",
+    "Các giả thuyết cần phân biệt phải cho mã quan sát khác nhau."
+  ],
+  "when_to_use": "Thiết kế thử nghiệm, cân hoặc tín hiệu để nhận diện một giả thuyết.",
+  "reasoning": "Có tối đa b lựa chọn tại mỗi vị trí của chuỗi m quan sát. Nguyên lý pigeonhole cho điều kiện cần. Muốn chứng minh đủ phải xây dựng lịch thử hợp lệ và chứng minh phép giải mã.",
+  "pitfalls": [
+    "Chặn đếm chỉ là điều kiện cần; không tự bảo đảm một chiến lược hợp lệ.",
+    "Không coi các trạng thái quan sát bất khả thi là kết quả có thể sử dụng."
+  ],
+  "examples": [
+    "PZ-0009: hai trạng thái sống/chết với một đợt thử.",
+    "PZ-0010: bốn trạng thái thời điểm chết hoặc sống theo lịch ba đợt."
+  ],
+  "schema_version": 1,
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_on": null,
+  "origin": "editorial-synthesis",
+  "evidence": [
+    {
+      "puzzle_id": "PZ-0009",
+      "statement_sha256": "0c8f3ccd758b1e82acc733b057f14282305ef1ea8fb91122be79c29527d736c8",
+      "solution_sha256": "2531f283d9a6688029ada0962eefb5c184c8e371d36b95392ab2e49d14a64390"
+    },
+    {
+      "puzzle_id": "PZ-0010",
+      "statement_sha256": "e11e469ec6e079f4806b5b966a5fc77fb4957a8939fc83d1c56aa5f3f190e83f",
+      "solution_sha256": "36123f84ff853f692a492b70443499420fcf4cbcd7ad484f8d19d88b97768a84"
+    }
+  ],
+  "editorial_rechecked_on": "2026-10-11"
+}

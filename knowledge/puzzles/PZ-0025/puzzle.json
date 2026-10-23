@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0025",
+  "title": "Tách một đống đá",
+  "statement": "Ban đầu có một đống 2026 viên đá. Mỗi lượt, người chơi chọn một đống có ít nhất ba viên và tách nó thành đúng hai đống không rỗng có kích thước khác nhau. Không được gộp đống và không được bỏ viên nào. Khi có nhiều đống, được chọn bất kỳ một đống trong lượt của mình. Ai đến lượt mà không thể đi thì thua.\n\nNgười đi trước có bảo đảm thắng không? Nếu có, hãy nêu một chiến lược. Nếu ban đầu có $n$ viên đá, kết quả thay đổi thế nào?",
+  "aliases": [],
+  "figure_id": "ART-STONES",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Yêu cầu mô hình các trò con cùng tồn tại và giải cho n tổng quát; tạm xếp 4. Số đống ban đầu không đủ để so độ khó với Nim hay Wythoff.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-games"
+    ],
+    "technique_ids": [
+      "T-grundy"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Yêu cầu mô hình các trò con cùng tồn tại và giải cho n tổng quát; tạm xếp 4. Số đống ban đầu không đủ để so độ khó với Nim hay Wythoff."
+  },
+  "instance": {
+    "kind": "grundy-split",
+    "n": 2026
+  }
+}

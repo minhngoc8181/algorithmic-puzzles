@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0030",
+  "title": "Bàn cờ bỏ hai góc",
+  "statement": "Một bàn cờ $8\\times8$ có hai ô ở hai góc đối diện bị cắt bỏ. Bạn có 31 miếng domino, mỗi miếng che đúng hai ô kề nhau theo cạnh, không được chồng lên nhau hoặc che ra ngoài bảng.\n\nCó thể phủ kín 62 ô còn lại bằng 31 miếng domino không?",
+  "aliases": [],
+  "figure_id": "AP-42",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ 8×8, đối diện cùng màu là cấu trúc bất khả thi; tăng số ô không thêm ý tưởng.",
+    "stars": 2,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-invariants",
+      "C-combinatorics"
+    ],
+    "technique_ids": [
+      "T-colouring"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giữ 8×8, đối diện cùng màu là cấu trúc bất khả thi; tăng số ô không thêm ý tưởng."
+  }
+}

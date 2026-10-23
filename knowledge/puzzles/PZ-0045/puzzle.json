@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0045",
+  "title": "Hai đội từ 20 người có sức mạnh khác nhau",
+  "statement": "Có 20 người mang điểm sức mạnh như bảng. Mỗi người phải vào đúng một đội; không bắt buộc hai đội có cùng số người. Độ chênh là trị tuyệt đối của hiệu hai tổng điểm.\n\n{{DATA}}\n\nHãy chia thành hai đội có độ chênh nhỏ nhất. Tìm một phương pháp áp dụng cho số người và điểm sức mạnh bất kỳ.",
+  "aliases": [],
+  "figure_id": "ART-TEAMS20",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "8→20 người, điểm 5 chữ số và câu tổng quát 40 người; loại bỏ khả năng nhẩm chia 71/71.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-optimization",
+      "C-subset-sum"
+    ],
+    "technique_ids": [
+      "T-meet-in-middle"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Liệt kê tổng ở hai nửa rồi ghép để tối thiểu chênh lệch hai đội. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-optimization": "primary",
+      "C-subset-sum": "primary"
+    },
+    "technique_roles": {
+      "T-meet-in-middle": "primary"
+    }
+  },
+  "instance": {
+    "kind": "partition",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Người"
+      },
+      {
+        "field": "strength",
+        "label": "Sức mạnh"
+      }
+    ],
+    "records": [
+      {
+        "id": "1",
+        "strength": 10321
+      },
+      {
+        "id": "2",
+        "strength": 17657
+      },
+      {
+        "id": "3",
+        "strength": 23819
+      },
+      {
+        "id": "4",
+        "strength": 31271
+      },
+      {
+        "id": "5",
+        "strength": 42589
+      },
+      {
+        "id": "6",
+        "strength": 55703
+      },
+      {
+        "id": "7",
+        "strength": 68117
+      },
+      {
+        "id": "8",
+        "strength": 72959
+      },
+      {
+        "id": "9",
+        "strength": 81931
+      },
+      {
+        "id": "10",
+        "strength": 93463
+      },
+      {
+        "id": "11",
+        "strength": 11299
+      },
+      {
+        "id": "12",
+        "strength": 19843
+      },
+      {
+        "id": "13",
+        "strength": 26713
+      },
+      {
+        "id": "14",
+        "strength": 34781
+      },
+      {
+        "id": "15",
+        "strength": 46901
+      },
+      {
+        "id": "16",
+        "strength": 59113
+      },
+      {
+        "id": "17",
+        "strength": 63727
+      },
+      {
+        "id": "18",
+        "strength": 78439
+      },
+      {
+        "id": "19",
+        "strength": 88761
+      },
+      {
+        "id": "20",
+        "strength": 97003
+      }
+    ]
+  }
+}

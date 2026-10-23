@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0009",
+  "title": "1.000 lọ thuốc và 10 con chuột",
+  "statement": "Có 1.000 lọ dung dịch được đánh số, đúng một lọ có độc. Chuột uống phải dù chỉ một giọt dung dịch độc sẽ chết đúng 24 giờ sau; dung dịch không độc hoàn toàn vô hại. Có 10 con chuột và phải xác định đúng lọ độc sau 24 giờ, vì vậy chỉ được cho uống một đợt lúc bắt đầu. Mỗi con có thể uống hỗn hợp từ nhiều lọ, và mỗi lọ có thể được dùng thử trên nhiều con.\n\nBạn sẽ tổ chức thử nghiệm như thế nào để luôn tìm được lọ độc?",
+  "aliases": [],
+  "figure_id": "ART-MICE",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ 1000 lọ: gần giới hạn 1024 của 10 quan sát, không phải ví dụ quá nhỏ; giữ câu hỏi thiết kế và cận.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-information",
+      "C-coding"
+    ],
+    "technique_ids": [
+      "T-encoding"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giữ 1000 lọ: gần giới hạn 1024 của 10 quan sát, không phải ví dụ quá nhỏ; giữ câu hỏi thiết kế và cận."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0011",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "14 lần thả.",
+  "outline": "Chọn các bước nhảy giảm dần, cân bằng nhánh còn một trứng. Với k=2, số tầng phân biệt được trong t lần là t(t+1)/2.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn thiết kế theo trường hợp xấu nhất và cân bằng nhánh sau một thất bại không thể phục hồi. Dãy tầng không chia đều; sức phân biệt của một lần thả phụ thuộc số trứng còn lại."
+}

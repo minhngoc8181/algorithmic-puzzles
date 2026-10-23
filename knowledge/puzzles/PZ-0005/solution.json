@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0005",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "$\\lceil3n/2\\rceil-2$ lần cân; với $n=2026$ là 3037.",
+  "outline": "Ghép 1013 cặp, so mỗi cặp một lần; tìm lớn nhất trong 1013 kiện thắng và nhỏ nhất trong 1013 kiện thua: 1013+1012+1012=3037. Trường hợp lẻ để một kiện làm cả cực trị ban đầu. Chứng minh tối ưu bằng đối thủ trì hoãn việc phân loại mỗi kiện thành ứng viên cực đại hoặc cực tiểu.",
+  "teaching_notes": "Khởi động tùy lớp: Cho người học tự chọn 3, 5 hoặc 6 kiện để xây dựng hai loại chứng nhận. ",
+  "proof": null,
+  "complexity": "O(n) so sánh, không cần lưu tất cả cặp.",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn phân tích nguồn thông tin của một phép so sánh: ghép cặp giúp một vật chỉ còn cạnh tranh ở một đầu cực trị. Dùng 2026 rồi hỏi n lẻ để kiểm xem học sinh hiểu cấu trúc hay chỉ nhớ công thức."
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0008",
+  "title": "Khỉ mang 3.000 quả chuối ra chợ",
+  "statement": "Một con khỉ có 3.000 quả chuối ở đầu con đường dài 1.000 km tới chợ. Mỗi chuyến nó mang được nhiều nhất 1.000 quả. Đi một kilômét tiêu tốn đúng một quả chuối, kể cả khi quay về; nó được phép để chuối ở bất kỳ điểm trung gian nào rồi quay lại lấy sau. Không có nguồn thức ăn khác. Trong mô hình này, quãng đường và số chuối có thể tính bằng số thực.\n\nNhiều nhất bao nhiêu quả chuối có thể đưa tới chợ?",
+  "aliases": [],
+  "figure_id": "AP-28",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ mô hình 3000/1000 vì phân đoạn chi phí và điều kiện quãng đường thực là thách thức; số tròn giúp nhìn cấu trúc.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-optimization"
+    ],
+    "technique_ids": [
+      "T-cost-segments"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giữ mô hình 3000/1000 vì phân đoạn chi phí và điều kiện quãng đường thực là thách thức; số tròn giúp nhìn cấu trúc."
+  }
+}

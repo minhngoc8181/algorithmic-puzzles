@@ -1,0 +1,38 @@
+{
+  "id": "KC-TOURNAMENT-HISTORY",
+  "title": "Lịch sử so sánh trong cây đấu loại",
+  "concept_ids": [
+    "C-order",
+    "C-optimization"
+  ],
+  "technique_ids": [
+    "T-tournament"
+  ],
+  "claim": "Với các phần tử đôi một khác nhau, phần tử lớn nhì phải nằm trong tập thua trực tiếp phần tử lớn nhất của một cây đấu loại.",
+  "conditions": [
+    "Phép so sánh tuân theo một thứ tự toàn phần và không có hòa.",
+    "Lưu tất cả phần tử thua trực tiếp người thắng chung cuộc."
+  ],
+  "when_to_use": "Tìm cả lớn nhất và lớn nhì mà tái sử dụng chứng cứ từ giai đoạn tìm lớn nhất.",
+  "reasoning": "Phần tử lớn nhì chỉ có thể thua phần tử lớn nhất. Sau n-1 so sánh tìm người thắng, tìm lớn nhất trong danh sách người thua trực tiếp. Cây cân bằng với n=2^k có k ứng viên, nên cách này dùng n+k-2 so sánh.",
+  "pitfalls": [
+    "Giữ mỗi giá trị lớn nhất sẽ mất danh sách ứng viên lớn nhì.",
+    "Cận trên của một chiến lược cần được phân biệt với chứng minh chặn dưới tối ưu."
+  ],
+  "examples": [
+    "PZ-0006: n=32, k=5, chiến lược dùng 35 phép so sánh."
+  ],
+  "schema_version": 1,
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_on": null,
+  "origin": "editorial-synthesis",
+  "evidence": [
+    {
+      "puzzle_id": "PZ-0006",
+      "statement_sha256": "542feed6aeb960052348b5db6d2b0fdf137892a9584d1f0935f1881cac71450f",
+      "solution_sha256": "6ef9b2aa1b434c280895dcb6dcbdf7f409e5e38251cdae0297f7247488497e80"
+    }
+  ],
+  "editorial_rechecked_on": "2026-10-11"
+}

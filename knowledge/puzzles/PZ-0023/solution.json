@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0023",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Nim-sum 190; người đi trước thắng. Một nước đầu: lấy 150 que từ đống 1.",
+  "outline": "Dùng XOR của các kích thước đống. Mỗi nước thay đúng một đống nên không thể đi giữa hai trạng thái XOR=0; từ XOR khác 0 luôn chọn được một đống giảm thành XOR của nó với tổng. Sau nước đầu, luôn đưa đối phương về XOR=0.",
+  "teaching_notes": "Khởi động tùy lớp: Người học tự tạo 1, 2 rồi 3 đống nhỏ; đừng cho ngay quy tắc XOR. ",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn tìm đại lượng kết hợp nhiều trò con và duy trì nó qua mỗi lượt. Số đống lớn khiến học sinh phải tổ chức tính XOR; yêu cầu giải thích vì sao mọi nước từ XOR 0 đều làm nó khác 0."
+}

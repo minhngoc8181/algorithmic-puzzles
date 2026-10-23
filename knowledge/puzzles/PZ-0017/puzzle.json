@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0017",
+  "title": "Hai tù nhân và một lần lật đồng xu",
+  "statement": "Có một đồng xu trên mỗi ô của bàn cờ $8\\times8$; các đồng xu đang ngửa hoặc sấp theo cấu hình bất kỳ. Cai ngục bí mật chọn một ô làm mục tiêu và cho tù nhân A biết. A được vào phòng, nhìn toàn bộ bàn cờ và bắt buộc lật đúng một đồng xu rồi rời đi. Sau đó B vào, chỉ nhìn được cấu hình mới và phải chỉ ra ô mục tiêu. Trước khi vào phòng, A và B được thống nhất cách làm, nhưng không thể liên lạc khi trò chơi bắt đầu.\n\nCó cách nào bảo đảm B luôn chỉ đúng ô mục tiêu không?",
+  "aliases": [],
+  "figure_id": "NEW-COINFLIP",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ 8×8 và một lần lật bắt buộc; chỉ số 0 là một ô hợp lệ nên vẫn lật được khi checksum bằng mục tiêu.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-information",
+      "C-algebra",
+      "C-coding"
+    ],
+    "technique_ids": [
+      "T-xor",
+      "T-encoding"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giữ 8×8 và một lần lật bắt buộc; chỉ số 0 là một ô hợp lệ nên vẫn lật được khi checksum bằng mục tiêu."
+  }
+}

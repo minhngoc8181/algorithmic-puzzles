@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0050",
+  "title": "Mười tám công việc và chín hạn ngày",
+  "statement": "Mỗi công việc mất đúng một ngày; chỉ làm một việc mỗi ngày và có thể bỏ việc. Chỉ nhận thưởng nếu việc hoàn thành vào cuối một ngày không muộn hơn hạn của nó. Tất cả việc sẵn sàng từ đầu ngày 1, không có quan hệ trước–sau.\n\n{{DATA}}\n\nHãy lập lịch để nhận tổng tiền thưởng lớn nhất. Với số công việc và hạn ngày bất kỳ, bạn sẽ tìm lịch như thế nào?",
+  "aliases": [],
+  "figure_id": "ART-DEADLINES18",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "5→18 việc, hạn 1–9, yêu cầu phân biệt giả thiết thời lượng bằng nhau.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-optimization"
+    ],
+    "technique_ids": [
+      "T-greedy",
+      "T-scheduling"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "5→18 việc, hạn 1–9, yêu cầu phân biệt giả thiết thời lượng bằng nhau."
+  },
+  "instance": {
+    "kind": "deadlines",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Việc"
+      },
+      {
+        "field": "deadline",
+        "label": "Hạn ngày"
+      },
+      {
+        "field": "reward",
+        "label": "Thưởng"
+      }
+    ],
+    "records": [
+      {
+        "id": "A",
+        "deadline": 2,
+        "reward": 41
+      },
+      {
+        "id": "B",
+        "deadline": 1,
+        "reward": 26
+      },
+      {
+        "id": "C",
+        "deadline": 4,
+        "reward": 57
+      },
+      {
+        "id": "D",
+        "deadline": 3,
+        "reward": 39
+      },
+      {
+        "id": "E",
+        "deadline": 6,
+        "reward": 73
+      },
+      {
+        "id": "F",
+        "deadline": 2,
+        "reward": 48
+      },
+      {
+        "id": "G",
+        "deadline": 5,
+        "reward": 62
+      },
+      {
+        "id": "H",
+        "deadline": 4,
+        "reward": 35
+      },
+      {
+        "id": "I",
+        "deadline": 7,
+        "reward": 81
+      },
+      {
+        "id": "J",
+        "deadline": 3,
+        "reward": 54
+      },
+      {
+        "id": "K",
+        "deadline": 6,
+        "reward": 46
+      },
+      {
+        "id": "L",
+        "deadline": 8,
+        "reward": 67
+      },
+      {
+        "id": "M",
+        "deadline": 5,
+        "reward": 59
+      },
+      {
+        "id": "N",
+        "deadline": 7,
+        "reward": 44
+      },
+      {
+        "id": "O",
+        "deadline": 8,
+        "reward": 76
+      },
+      {
+        "id": "P",
+        "deadline": 9,
+        "reward": 51
+      },
+      {
+        "id": "Q",
+        "deadline": 4,
+        "reward": 64
+      },
+      {
+        "id": "R",
+        "deadline": 9,
+        "reward": 38
+      }
+    ]
+  }
+}

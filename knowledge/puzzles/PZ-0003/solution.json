@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0003",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Bảy cuộc đua.",
+  "outline": "Chia 25 con thành 5 nhóm; 5 cuộc đầu lấy thứ tự mỗi nhóm, cuộc 6 đua 5 con nhất nhóm. Gọi thứ tự các nhóm thắng là A,B,C,D,E: chỉ A1,A2,A3,B1,B2,C1 còn khả năng top 3. A1 đã nhất; đua A2,A3,B1,B2,C1 để lấy nhì/ba ở cuộc 7. Với chỉ 6 cuộc, để loại 24 ứng viên nhanh nhất, mỗi cuộc phải loại 4 ứng viên chưa từng thua; các cuộc tạo cây đấu 5 nhánh. Đối thủ có thể làm con vô địch thắng ở nhiều hơn một tầng, để lại hai đối thủ thua trực tiếp chưa được so với nhau, nên chưa xác định được nhì.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Phân biệt tìm một quy trình bảy cuộc với chứng minh không thể sáu cuộc. Yêu cầu học sinh lưu quan hệ đã biết và chứng cứ loại ứng viên; thứ hạng trong hai nhóm khác nhau chưa thể so trực tiếp."
+}

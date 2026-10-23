@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0051",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Thời điểm sớm nhất: $\\max_i\\min(x_i,L-x_i)/v$. Thời điểm muộn nhất: $\\max_i\\max(x_i,L-x_i)/v$, với $x_i$ là vị trí kiến thứ i tính từ đầu trái.",
+  "outline": "Bỏ nhãn, một lần hai kiến đổi hướng cho cùng tập vị trí với hai kiến đi xuyên qua nhau. Với mỗi vị trí $x_i$, thời gian đến đầu gần là $\\min(x_i,L-x_i)/v$, đến đầu xa là $\\max(x_i,L-x_i)/v$. Lấy cực đại trên các kiến. Cho mọi kiến hướng về đầu gần hoặc đầu xa tương ứng để đạt hai cận.",
+  "teaching_notes": "Cho học sinh tự chọn số kiến, chiều dài và các vị trí để thử. Chỉ sau khi các em có dự đoán mới yêu cầu một lập luận đúng cho mọi cấu hình; không đặt câu hỏi dẫn tới việc bỏ va chạm ngay từ đề.",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn bỏ thông tin không ảnh hưởng câu hỏi để tạo mô hình đơn giản hơn. Hai kiến đổi hướng và hai kiến đi xuyên có cùng tập vị trí; cận thời điểm phải đi cùng hướng ban đầu đạt cận.",
+  "verification_examples": [
+    {
+      "instance": {
+        "kind": "ants",
+        "columns": [
+          {
+            "field": "id",
+            "label": "Kiến"
+          },
+          {
+            "field": "position",
+            "label": "Vị trí cm"
+          }
+        ],
+        "records": [
+          {
+            "id": "A",
+            "position": 14
+          },
+          {
+            "id": "B",
+            "position": 137
+          },
+          {
+            "id": "C",
+            "position": 286
+          },
+          {
+            "id": "D",
+            "position": 419
+          },
+          {
+            "id": "E",
+            "position": 572
+          },
+          {
+            "id": "F",
+            "position": 741
+          },
+          {
+            "id": "G",
+            "position": 913
+          },
+          {
+            "id": "H",
+            "position": 1108
+          },
+          {
+            "id": "I",
+            "position": 1277
+          },
+          {
+            "id": "J",
+            "position": 1486
+          },
+          {
+            "id": "K",
+            "position": 1763
+          },
+          {
+            "id": "L",
+            "position": 1988
+          }
+        ],
+        "length": 2026,
+        "speed": 1
+      },
+      "expected": {
+        "earliest": 918,
+        "latest": 2012
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0025",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Giá trị Grundy của đống 2026 là 38. Người đi trước thắng; có thể tách 72 và 1954.",
+  "outline": "Đặt $g(1)=g(2)=0$, $g(n)=\\operatorname{mex}\\{g(a)\\oplus g(n-a):1\\le a<n-a\\}$. Trạng thái nhiều đống có giá trị XOR của các giá trị g. Tính từ nhỏ lên lớn; một nước thắng đưa XOR về 0. Không được đánh dấu một kích thước là thua chỉ vì không có một “đống con thua”: sau tách có hai trò con cùng tồn tại.",
+  "teaching_notes": "Khởi động tùy lớp: Dùng bản 10 viên sau khi đã thảo luận Nim; hỏi vì sao phân loại riêng từng đống thành thắng/thua chưa đủ. ",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn mô hình trạng thái sau khi tách: hai đống cùng tồn tại, không được chọn một đống rồi bỏ quên đống kia. Thử 10 viên để thấy nhãn thắng/thua riêng lẻ chưa đủ ghép trò; trường hợp 2026 viên đòi tổ chức tính và giải thích giá trị Grundy."
+}

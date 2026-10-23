@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0043",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "7 cảm biến; một phương án ở 6, 13, 20, 28, 35, 43, 51.",
+  "outline": "Chọn đầu mút phải nhỏ nhất của một đoạn chưa phủ, xóa mọi đoạn chứa điểm đó và lặp. Những đoạn dẫn đến mỗi lần chọn là các đoạn đôi một không giao nhau, nên cần ít nhất cùng số cảm biến. Dịch cảm biến của nghiệm tối ưu vào đầu mút phải đầu tiên không làm mất phủ những đoạn bắt đầu trước nó.",
+  "teaching_notes": "Khởi động tùy lớp: Tự đưa ví dụ các đoạn chạm nhau đúng một đầu mút và so với đoạn mở. ",
+  "proof": null,
+  "complexity": "O(n log n) do sắp xếp, O(n) quét.",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn ghép một phương án đạt được với chứng chỉ cận dưới bằng các đoạn rời nhau. Quy ước đoạn đóng quyết định việc một cảm biến ở đầu mút phủ được cả hai đoạn chạm nhau."
+}

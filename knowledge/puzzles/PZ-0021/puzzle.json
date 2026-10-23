@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0021",
+  "title": "Tám quả cân cho mọi khối lượng nguyên",
+  "statement": "Bạn có một chiếc cân hai đĩa và được chế tạo đúng tám quả cân, mỗi quả có khối lượng nguyên dương tính bằng gam. Khi cân một vật, mỗi quả có thể ở cùng đĩa với vật, ở đĩa đối diện, hoặc không dùng.\n\nHãy chọn tám khối lượng để cân chính xác mọi khối lượng nguyên từ 1 đến $M$, với $M$ lớn nhất có thể, rồi chỉ ra cách cân vật 2026 gam. Với $k$ quả cân, kết quả thay đổi thế nào?",
+  "aliases": [],
+  "figure_id": "ART-WEIGHTS",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Bắt buộc chứng minh phủ kín và tối ưu, kèm biểu diễn 2026.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-information",
+      "C-algebra"
+    ],
+    "technique_ids": [
+      "T-encoding"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Bắt buộc chứng minh phủ kín và tối ưu, kèm biểu diễn 2026."
+  },
+  "instance": {
+    "kind": "balanced-weights",
+    "count": 8,
+    "target": 2026
+  }
+}

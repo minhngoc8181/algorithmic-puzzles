@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0007",
+  "title": "Tám người qua cầu trong đêm",
+  "statement": "Tám người phải qua một cây cầu tối. Cầu chịu được tối đa hai người mỗi lượt và có đúng một đèn pin; mọi lượt qua hoặc quay về đều phải mang đèn. Nếu hai người đi cùng, lượt đó mất thời gian của người chậm hơn. Thời gian đi một mình, tính bằng phút, được cho dưới đây.\n\n{{DATA}}\n\nCần ít nhất bao nhiêu phút để tất cả sang bờ bên kia? Hãy lập một lịch đạt thời gian đó.",
+  "aliases": [],
+  "figure_id": "ART-BRIDGE",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "8 người và các tốc độ không theo mẫu 1,2,5,10; phải chọn cấu trúc vận chuyển thay vì nhớ 17 phút.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-optimization",
+      "C-state-space"
+    ],
+    "technique_ids": [
+      "T-greedy",
+      "T-state-search"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Chọn chiến lược đưa người và đèn qua cầu với chi phí thấp nhất. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-optimization": "primary",
+      "C-state-space": "primary"
+    },
+    "technique_roles": {
+      "T-greedy": "primary",
+      "T-state-search": "verification"
+    }
+  },
+  "instance": {
+    "kind": "bridge",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Người"
+      },
+      {
+        "field": "time",
+        "label": "Phút"
+      }
+    ],
+    "records": [
+      {
+        "id": "1",
+        "time": 1
+      },
+      {
+        "id": "2",
+        "time": 3
+      },
+      {
+        "id": "3",
+        "time": 6
+      },
+      {
+        "id": "4",
+        "time": 8
+      },
+      {
+        "id": "5",
+        "time": 12
+      },
+      {
+        "id": "6",
+        "time": 17
+      },
+      {
+        "id": "7",
+        "time": 23
+      },
+      {
+        "id": "8",
+        "time": 31
+      }
+    ]
+  }
+}

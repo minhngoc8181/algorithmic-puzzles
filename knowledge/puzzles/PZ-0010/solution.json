@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0010",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Có: mỗi chuột có bốn kết quả quan sát, 4^5=1024.",
+  "outline": "Mã hóa chỉ số lọ theo cơ số bốn; những mốc chết khác nhau biểu diễn các chữ số khác nhau.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn xem thời điểm quan sát là một phần của thông tin, không chỉ trạng thái cuối sống/chết. Cho so với bản 24 giờ để thấy thêm thời gian có thể thay số đối tượng thử nghiệm."
+}

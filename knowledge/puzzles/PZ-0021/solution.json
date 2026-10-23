@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0021",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Các quả 1,3,9,27,81,243,729,2187 gam; $M=3280$. Cân 2026 bằng $2187+81+1-243$.",
+  "outline": "Quả tiếp theo không được vượt quá $2S+1$ nếu các quả trước phủ mọi tổng có dấu từ $-S$ đến $S$; chọn đúng $2S+1$ nối ba khoảng mà không tạo lỗ. Quy nạp cho các lũy thừa của 3. Có nhiều nhất $3^k$ cách đặt, nên $2M+1\\le3^k$; đạt $M=(3^k-1)/2$. Đặt 243 cùng phía với vật 2026, các quả 2187,81,1 ở phía kia.",
+  "teaching_notes": "Khởi động tùy lớp: Cho người học tự chọn 1–3 quả, tìm lỗ đầu tiên khi chọn khối lượng quá lớn; không cung cấp dãy 1,3,9 trước. ",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn thiết kế biểu diễn số theo ba lựa chọn: trái, phải, ngoài cân. Cận số cấu hình phải đi cùng chứng minh phủ mọi khối lượng liên tiếp; chỉ đạt một khối lượng lớn nhất là chưa đủ."
+}

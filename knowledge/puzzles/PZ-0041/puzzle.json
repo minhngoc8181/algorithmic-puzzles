@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0041",
+  "title": "Máy in ghi đè trên một dải 33 ô",
+  "statement": "Một máy in chọn một đoạn ô liên tiếp bất kỳ và in cùng một chữ cái lên toàn đoạn; được in đè lên chữ đã có. Ban đầu mọi ô trống. Chuỗi đích được cho dưới đây, đúng theo thứ tự trái sang phải.\n\n{{DATA}}\n\nCần ít nhất bao nhiêu lượt in? Hãy lập một kế hoạch in và tìm một phương pháp cho chuỗi đích bất kỳ.",
+  "aliases": [],
+  "figure_id": "ART-PRINTER",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "7→33 ký tự, nhiều chữ lặp xen kẽ; loại bỏ trường hợp ABACABA có thể đoán 4.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-optimization",
+      "C-dp"
+    ],
+    "technique_ids": [
+      "T-interval-dp"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "7→33 ký tự, nhiều chữ lặp xen kẽ; loại bỏ trường hợp ABACABA có thể đoán 4."
+  },
+  "instance": {
+    "kind": "strange-printer",
+    "text": "ABACDBACABADCBABACDBACADBACABADCA"
+  }
+}

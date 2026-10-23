@@ -1,0 +1,31 @@
+\begin{tikzpicture}[x=0.45cm, y=0.45cm, font=\figfont]
+% 8x8 Chessboard with alternating cells
+\foreach \r in {0,...,7}{
+  \foreach \c in {0,...,7}{
+    \pgfmathtruncatemacro{\shade}{mod(\r+\c,2)}
+    \ifnum\shade=0 
+      \fill[cloud!40] (\c,\r) rectangle ++(1,1);
+    \else 
+      \fill[ocean!22] (\c,\r) rectangle ++(1,1);
+    \fi
+  }
+}
+\draw[line width=1.0pt, ocean!80!black] (0,0) rectangle (8,8);
+
+% Two opposite corners removed
+\fill[white] (0,0) rectangle (1,1);
+\fill[white] (7,7) rectangle (8,8);
+\draw[coral!90!black, line width=1.2pt] (0,0) rectangle (1,1);
+\draw[coral!90!black, line width=1.2pt] (7,7) rectangle (8,8);
+\draw[coral!80!black, line width=0.8pt] (0,0) -- (1,1);
+\draw[coral!80!black, line width=0.8pt] (0,1) -- (1,0);
+\draw[coral!80!black, line width=0.8pt] (7,7) -- (8,8);
+\draw[coral!80!black, line width=0.8pt] (7,8) -- (8,7);
+
+% Small domino indicator
+\begin{scope}[yshift=-1.4cm, xshift=2.0cm]
+\draw[rounded corners=2pt, fill=amber!20, draw=amber!90!black, line width=0.9pt] (0,0) rectangle (2,1);
+\draw[amber!90!black, line width=0.6pt] (1,0) -- (1,1);
+\node[font=\figfont\color{muted}, below] at (1, -0.1) {Domino $1\times 2$};
+\end{scope}
+\end{tikzpicture}

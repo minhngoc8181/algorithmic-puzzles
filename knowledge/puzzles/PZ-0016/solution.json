@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0016",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Vòng 7; tổng quát k em bị bùn biết ở vòng k.",
+  "outline": "Quy nạp theo k, phân biệt thông tin cá nhân với tri thức chung. Với k=1, thông báo trực tiếp giải quyết; với k>1, mỗi em tưởng có k−1 người bị bùn và loại khả năng đó sau k−1 vòng im lặng.",
+  "teaching_notes": "Khởi động tùy lớp: Tự kiểm tra k=1 và k=2; cần nhấn mạnh các câu trả lời là đồng thời. ",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn hiểu vai trò của tri thức chung và việc không ai trả lời cũng là thông tin. Thông báo của người ngoài không chỉ nhắc một điều mọi em đã nhìn thấy; nó khởi động các vòng quy nạp công khai."
+}

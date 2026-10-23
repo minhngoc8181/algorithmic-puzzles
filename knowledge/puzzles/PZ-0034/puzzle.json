@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0034",
+  "title": "Phủ bảng 64×64 thiếu một ô",
+  "statement": "Một bảng $64\\times64$ bị bỏ đi một ô bất kỳ. Mỗi miếng ghép chữ L gồm đúng ba ô vuông đơn vị; được quay nhưng không được chồng hoặc che ô đã bỏ.\n\nCó thể phủ kín phần còn lại bằng các miếng chữ L không? Nếu có, cần bao nhiêu miếng? Với bảng $2^k\\times2^k$ thiếu một ô bất kỳ, câu trả lời thay đổi thế nào?",
+  "aliases": [],
+  "figure_id": "ART-TROMINO",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Lưới 64×64 cần mô tả phép dựng; lũy thừa 2 là cấu trúc của chứng minh.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-recursion",
+      "C-geometry"
+    ],
+    "technique_ids": [
+      "T-divide-conquer"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Lưới 64×64 cần mô tả phép dựng; lũy thừa 2 là cấu trúc của chứng minh."
+  },
+  "instance": {
+    "kind": "tromino",
+    "size": 64
+  },
+  "figure_model": null
+}

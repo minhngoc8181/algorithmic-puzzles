@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0011",
+  "title": "Tòa nhà 100 tầng và hai quả trứng",
+  "statement": "Có tòa nhà 100 tầng và hai quả trứng giống nhau. Tồn tại một ngưỡng $T$ từ 0 đến 100: thả từ tầng không cao hơn $T$ thì trứng không vỡ, thả từ tầng cao hơn $T$ thì trứng vỡ. Trứng chưa vỡ có thể dùng lại; trứng vỡ không dùng được nữa.\n\nBạn được tự chọn tầng thả sau khi biết kết quả của các lần trước. Cần ít nhất bao nhiêu lần thả trong trường hợp xấu nhất để xác định chính xác $T$?",
+  "aliases": [],
+  "figure_id": "AP-05",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ 100 tầng vì đủ buộc tối ưu chiến lược thích nghi; đáp án 14 cần cả chiến lược lẫn cận.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-information",
+      "C-optimization",
+      "C-dp"
+    ],
+    "technique_ids": [
+      "T-decision-tree"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Chiến lược thả thích nghi và cận trường hợp xấu nhất với hai trứng. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-information": "primary",
+      "C-optimization": "primary",
+      "C-dp": "generalization"
+    },
+    "technique_roles": {
+      "T-decision-tree": "primary"
+    }
+  }
+}

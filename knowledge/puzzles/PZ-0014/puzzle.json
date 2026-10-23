@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0014",
+  "title": "40 người đội mũ đỏ hoặc xanh",
+  "statement": "40 người đứng thành hàng, đánh số từ 1 ở đầu hàng đến 40 ở cuối hàng. Mỗi người đội một chiếc mũ đỏ hoặc xanh được chọn độc lập, mỗi màu có xác suất $1/2$. Mỗi người chỉ thấy các mũ của những người đứng trước mình, không thấy mũ mình hoặc người đứng sau. Bắt đầu từ người số 40 rồi lần lượt về người số 1, mỗi người buộc phải nói đúng một từ: “đỏ” hoặc “xanh”. Tất cả đều nghe được những từ đã nói trước đó, nhưng không ai được giao tiếp khác đi.\n\nTrước khi đội mũ, cả nhóm được bàn trước. Họ nên thống nhất quy tắc gì để xác suất tất cả 40 người đoán đúng màu mũ của chính mình là lớn nhất?",
+  "aliases": [],
+  "figure_id": "ART-HATS",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ 40, xác suất tất cả đúng 1/2 và 39 chắc đúng là hai mục tiêu khác nhau; điều kiện nghe đủ lượt quan trọng.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-information",
+      "C-algebra",
+      "C-probability"
+    ],
+    "technique_ids": [
+      "T-parity",
+      "T-encoding"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Phối hợp lời nói để truyền thông tin; tối đa xác suất cả nhóm đúng. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-information": "primary",
+      "C-algebra": "supporting",
+      "C-probability": "primary"
+    },
+    "technique_roles": {
+      "T-parity": "primary",
+      "T-encoding": "primary"
+    }
+  }
+}

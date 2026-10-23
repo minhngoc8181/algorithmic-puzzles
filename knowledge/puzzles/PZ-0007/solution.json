@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0007",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "80 phút.",
+  "outline": "Gọi a=1, b=3 là hai người nhanh nhất. Với hai người chậm nhất y,z, so hai cách vận chuyển có giá a+2b+z và 2a+y+z. Lần lượt dùng 38 phút đưa 23,31 qua; 24 phút đưa 12,17 qua; 15 phút đưa 6,8 qua; cuối cùng 1,3 qua hết 3 phút. Tổng 80; Dijkstra trên trạng thái vị trí của từng người và đèn kiểm chứng tối ưu.",
+  "teaching_notes": "Khởi động tùy lớp: Người học tự tạo trường hợp 3–4 người, đặc biệt một trường hợp mà dùng người nhanh nhất đưa từng người không tối ưu. ",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn tối ưu tổng chi phí khi các lựa chọn phụ thuộc người mang đèn quay lại. Để học sinh so hai cách đưa cặp chậm nhất qua cầu, rồi giải thích vì sao chọn cách rẻ hơn cho từng giai đoạn."
+}

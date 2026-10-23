@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0012",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Theo chu trình hoán vị, xác suất khoảng 31,18%.",
+  "outline": "Mỗi tù nhân bắt đầu ở hộp mang số mình rồi theo số trên giấy. Thành công iff mọi chu trình độ dài không vượt 50. Xác suất =1 - sum_{k=51}^{100}1/k.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn khai thác cấu trúc chung của hoán vị để phối hợp mà không liên lạc. Phân biệt xác suất từng người tìm thấy với xác suất cả nhóm thành công; không nhân các xác suất phụ thuộc như độc lập."
+}

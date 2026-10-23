@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0050",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Tổng thưởng 590; ngày 1: C, ngày 2: M, ngày 3: G, ngày 4: Q, ngày 5: L, ngày 6: E, ngày 7: I, ngày 8: O, ngày 9: P.",
+  "outline": "Xét việc theo thưởng giảm dần, đặt vào ngày trống muộn nhất không quá hạn để giữ các ngày sớm cho việc hạn gấp. Chứng minh trao đổi cho công việc thời lượng 1; kiểm tra oracle liệt kê tập việc khả thi. Ví dụ thời lượng thay đổi: một việc dài 2 thưởng 3 và hai việc dài 1 thưởng 2, tất cả hạn 2; ưu tiên việc thưởng lớn nhất cho 3 thay vì tối ưu 4.",
+  "teaching_notes": "Khởi động tùy lớp: Tự tạo 3–4 việc có cùng hạn hoặc phần thưởng xung đột; không cho sẵn một lịch đúng trên hình. ",
+  "proof": null,
+  "complexity": "O(n log n+n·D) ở bản đơn giản; dùng DSU/heap để tăng hiệu quả.",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn tìm một thứ tự chọn và cách chèn lịch giữ chỗ cho công việc có deadline gấp hơn. Thời lượng một ngày là giả thiết thiết yếu; phản ví dụ thời lượng khác nhau giúp học sinh tránh khái quát sai greedy."
+}

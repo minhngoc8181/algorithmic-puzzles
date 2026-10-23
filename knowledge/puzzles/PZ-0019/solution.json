@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0019",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Có thể phân mỗi viên trong ba viên lẫn thành hai phần bằng nhau, cùng với viên đỏ cuối; chia mỗi loại thành hai liều.",
+  "outline": "Chia chính xác mỗi viên thành hai nửa. Mỗi ngày lấy một nửa từ cả bốn viên: tổng là một viên đỏ và một viên xanh. Giả thiết hoạt chất đều và được chia chính xác là thiết yếu; không tăng số viên vì điểm cần phát hiện là cách chuẩn hóa hai phần liều.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn nhìn một hỗn hợp không nhận diện được qua tổng liều, thay việc cố phân loại từng viên. Thảo luận giả thiết chia đều chính xác trong mô hình; không dùng câu đố này như chỉ dẫn chia thuốc thực tế."
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0053",
+  "title": "Mười ba món ăn với hai đến bốn bếp",
+  "statement": "Có 13 món đã chuẩn bị xong nguyên liệu; bảng ghi thời gian cần đun, tính bằng phút. Mỗi món dùng đúng một bếp suốt thời gian đó; khi đã bắt đầu thì không được dừng, chia nhỏ hoặc chuyển bếp. Các bếp giống nhau, mỗi bếp chỉ đun một món tại một thời điểm. Mọi món độc lập, đều có thể bắt đầu từ phút 0; không có ràng buộc món phải chờ món khác.\n\n{{DATA}}\n\nVới 2, 3 và 4 bếp, cần ít nhất bao nhiêu phút để hoàn thành tất cả món? Hãy lập lịch cho từng trường hợp.",
+  "aliases": [],
+  "figure_id": "ART-KITCHEN13",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Bổ sung lập lịch máy song song, khác bài khoảng thời gian cố định; có chứng nhận tối ưu mạnh hơn tổng/m.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-optimization",
+      "C-state-space"
+    ],
+    "technique_ids": [
+      "T-bounds",
+      "T-construction",
+      "T-state-search"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Tối ưu tải các bếp khi mỗi món phải chạy liên tục trên một bếp. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-optimization": "primary",
+      "C-state-space": "primary"
+    },
+    "technique_roles": {
+      "T-bounds": "primary",
+      "T-construction": "primary",
+      "T-state-search": "verification"
+    }
+  },
+  "instance": {
+    "kind": "parallel-cooking",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Món"
+      },
+      {
+        "field": "duration",
+        "label": "Phút"
+      }
+    ],
+    "records": [
+      {
+        "id": "1",
+        "duration": 37
+      },
+      {
+        "id": "2",
+        "duration": 42
+      },
+      {
+        "id": "3",
+        "duration": 31
+      },
+      {
+        "id": "4",
+        "duration": 40
+      },
+      {
+        "id": "5",
+        "duration": 35
+      },
+      {
+        "id": "6",
+        "duration": 43
+      },
+      {
+        "id": "7",
+        "duration": 33
+      },
+      {
+        "id": "8",
+        "duration": 39
+      },
+      {
+        "id": "9",
+        "duration": 36
+      },
+      {
+        "id": "10",
+        "duration": 41
+      },
+      {
+        "id": "11",
+        "duration": 34
+      },
+      {
+        "id": "12",
+        "duration": 38
+      },
+      {
+        "id": "13",
+        "duration": 32
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0052",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Tăng tuyến tính: có, ở giây đầu tiên N sao cho $H_N\\ge10000$. Nhân đôi: không; phần dây bò thêm có tổng nhỏ hơn $1/5000$.",
+  "outline": "Xét phần chiều dài dây đã đi: giãn đều giữ nguyên tỉ lệ, trong giây n kiến tăng thêm $1/(10000n)$. Nhóm các số hạng từ $2^k+1$ đến $2^{k+1}$ cho tổng ít nhất 1/2 trước hệ số, nên tổng điều hòa vượt mọi ngưỡng. Khi nhân đôi, tổng phần tăng là $\\sum_{n\\ge1}1/(10000\\cdot2^{n-1})=1/5000<1$. Không lấy tốc độ đối với mặt đất làm tốc độ đối với dây.",
+  "teaching_notes": "Khởi động tùy lớp: Dùng dây 1 m và bước 10 cm trong vài lượt, ghi cả vị trí tuyệt đối lẫn phần dây đã đi.",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn chọn đơn vị đo biến đổi theo hệ, ở đây là phần chiều dài dây đã đi. So tăng tuyến tính với nhân đôi giúp học sinh thấy “dây cứ dài ra” chưa đủ quyết định; tốc độ tương đối với dây phải đọc đúng."
+}

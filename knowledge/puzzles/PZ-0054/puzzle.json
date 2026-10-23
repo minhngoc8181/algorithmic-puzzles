@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0054",
+  "title": "Giặt rồi sấy 12 mẻ đồ",
+  "statement": "Có một máy giặt và một máy sấy; mỗi máy làm nhiều nhất một mẻ tại một thời điểm. Mỗi mẻ phải giặt xong mới được sấy, thời gian như bảng. Không được ngắt một công đoạn. Mẻ đã giặt có thể chờ trong giỏ bao lâu cũng được; giỏ chứa đủ mọi mẻ. Hai máy có thể đồng thời làm hai mẻ khác nhau. Mọi mẻ sẵn sàng từ phút 0.\n\n{{DATA}}\n\nCần ít nhất bao nhiêu phút để hoàn thành tất cả các mẻ? Hãy lập lịch cho hai máy.",
+  "aliases": [],
+  "figure_id": "ART-LAUNDRY",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Mô hình hai công đoạn với bộ đệm không hạn chế; đối chiếu với bản không chờ ở PZ-0059.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-optimization",
+      "C-order"
+    ],
+    "technique_ids": [
+      "T-scheduling",
+      "T-greedy"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Mô hình hai công đoạn với bộ đệm không hạn chế; đối chiếu với bản không chờ ở PZ-0059."
+  },
+  "instance": {
+    "kind": "flowshop",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Mẻ"
+      },
+      {
+        "field": "wash",
+        "label": "Giặt phút"
+      },
+      {
+        "field": "dry",
+        "label": "Sấy phút"
+      }
+    ],
+    "records": [
+      {
+        "id": "A",
+        "wash": 24,
+        "dry": 17
+      },
+      {
+        "id": "B",
+        "wash": 20,
+        "dry": 7
+      },
+      {
+        "id": "C",
+        "wash": 21,
+        "dry": 25
+      },
+      {
+        "id": "D",
+        "wash": 11,
+        "dry": 24
+      },
+      {
+        "id": "E",
+        "wash": 20,
+        "dry": 5
+      },
+      {
+        "id": "F",
+        "wash": 18,
+        "dry": 19
+      },
+      {
+        "id": "G",
+        "wash": 23,
+        "dry": 15
+      },
+      {
+        "id": "H",
+        "wash": 14,
+        "dry": 19
+      },
+      {
+        "id": "I",
+        "wash": 23,
+        "dry": 18
+      },
+      {
+        "id": "J",
+        "wash": 17,
+        "dry": 13
+      },
+      {
+        "id": "K",
+        "wash": 13,
+        "dry": 8
+      },
+      {
+        "id": "L",
+        "wash": 5,
+        "dry": 17
+      }
+    ]
+  }
+}

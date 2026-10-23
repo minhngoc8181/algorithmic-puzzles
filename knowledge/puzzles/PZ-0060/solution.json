@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0060",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "L: 38s, phải; A: 137s, trái; K: 263s, phải; B: 419s, trái; C: 572s, trái; J: 749s, phải; D: 1108s, trái; I: 1113s, phải; H: 1285s, phải; E: 1486s, trái; G: 1740s, phải; F: 2012s, phải.",
+  "outline": "Các thời điểm và đầu dây rơi lấy từ chuyển động “đi xuyên” không gắn nhãn. Nhưng kiến thật không vượt nhau, nên thứ tự trái–phải của các nhãn còn lại luôn giữ nguyên. Mỗi sự kiện rơi đầu trái lấy nhãn đầu deque, đầu phải lấy nhãn cuối. Không gán nhãn ban đầu của một đường đi ảo cho kiến thật đã rơi.",
+  "teaching_notes": "Khởi động tùy lớp: Tự vẽ hai kiến có tên đang đi về nhau, theo dõi cả vị trí lẫn tên sau lần gặp.",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn nhận diện giới hạn của phép đơn giản hóa ở bài trước: bỏ nhãn giải được thời điểm nhưng chưa giải danh tính. Bất biến thứ tự trái–phải phục hồi nhãn mà không cần mô phỏng mọi va chạm."
+}

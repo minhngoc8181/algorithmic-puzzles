@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0031",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Có 4 nghiệm modulo 2; ít nhất 6 lần. Một tập ô nhấn: [(1, 1), (1, 4), (2, 3), (3, 5), (4, 2), (5, 4)].",
+  "outline": "Nhấn hai lần cùng ô triệt tiêu, nên nghiệm tối thiểu chỉ nhấn mỗi ô 0 hoặc 1 lần. Lập 25 phương trình GF(2); khử Gauss, liệt kê các cách gán biến tự do rồi chọn nghiệm có ít bit 1 nhất. Đây là bài tối ưu trên các nghiệm, khác bản 3×3 chỉ hỏi tồn tại.",
+  "teaching_notes": "Khởi động tùy lớp: Tự dựng bảng 2×2 và quan sát tính giao hoán; tránh đưa trước công thức hệ tuyến tính. ",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn khai thác tính giao hoán của các phép bật/tắt và biểu diễn trạng thái nhị phân. Phân biệt có nghiệm, tìm một nghiệm và tìm ít lần nhấn nhất; các nghiệm của hệ có thể có trọng số khác nhau."
+}

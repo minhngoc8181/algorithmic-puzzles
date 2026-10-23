@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0038",
+  "title": "Hai hội đồng xếp hạng 24 thí sinh",
+  "statement": "Hai hội đồng xếp hạng cùng 24 thí sinh, không có đồng hạng. Bảng ghi thứ tự từ cao xuống thấp. Một cặp được gọi là đổi thứ tự nếu người xếp trên ở bảng này lại nằm dưới ở bảng kia.\n\n{{DATA}}\n\nCó bao nhiêu cặp đổi thứ tự? Hãy tìm một phương pháp áp dụng cho hai bảng xếp hạng dài bất kỳ.",
+  "aliases": [],
+  "figure_id": "ART-COMMITTEES",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "24 phần tử, cả hai bảng xáo trộn để bắt buộc chuẩn hóa danh tính.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-order",
+      "C-permutations",
+      "C-combinatorics"
+    ],
+    "technique_ids": [
+      "T-merge-count"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "24 phần tử, cả hai bảng xáo trộn để bắt buộc chuẩn hóa danh tính."
+  },
+  "instance": {
+    "kind": "inversions",
+    "columns": [
+      {
+        "field": "rank",
+        "label": "Hạng"
+      },
+      {
+        "field": "first",
+        "label": "Hội đồng 1"
+      },
+      {
+        "field": "second",
+        "label": "Hội đồng 2"
+      }
+    ],
+    "records": [
+      {
+        "rank": 1,
+        "first": "P20",
+        "second": "P24"
+      },
+      {
+        "rank": 2,
+        "first": "P24",
+        "second": "P14"
+      },
+      {
+        "rank": 3,
+        "first": "P11",
+        "second": "P15"
+      },
+      {
+        "rank": 4,
+        "first": "P07",
+        "second": "P01"
+      },
+      {
+        "rank": 5,
+        "first": "P03",
+        "second": "P22"
+      },
+      {
+        "rank": 6,
+        "first": "P22",
+        "second": "P17"
+      },
+      {
+        "rank": 7,
+        "first": "P10",
+        "second": "P05"
+      },
+      {
+        "rank": 8,
+        "first": "P23",
+        "second": "P06"
+      },
+      {
+        "rank": 9,
+        "first": "P15",
+        "second": "P18"
+      },
+      {
+        "rank": 10,
+        "first": "P09",
+        "second": "P13"
+      },
+      {
+        "rank": 11,
+        "first": "P12",
+        "second": "P02"
+      },
+      {
+        "rank": 12,
+        "first": "P19",
+        "second": "P08"
+      },
+      {
+        "rank": 13,
+        "first": "P05",
+        "second": "P10"
+      },
+      {
+        "rank": 14,
+        "first": "P14",
+        "second": "P19"
+      },
+      {
+        "rank": 15,
+        "first": "P16",
+        "second": "P21"
+      },
+      {
+        "rank": 16,
+        "first": "P06",
+        "second": "P09"
+      },
+      {
+        "rank": 17,
+        "first": "P13",
+        "second": "P11"
+      },
+      {
+        "rank": 18,
+        "first": "P21",
+        "second": "P07"
+      },
+      {
+        "rank": 19,
+        "first": "P17",
+        "second": "P23"
+      },
+      {
+        "rank": 20,
+        "first": "P01",
+        "second": "P16"
+      },
+      {
+        "rank": 21,
+        "first": "P08",
+        "second": "P12"
+      },
+      {
+        "rank": 22,
+        "first": "P18",
+        "second": "P20"
+      },
+      {
+        "rank": 23,
+        "first": "P04",
+        "second": "P03"
+      },
+      {
+        "rank": 24,
+        "first": "P02",
+        "second": "P04"
+      }
+    ]
+  }
+}

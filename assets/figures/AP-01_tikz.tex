@@ -1,0 +1,15 @@
+\noindent\begin{minipage}[c]{0.48\linewidth}
+\centering
+\includegraphics[width=\linewidth,keepaspectratio]{AP-01.jpg}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.48\linewidth}
+\centering
+\begin{tikzpicture}[x=0.80cm,y=0.75cm]
+\foreach \r in {0,...,4} {
+  \foreach \c in {0,...,4} {
+    \draw[fill=white,draw=ocean,line width=0.75pt] (\c*0.85, \r*0.72) circle (0.24);
+  }
+}
+\node[text=muted,font=\figfont] at (1.7, -0.6) {25 con ngựa đua};
+\end{tikzpicture}
+\end{minipage}

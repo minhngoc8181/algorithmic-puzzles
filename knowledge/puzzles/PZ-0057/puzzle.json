@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0057",
+  "title": "Ngày sinh và hai phần thông tin riêng",
+  "statement": "Ngày sinh của một bạn trong năm 2026 nằm trong 20 ngày của bảng; không có khả năng nào khác. Mai chỉ biết tháng, Biên chỉ biết ngày trong tháng. Cả hai biết danh sách, biết phần thông tin của người kia và suy luận hoàn hảo. Họ nói công khai lần lượt:\n\n{{DATA}}\n\nMai: “Tôi chưa biết ngày sinh đầy đủ; ngay từ đầu tôi cũng biết Biên chưa thể biết.”\n\nBiên: “Trước khi bạn nói tôi chưa biết; bây giờ tôi biết rồi.”\n\nMai: “Bây giờ tôi cũng biết.”\n\nNgày sinh là ngày nào?",
+  "aliases": [],
+  "figure_id": "ART-BIRTHDAY",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Biến thể thông tin riêng thứ hai; 20 ngày do biên tập tạo và lọc chính xác, không mặc nhiên mượn đáp án của một bảng sinh nhật phổ biến.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-information",
+      "C-common-knowledge"
+    ],
+    "technique_ids": [
+      "T-elimination"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Biến thể thông tin riêng thứ hai; 20 ngày do biên tập tạo và lọc chính xác, không mặc nhiên mượn đáp án của một bảng sinh nhật phổ biến."
+  },
+  "instance": {
+    "kind": "birthday",
+    "columns": [
+      {
+        "field": "month",
+        "label": "Tháng"
+      },
+      {
+        "field": "day",
+        "label": "Ngày"
+      }
+    ],
+    "records": [
+      {
+        "month": 4,
+        "day": 10
+      },
+      {
+        "month": 4,
+        "day": 21
+      },
+      {
+        "month": 4,
+        "day": 25
+      },
+      {
+        "month": 4,
+        "day": 27
+      },
+      {
+        "month": 5,
+        "day": 14
+      },
+      {
+        "month": 5,
+        "day": 24
+      },
+      {
+        "month": 5,
+        "day": 28
+      },
+      {
+        "month": 6,
+        "day": 10
+      },
+      {
+        "month": 6,
+        "day": 24
+      },
+      {
+        "month": 6,
+        "day": 26
+      },
+      {
+        "month": 7,
+        "day": 11
+      },
+      {
+        "month": 7,
+        "day": 19
+      },
+      {
+        "month": 7,
+        "day": 21
+      },
+      {
+        "month": 7,
+        "day": 27
+      },
+      {
+        "month": 8,
+        "day": 11
+      },
+      {
+        "month": 8,
+        "day": 15
+      },
+      {
+        "month": 8,
+        "day": 19
+      },
+      {
+        "month": 9,
+        "day": 15
+      },
+      {
+        "month": 9,
+        "day": 24
+      },
+      {
+        "month": 9,
+        "day": 26
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+% Pictorial vector fallback for scenes awaiting Gemini art. No data or answers.
+\newcommand{\illAnt}[3]{%
+\begin{scope}[shift={(#1,#2)},xscale=#3]
+\foreach \x/\y/\z in {-.18/.12/.35,-.03/.14/.45,.13/.1/.35}{%
+\draw[ink,line width=.65pt] (\x,.06)--(\x-.15,\y)--(\x-.28,.02);
+\draw[ink,line width=.65pt] (\x,-.02)--(\x-.12,-.17)--(\x-.28,-.19);}
+\shade[ball color=ink!80] (-.31,.03) ellipse (.19 and .12);
+\shade[ball color=ink!85] (-.06,.05) ellipse (.1 and .085);
+\shade[ball color=ink!75] (.12,.05) circle(.105);
+\draw[ink,line width=.6pt] (.18,.1)..controls(.33,.21)and(.34,.11)..(.4,.18);
+\draw[ink,line width=.6pt] (.17,.01)..controls(.31,-.08)and(.31,.02)..(.38,-.04);
+\fill[white] (.16,.08) circle(.018);
+\end{scope}}
+\newcommand{\illPerson}[3]{%
+\begin{scope}[shift={(#1,#2)}]
+\shade[ball color=amber!30] (0,1.05) circle(.21);
+\fill[ink!80] (-.21,1.1)..controls(-.28,1.38)and(.28,1.38)..(.21,1.1)--(.12,1.2)--(-.1,1.24)--cycle;
+\path[fill=#3!80,draw=#3!90!black,rounded corners=5pt] (-.27,.3)--(-.23,.78)..controls(0,.94)and(.2,.91)..(.27,.76)--(.28,.3)--cycle;
+\draw[#3!90!black,line width=2pt] (-.23,.73)--(-.43,.36) (.23,.73)--(.4,.34);
+\draw[ink!80,line width=3pt] (-.13,.3)--(-.17,-.1) (.13,.3)--(.17,-.1);
+\fill[ink] (-.05,1.07) circle(.014);\fill[ink] (.07,1.07) circle(.014);
+\end{scope}}
+\newcommand{\illMachine}[3]{%
+\begin{scope}[shift={(#1,#2)}]
+\shade[top color=white,bottom color=#3!12,draw=#3!65!black,rounded corners=4pt] (0,0) rectangle (1.8,2.3);
+\fill[#3!20] (.04,1.88) rectangle (1.76,2.22);
+\draw[#3!70!black] (.25,2.05) circle(.07);\fill[#3!75] (.54,1.99) rectangle (1.13,2.1);
+\shade[ball color=#3!30,draw=#3!60!black,line width=1pt] (.9,1.0) circle(.65);
+\shade[ball color=#3!10] (.9,1.0) circle(.51);
+\draw[white,line width=1.2pt] (.57,1.25)..controls(.69,1.5)and(1.1,1.49)..(1.29,1.19);
+\path[fill=#3!60] (.54,.79)..controls(.8,1.03)and(1.03,.6)..(1.27,.84)--(1.19,.61)--(.6,.58)--cycle;
+\end{scope}}
+\newcommand{\illPot}[3]{%
+\begin{scope}[shift={(#1,#2)}]
+\fill[ink!70] (-.68,-.12) rectangle (.68,-.02);
+\foreach \x in {-.28,0,.28}{\path[fill=amber] (\x,-.03)..controls(\x-.15,.15)and(\x+.12,.18)..(\x,.35)..controls(\x+.19,.04)and(\x+.13,-.03)..cycle;}
+\shade[left color=#3!45,right color=#3!15,draw=#3!75!black,rounded corners=3pt] (-.53,.22) rectangle (.53,.85);
+\draw[#3!80!black,line width=2pt] (-.55,.59)--(-.75,.59) (.55,.59)--(.75,.59);
+\shade[top color=white,bottom color=#3!30,draw=#3!75!black] (0,.9) ellipse(.55 and .13);
+\fill[ink!65] (-.1,.97) rectangle (.1,1.07);
+\draw[muted!50,line width=.6pt] (-.22,1.18)..controls(-.46,1.45)and(-.07,1.5)..(-.28,1.75);
+\draw[muted!50,line width=.6pt] (.22,1.15)..controls(.46,1.36)and(.1,1.5)..(.3,1.7);
+\end{scope}}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0046",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "9 chuyến; nhóm theo mã kiện: (17,9,5); (4,3); (7,2); (16,12); (18,8); (6,1); (13,10); (15,14); (11).",
+  "outline": "DP mask lưu cặp nhỏ nhất theo thứ tự từ điển (số chuyến, tải chuyến cuối), xét thêm từng kiện chưa chở. Cận tổng khối lượng/100 chỉ là cận dưới, không luôn đạt; kiểm chứng nhóm không trùng, đủ kiện và đúng sức tải. Bài bin packing tổng quát không có lời hứa thuật toán chính xác nhanh cho n rất lớn.",
+  "teaching_notes": "Khởi động tùy lớp: Tự thử sức tải 10 với ba kiện 6,6,6 để bác bỏ việc chỉ làm tròn tổng khối lượng. ",
+  "proof": null,
+  "complexity": "O(n·2^n), O(2^n) bộ nhớ cho n vừa; dữ liệu lớn cần cận, tìm kiếm hoặc xấp xỉ.",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn tổ chức trạng thái tập con và giữ thông tin chuyến cuối thay vì thử mọi phân nhóm. Cận tổng tải và một cách chia hợp lệ có thể chứng minh tối ưu cho instance, nhưng cận tổng không luôn đạt với kiện nguyên vẹn."
+}

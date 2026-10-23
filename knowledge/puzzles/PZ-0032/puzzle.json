@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0032",
+  "title": "Ba loài tắc kè đổi màu",
+  "statement": "Trên một hòn đảo có 13 con tắc kè đỏ, 15 con xanh lá và 17 con xanh dương. Mỗi khi hai con khác màu gặp nhau, cả hai lập tức đổi thành màu thứ ba. Hai con cùng màu gặp nhau thì không thay đổi màu.\n\nCó thể sắp xếp một chuỗi các cuộc gặp để cuối cùng tất cả 45 con đều có cùng một màu không?",
+  "aliases": [],
+  "figure_id": "NEW-CHAMELEONS",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ 13/15/17: bất biến modulo 3 chứng minh ngay cả với 45 con; không nâng số để tạo khó giả.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-invariants",
+      "C-algebra"
+    ],
+    "technique_ids": [
+      "T-modular"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giữ 13/15/17: bất biến modulo 3 chứng minh ngay cả với 45 con; không nâng số để tạo khó giả."
+  }
+}

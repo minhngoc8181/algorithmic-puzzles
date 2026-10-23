@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0029",
+  "title": "Những người lính trên bàn cờ vô hạn",
+  "statement": "Một bàn cờ ô vuông vô hạn bị chia bởi một đường lưới ngang. Ban đầu mỗi ô nằm hoàn toàn dưới đường có một quân lính, còn mọi ô nằm trên đường đều trống. Một lượt đi chọn một quân, cho nó nhảy theo chiều ngang hoặc dọc qua đúng một quân kề bên để đáp xuống ô trống ngay sau quân bị nhảy; quân bị nhảy qua bị bỏ khỏi bàn. Hàng ô trống đầu tiên phía trên đường được gọi là hàng 1.\n\nSau hữu hạn lượt đi, có thể đưa một quân lên cao tùy ý không? Hàng cao nhất có thể đạt được là hàng nào?",
+  "aliases": [],
+  "figure_id": "NEW-SOLDIERS",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ bàn vô hạn: cần cả cấu hình đạt hàng 4 và chứng minh cấm hàng 5; lời giải dạng outline chưa thay thế chuỗi nước dựng.",
+    "stars": 5,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-invariants"
+    ],
+    "technique_ids": [
+      "T-potential"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giữ bàn vô hạn: cần cả cấu hình đạt hàng 4 và chứng minh cấm hàng 5; lời giải dạng outline chưa thay thế chuỗi nước dựng."
+  }
+}

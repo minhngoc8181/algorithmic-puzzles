@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0056",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Người đi trước thắng; lấy 1 hoặc 3 viên. Các kích thước thua có số dư 0 hoặc 2 khi chia 7.",
+  "outline": "Từ số dư 0 hoặc 2, mọi nước hợp lệ đến số dư khác 0,2; từ mỗi số dư khác đều có nước về 0 hoặc 2. Kiểm tra riêng n=0..6 rồi quy nạp. Đây mới là trò một đống đóng dưới phép rút, không sinh nhiều trò con như trò tách không đều.",
+  "teaching_notes": "Khởi động tùy lớp: Để người học tự lập bảng từ 0 đến 20, tự tìm một chu kỳ ứng viên rồi chứng minh hai chiều.",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn phân loại trạng thái thắng/thua và chứng minh một quy luật chu kỳ bằng quy nạp. Đây là điểm vào trước Nim: một đống chỉ giảm, nên chưa cần kiến thức ghép các trò con."
+}

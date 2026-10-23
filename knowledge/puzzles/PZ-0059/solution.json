@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0059",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "216 phút; một thứ tự L, J, K, H, I, B, D, G, F, C, A, E. Bản được chờ cần 214 phút.",
+  "outline": "Với thứ tự i rồi j, hai lần bắt đầu giặt phải cách ít nhất $d(i,j)=\\max(a_i,a_i+b_i-a_j)$ để máy giặt và máy sấy đều không chồng. Thời điểm bắt đầu mỗi mẻ xác định theo các khoảng cách này; kết thúc thêm $a_{\\rm last}+b_{\\rm last}$. Dùng DP tập con với mẻ cuối để tìm đường qua mọi mẻ một lần; kiểm tra bằng timeline không có thời gian chờ. Không áp dụng Johnson ngoài giả thiết bộ đệm của nó.",
+  "teaching_notes": "Khởi động tùy lớp: Tự tạo 2–3 mẻ, chép lịch có giỏ chờ sang bản này và chỉ ra đúng chỗ vi phạm.",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn phản biện việc áp dụng một quy tắc bên ngoài giả thiết. Cùng bảng giặt–sấy nhưng cấm chờ dẫn đến khoảng cách phụ thuộc cặp mẻ; máy giặt rảnh có chủ đích có thể là cần thiết cho tính hợp lệ."
+}

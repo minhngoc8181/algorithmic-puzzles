@@ -1,0 +1,19 @@
+root = true
+
+[*]
+charset = utf-8
+insert_final_newline = true
+indent_style = space
+
+[*.{json,md,yml}]
+indent_size = 2
+
+[*.py]
+indent_size = 4
+
+# Hashed byte-for-byte: never let an editor reformat these.
+[{knowledge/puzzles/*/solution.json,sources/snapshots/**,sources/candidates/**}]
+insert_final_newline = unset
+trim_trailing_whitespace = false
+charset = unset
+end_of_line = unset

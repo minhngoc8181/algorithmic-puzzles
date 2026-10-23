@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0058",
+  "title": "Cùng 13 món nhưng được tạm dừng và đổi bếp",
+  "statement": "Có 13 món với thời gian cần đun như bảng. Trong mô hình này, được tạm dừng một món và tiếp tục trên bếp khác, không tốn thời gian chuyển và tổng thời gian đun không thay đổi. Tuy nhiên, một món không được đun đồng thời trên hai bếp; mỗi bếp chỉ đun một món tại một thời điểm. Mọi món sẵn sàng từ phút 0.\n\n{{DATA}}\n\nVới 2, 3 và 4 bếp, cần ít nhất bao nhiêu phút để hoàn thành tất cả món? Hãy lập lịch cho từng trường hợp.",
+  "aliases": [],
+  "figure_id": "ART-CHEFCOOKING",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Cặp bài dùng cùng dữ liệu nhưng thay đúng quyền tạm dừng; buộc nhận diện vì sao cận tổng/m lần này đạt được.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-optimization",
+      "C-invariants"
+    ],
+    "technique_ids": [
+      "T-bounds",
+      "T-construction",
+      "T-scheduling"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Dựng lịch có quyền ngắt/chuyển bếp và chứng minh đạt cận tải. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-optimization": "primary",
+      "C-invariants": "supporting"
+    },
+    "technique_roles": {
+      "T-bounds": "primary",
+      "T-construction": "primary",
+      "T-scheduling": "supporting"
+    }
+  },
+  "instance": {
+    "kind": "preemptive-cooking",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Món"
+      },
+      {
+        "field": "duration",
+        "label": "Phút"
+      }
+    ],
+    "records": [
+      {
+        "id": "1",
+        "duration": 37
+      },
+      {
+        "id": "2",
+        "duration": 42
+      },
+      {
+        "id": "3",
+        "duration": 31
+      },
+      {
+        "id": "4",
+        "duration": 40
+      },
+      {
+        "id": "5",
+        "duration": 35
+      },
+      {
+        "id": "6",
+        "duration": 43
+      },
+      {
+        "id": "7",
+        "duration": 33
+      },
+      {
+        "id": "8",
+        "duration": 39
+      },
+      {
+        "id": "9",
+        "duration": 36
+      },
+      {
+        "id": "10",
+        "duration": 41
+      },
+      {
+        "id": "11",
+        "duration": 34
+      },
+      {
+        "id": "12",
+        "duration": 38
+      },
+      {
+        "id": "13",
+        "duration": 32
+      }
+    ]
+  }
+}

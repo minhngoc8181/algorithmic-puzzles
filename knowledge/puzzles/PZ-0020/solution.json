@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0020",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "7 câu hỏi cố định.",
+  "outline": "Chọn một bộ mã độ dài 7 có 16 từ mã cách nhau ít nhất 3 vị trí (Hamming(7,4)). Sphere packing chứng minh không thể dưới 7.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn phân biệt chiến lược hỏi thích nghi với bộ câu hỏi được chốt trước. Một lời nói dối đòi hỏi khoảng cách giữa các mã, nên đếm đủ số câu trả lời chưa tự bảo đảm sửa được lỗi."
+}

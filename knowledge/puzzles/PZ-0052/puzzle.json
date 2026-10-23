@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0052",
+  "title": "Kiến trên dây cao su dài ra từng giây",
+  "statement": "Một dây cao su ban đầu dài 100 m. Kiến ở đầu trái, bò 1 cm mỗi giây so với mặt dây. Trong mỗi giây, chiều dài dây giữ nguyên. Sau mỗi giây, nếu kiến chưa tới đầu phải, dây giãn đều tức thời thêm 100 m; kiến bám ở vị trí vật liệu đang đứng nên được kéo theo, không trượt. Quá trình có thể tiếp tục mãi.\n\nKiến có bao giờ tới đầu phải không? Nếu dây nhân đôi chiều dài sau mỗi giây thay vì tăng thêm 100 m, câu trả lời thay đổi thế nào?",
+  "aliases": [],
+  "figure_id": "ART-RUBBERANT",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Thêm hai mô hình tuyến tính/nhân đôi để phân tích điều kiện tăng trưởng; chứng minh sơ cấp bằng nhóm số hạng, không bắt buộc học tích phân.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-invariants",
+      "C-series"
+    ],
+    "technique_ids": [
+      "T-normalization",
+      "T-series-comparison"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Chuẩn hóa chuyển động theo chiều dài; so hai quy luật tăng trưởng. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-invariants": "primary",
+      "C-series": "primary"
+    },
+    "technique_roles": {
+      "T-normalization": "primary",
+      "T-series-comparison": "supporting"
+    }
+  },
+  "instance": {
+    "kind": "rubber-ant",
+    "length_m": 100,
+    "step_cm": 1,
+    "growth_m": 100
+  }
+}

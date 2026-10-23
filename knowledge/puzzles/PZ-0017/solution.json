@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0017",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Có, mã hóa chỉ số ô qua XOR.",
+  "outline": "Đánh số 0..63; checksum XOR vị trí đồng ngửa, A lật ô có chỉ số checksum XOR mục tiêu.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn xây dựng một đại lượng có thể điều khiển bằng đúng một thay đổi cục bộ. Hỏi vì sao cả chỉ số 0 lẫn việc buộc lật một đồng vẫn hợp lệ; đổi kích thước bàn cờ tùy tiện cần xét lại miền mã."
+}

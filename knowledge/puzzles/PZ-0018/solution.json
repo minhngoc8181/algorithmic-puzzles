@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0018",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "462 ổ khóa. Mỗi người nhận 252 loại chìa; mỗi ổ có 6 bản sao.",
+  "outline": "Mỗi nhóm 5 người phải cùng thiếu một chìa. Tập người không giữ một chìa có nhiều nhất 5 người, nếu không một nhóm 6 cũng bị chặn. Vì vậy mỗi ổ chặn được nhiều nhất một nhóm 5: cần $\\binom{11}{5}=462$. Với mỗi nhóm 5 tạo một ổ, đưa chìa cho 6 người còn lại. Mỗi người giữ $\\binom{10}{5}=252$ chìa.",
+  "teaching_notes": "Khởi động tùy lớp: Tự đặt trường hợp 3 người, yêu cầu 2 người mở được; kiểm tra hai chiều trước khi đếm. ",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn biến một yêu cầu quyền truy cập thành các tập người bị loại trừ. Chứng minh số khóa cần thiết phải dựa trên những nhóm không được phép mở, không chỉ nêu một cách chia chìa có vẻ hợp lý."
+}

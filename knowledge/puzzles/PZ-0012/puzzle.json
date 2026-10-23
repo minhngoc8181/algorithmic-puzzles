@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0012",
+  "title": "100 tù nhân và 100 chiếc hộp",
+  "statement": "Quản ngục bỏ 100 tờ giấy đánh số 1 đến 100 vào 100 chiếc hộp đánh số 1 đến 100, mỗi hộp chứa đúng một tờ. Cách đặt được chọn ngẫu nhiên đều trong tất cả hoán vị. Mỗi tù nhân mang một số từ 1 đến 100; từng người vào phòng một mình, được mở tối đa 50 hộp để tìm giấy ghi đúng số mình và phải đóng lại các hộp đã mở. Người sau không nhìn thấy những hộp người trước mở; không ai được di chuyển giấy hoặc để lại tín hiệu. Cả nhóm chỉ thắng nếu mọi tù nhân đều tìm được số của mình. Trước khi bắt đầu, họ được bàn chiến lược với nhau.\n\nHãy tìm một chiến lược để xác suất cả nhóm chiến thắng vượt 30\\%.",
+  "aliases": [],
+  "figure_id": "NEW-100BOXES",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ 100/50 để định lý chu trình dài và ngưỡng 30% đúng; không tăng số làm biến dạng mục tiêu xác suất.",
+    "stars": 5,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-probability",
+      "C-permutations"
+    ],
+    "technique_ids": [
+      "T-cycles"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giữ 100/50 để định lý chu trình dài và ngưỡng 30% đúng; không tăng số làm biến dạng mục tiêu xác suất."
+  }
+}

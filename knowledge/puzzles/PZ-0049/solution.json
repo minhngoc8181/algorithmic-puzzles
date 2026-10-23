@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0049",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Thuê 288 ngày, mua đầu ngày 289. Tỉ số tối ưu $4042/2023\\approx1.9980$.",
+  "outline": "Nếu mua đầu ngày k, chi phí từ ngày k trở đi là 7(k−1)+2026. Với k≤289, tỉ số xấu nhất ở ngày k là [7(k−1)+2026]/(7k), giảm theo k. Với k≥290, tỉ số xấu nhất là [7(k−1)+2026]/2026, tăng theo k. So k=289 và k=290: 4042/2023 nhỏ hơn 4049/2026. Không làm tròn 2026/7 rồi mặc nhiên chọn ngày 290.",
+  "teaching_notes": "Khởi động tùy lớp: Tự thử giá thuê 1, giá mua 8, rồi thử giá mua không chia hết cho giá thuê. ",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn ra quyết định khi chưa biết tương lai và phân tích đối thủ dừng đúng lúc bất lợi. Giá không chia hết cho tiền thuê buộc xét hai ngày nguyên cạnh ngưỡng; cận tỷ số phải theo đúng thời điểm mua."
+}

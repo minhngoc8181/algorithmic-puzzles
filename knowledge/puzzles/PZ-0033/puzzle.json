@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0033",
+  "title": "Sáu con ếch đổi chỗ",
+  "statement": "Bảy tảng đá nằm thành một hàng. Ba con ếch xanh ở ba tảng bên trái, ba con ếch nâu ở ba tảng bên phải; tảng giữa trống. Ếch xanh chỉ đi sang phải, ếch nâu chỉ đi sang trái. Mỗi lượt, một con được bước sang tảng trống kề trước mặt hoặc nhảy qua đúng một con khác để đến tảng trống ngay sau con đó.\n\nCần ít nhất bao nhiêu lượt để hai nhóm đổi chỗ? Nếu mỗi nhóm có $n$ con và có $2n+1$ tảng đá, kết quả thay đổi thế nào?",
+  "aliases": [],
+  "figure_id": "NEW-FROGS",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ sáu con ếch kinh điển (3+3), đáp số 15; câu hỏi n tổng quát rèn xây dựng và chứng minh. Giữ tranh NEW-FROGS đúng sáu con.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-state-space",
+      "C-optimization"
+    ],
+    "technique_ids": [
+      "T-construction",
+      "T-counting",
+      "T-potential",
+      "T-state-search"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Đếm cận lượt đổi chỗ và dựng chuỗi bước đạt cận. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-state-space": "primary",
+      "C-optimization": "primary"
+    },
+    "technique_roles": {
+      "T-construction": "primary",
+      "T-counting": "supporting",
+      "T-potential": "supporting",
+      "T-state-search": "verification"
+    }
+  },
+  "instance": {
+    "kind": "frogs",
+    "n": 3
+  }
+}

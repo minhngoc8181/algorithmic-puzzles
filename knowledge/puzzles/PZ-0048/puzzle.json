@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0048",
+  "title": "Đại diện cho 14 ủy ban",
+  "statement": "Có 14 ủy ban và 12 ứng viên. Một ứng viên được chọn có thể đồng thời đại diện cho tất cả các ủy ban trong danh sách của mình; mỗi ủy ban cần ít nhất một người đại diện. Không có yêu cầu mỗi người chỉ giữ một nhiệm vụ.\n\n{{DATA}}\n\nCần chọn ít nhất bao nhiêu ứng viên? Hãy đưa ra một cách chọn và tìm một phương pháp áp dụng cho các danh sách bất kỳ.",
+  "aliases": [],
+  "figure_id": "ART-REPS14",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "5→14 ủy ban, 6→12 ứng viên; sửa câu hỏi n lớn để không hứa giải chính xác nhanh cho bài NP-khó.",
+    "stars": 5,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-set-cover",
+      "C-optimization",
+      "C-combinatorics",
+      "C-graphs"
+    ],
+    "technique_ids": [
+      "T-subset-search"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Chọn ít tập ứng viên phủ đủ các ủy ban; tối ưu tổ hợp chính xác. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-set-cover": "primary",
+      "C-optimization": "primary",
+      "C-combinatorics": "supporting",
+      "C-graphs": "supporting"
+    },
+    "technique_roles": {
+      "T-subset-search": "primary"
+    }
+  },
+  "instance": {
+    "kind": "set-cover",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Ứng viên"
+      },
+      {
+        "field": "covers",
+        "label": "Các ủy ban"
+      }
+    ],
+    "records": [
+      {
+        "id": "A",
+        "covers": [
+          3,
+          6,
+          8,
+          14
+        ]
+      },
+      {
+        "id": "B",
+        "covers": [
+          1,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "id": "C",
+        "covers": [
+          1,
+          5,
+          9,
+          12,
+          13
+        ]
+      },
+      {
+        "id": "D",
+        "covers": [
+          1,
+          8,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": "E",
+        "covers": [
+          2,
+          4,
+          6,
+          9,
+          10,
+          13
+        ]
+      },
+      {
+        "id": "F",
+        "covers": [
+          1,
+          5,
+          6,
+          10,
+          12
+        ]
+      },
+      {
+        "id": "G",
+        "covers": [
+          4,
+          5,
+          10,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "id": "H",
+        "covers": [
+          1,
+          4,
+          5,
+          8,
+          11,
+          13
+        ]
+      },
+      {
+        "id": "I",
+        "covers": [
+          1,
+          5,
+          6,
+          11,
+          12
+        ]
+      },
+      {
+        "id": "J",
+        "covers": [
+          6,
+          9,
+          10,
+          12
+        ]
+      },
+      {
+        "id": "K",
+        "covers": [
+          3,
+          7,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "id": "L",
+        "covers": [
+          3,
+          6,
+          10,
+          13,
+          14
+        ]
+      }
+    ],
+    "universe": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  }
+}

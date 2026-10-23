@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0055",
+  "title": "Ba người con và số nhà không được nói ra",
+  "statement": "Hai người bạn gặp trước một ngôi nhà. A nói: “Tôi có ba con; tuổi của chúng là các số nguyên dương và tích ba tuổi là 36. Tổng ba tuổi bằng số nhà này.” B nhìn rõ số nhà rồi nói: “Tôi vẫn chưa xác định được ba tuổi.”\n\nA nói tiếp: “Tôi có đúng một người con có tuổi lớn hơn tuổi của từng người còn lại.” B đáp: “Vậy tôi biết rồi.”\n\nBa người con bao nhiêu tuổi?",
+  "aliases": [],
+  "figure_id": "ART-DAUGHTERS",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Biến thể ngữ cảnh số nhà/tuổi, điểm mới là sự không biết của người thấy tổng và tính duy nhất của tuổi lớn nhất; không phải lặp lại bốn lượt sum–product.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-information",
+      "C-common-knowledge"
+    ],
+    "technique_ids": [
+      "T-elimination"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Biến thể ngữ cảnh số nhà/tuổi, điểm mới là sự không biết của người thấy tổng và tính duy nhất của tuổi lớn nhất; không phải lặp lại bốn lượt sum–product."
+  },
+  "instance": {
+    "kind": "ages",
+    "product": 36
+  }
+}

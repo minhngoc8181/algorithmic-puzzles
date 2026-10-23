@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0024",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Người đi trước thắng; lấy 1 viên từ mỗi đống, đưa về (2025,3277).",
+  "outline": "Các cặp thua là $(\\lfloor k\\varphi\\rfloor,\\lfloor k\\varphi^2\\rfloor)$, với $\\varphi=(1+\\sqrt5)/2$, cùng các cặp đổi thứ tự. Hiệu của cặp đích là 1252; tính chính xác $\\lfloor1252\\varphi\\rfloor=2025$. Chứng minh hai dãy Beatty phân hoạch các số nguyên dương và mỗi trạng thái ngoài tập có nước về tập. Không đoán quy luật từ 6,10.",
+  "teaching_notes": "Khởi động tùy lớp: Tự liệt kê bảng hai đống nhỏ và phân biệt luật lấy cùng số với luật Nim. ",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn nhận diện một thay đổi luật có thể phá chiến lược Nim quen thuộc. Hai đống không có nghĩa dễ hơn bốn đống; nước lấy đều từ cả hai tạo ra cấu trúc các vị trí thua khác."
+}

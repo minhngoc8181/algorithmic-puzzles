@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0009",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Mười con đủ phân biệt 1000 lọ.",
+  "outline": "Gán mỗi lọ một mã nhị phân 10 bit rồi thu quan sát sống/chết. Chặn dưới 2^m>=1000.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn chuyển quan sát sống/chết thành mã thông tin. Nhấn mạnh một mẫu có thể dùng cho nhiều chuột và một chuột uống hỗn hợp; nếu cấm hai quyền đó, cách mã hóa không còn cùng mô hình."
+}

@@ -1,0 +1,46 @@
+{
+  "id": "KC-MERGE-CONSTRAINTS",
+  "title": "Ràng buộc ghép quyết định mô hình tối ưu",
+  "concept_ids": [
+    "C-optimization",
+    "C-dp"
+  ],
+  "technique_ids": [
+    "T-greedy",
+    "T-interval-dp"
+  ],
+  "claim": "Với chi phí ghép x+y, được ghép hai phần bất kỳ và chỉ được ghép hai phần kề nhau tạo ra hai miền nghiệm khác nhau. Phải kiểm tra ràng buộc trước khi chọn greedy hay DP đoạn.",
+  "conditions": [
+    "Kích thước dương và chi phí mỗi lần ghép bằng tổng hai kích thước.",
+    "Nêu rõ có được thay đổi thứ tự hoặc ghép phần không kề nhau hay không."
+  ],
+  "when_to_use": "So sánh bài nối dây và bài sáp nhập dãy khối.",
+  "reasoning": "Khi được chọn bất kỳ cặp, cây ghép và lập luận trao đổi dẫn tới ghép hai phần nhỏ nhất. Khi phải kề nhau, lần ghép cuối chia một đoạn thành hai đoạn liên tiếp; xét tất cả điểm chia cho truy hồi tối ưu.",
+  "pitfalls": [
+    "Ghép hai phần nhỏ nhất toàn cục có thể là nước đi bất hợp lệ.",
+    "Thử được một ví dụ không thay thế chứng minh trao đổi hoặc chứng minh truy hồi."
+  ],
+  "examples": [
+    "PZ-0035: được nối hai dây bất kỳ.",
+    "PZ-0040: chỉ ghép hai khối kề nhau.",
+    "Ví dụ minh họa [1,100,1]: hai phần nhỏ nhất không kề nhau."
+  ],
+  "schema_version": 1,
+  "status": "draft",
+  "reviewer": null,
+  "reviewed_on": null,
+  "origin": "editorial-synthesis",
+  "evidence": [
+    {
+      "puzzle_id": "PZ-0035",
+      "statement_sha256": "e3dd0fd3369ff021d29f9acd26fe1ce61ca661e9350b0741637faf13d197e7c4",
+      "solution_sha256": "c0d5c719f537165f69aaab5a61ae89f520c74fb2c512825e931a357d1f50b377"
+    },
+    {
+      "puzzle_id": "PZ-0040",
+      "statement_sha256": "a31696ad797c197c9cf9abe15ea1d071acb3e0bea81ffcfdaec9d3f6d619f35b",
+      "solution_sha256": "1ff3b53abac0d40f6fc106e3efb6768ad70b81b90b4999ae9913c4ad2bab12ad"
+    }
+  ],
+  "editorial_rechecked_on": "2026-10-11"
+}

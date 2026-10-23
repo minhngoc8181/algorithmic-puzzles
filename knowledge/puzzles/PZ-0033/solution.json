@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0033",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "15 lượt; với n con mỗi nhóm là $n^2+2n$.",
+  "outline": "Mỗi cặp F,T phải vượt nhau đúng một lần, cần $n^2$ lượt nhảy. Tổng quãng dịch chuyển là $2n(n+1)$ ô; phần còn lại đòi hỏi ít nhất $2n$ bước đơn. Xây dựng dãy xen kẽ các lượt đi và các đợt nhảy tăng rồi giảm độ dài, đạt cả hai số đếm.",
+  "teaching_notes": "Giữ phiên bản kinh điển ba con mỗi phía. Có thể cho học sinh tự thử một hoặc hai con để phát hiện cấu trúc, rồi yêu cầu một lời giải và cách đạt cận cho n bất kỳ.",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn tách chứng minh cận dưới số bước khỏi cách dựng chuỗi đạt cận. Đếm cặp hai loài phải vượt nhau giúp giải n tổng quát, còn kiểm vài bàn nhỏ chỉ hỗ trợ phát hiện quy luật."
+}

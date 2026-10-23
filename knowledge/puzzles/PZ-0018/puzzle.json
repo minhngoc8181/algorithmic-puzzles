@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0018",
+  "title": "Mười một người và chiếc hòm chung",
+  "statement": "Mười một nhà thám hiểm khóa một chiếc hòm bằng các ổ độc lập; hòm chỉ mở khi tất cả ổ đã mở. Mỗi ổ dùng một loại chìa riêng, có thể làm nhiều bản sao. Họ muốn bất kỳ nhóm sáu người nào cũng mở được hòm, còn bất kỳ nhóm năm người nào cũng không thể mở.\n\nCần ít nhất bao nhiêu ổ khóa? Mô tả cách chia chìa và chứng minh cả điều kiện mở được lẫn điều kiện không mở được.",
+  "aliases": [],
+  "figure_id": "ART-CHEST",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "11/6 tạo bài thiết kế cấu trúc thực sự; thêm chứng minh tối ưu và số bản sao, không chỉ nêu tổ hợp.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-combinatorics",
+      "C-optimization"
+    ],
+    "technique_ids": [
+      "T-counting"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Dựng quyền mở hòm cho các nhóm; đếm cận số khóa và chia chìa. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-combinatorics": "primary",
+      "C-optimization": "primary"
+    },
+    "technique_roles": {
+      "T-counting": "primary"
+    }
+  },
+  "instance": {
+    "kind": "locks",
+    "people": 11,
+    "threshold": 6
+  }
+}

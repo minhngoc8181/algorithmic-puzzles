@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0049",
+  "title": "Thuê hay mua với giá mua 2026",
+  "statement": "Thuê thiết bị trượt tuyết mất 7 đơn vị mỗi ngày; mua một lần mất 2026 và dùng cho mọi ngày sau đó. Đầu mỗi ngày, bạn chỉ biết hôm nay mình cần dùng, không biết còn bao nhiêu ngày tiếp theo. Nếu mua ở đầu ngày nào thì không trả tiền thuê ngày đó. Mọi chi phí đều tính theo các ngày nguyên dương.\n\nHãy tìm chính sách xác định có tỉ số tệ nhất nhỏ nhất giữa chi phí của mình và người biết trước số ngày dùng. Nêu ngày mua, tỉ số chính xác và chứng minh; chỉ tính các chính sách không dùng ngẫu nhiên.",
+  "aliases": [],
+  "figure_id": "ART-SKIRENTAL",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giá 2026 và thuê 7 buộc xử lý ngày nguyên và thời điểm mua; kiểm tra công thức thay vì áp dụng máy móc.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-online",
+      "C-optimization"
+    ],
+    "technique_ids": [
+      "T-competitive"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giá 2026 và thuê 7 buộc xử lý ngày nguyên và thời điểm mua; kiểm tra công thức thay vì áp dụng máy móc."
+  },
+  "instance": {
+    "kind": "ski",
+    "rent": 7,
+    "buy": 2026
+  }
+}

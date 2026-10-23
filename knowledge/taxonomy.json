@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "version": "1.0",
+  "status": "editorial-draft",
+  "concepts": [
+    {
+      "id": "C-induction",
+      "label": "Quy nạp / induction",
+      "definition": "Quan hệ giữa trường hợp nhỏ và lớn; phân biệt giả thiết quy nạp và kết luận."
+    },
+    {
+      "id": "C-information",
+      "label": "Thông tin và khả năng phân biệt / information",
+      "definition": "Số giả thuyết và kết quả quan sát hợp lệ trong mô hình."
+    },
+    {
+      "id": "C-order",
+      "label": "Thứ tự và phép so sánh / order",
+      "definition": "Quan hệ thứ tự toàn phần, thứ tự bộ phận và chứng nhận so sánh."
+    },
+    {
+      "id": "C-games",
+      "label": "Trò chơi và chiến lược / games",
+      "definition": "Luật đi, ưu tiên, trạng thái thắng/thua và mô hình đối thủ."
+    },
+    {
+      "id": "C-common-knowledge",
+      "label": "Tri thức chung / common knowledge",
+      "definition": "Thông tin riêng, thông báo công khai và điều người tham gia biết về nhau."
+    },
+    {
+      "id": "C-optimization",
+      "label": "Tối ưu hóa / optimization",
+      "definition": "Miền nghiệm hợp lệ, hàm mục tiêu và yêu cầu chứng minh tối ưu."
+    },
+    {
+      "id": "C-probability",
+      "label": "Xác suất / probability",
+      "definition": "Không gian mẫu và phân phối được nêu trong đề."
+    },
+    {
+      "id": "C-permutations",
+      "label": "Hoán vị / permutations",
+      "definition": "Chu trình hoán vị, thứ tự và các cách biểu diễn tương đương."
+    },
+    {
+      "id": "C-combinatorics",
+      "label": "Tổ hợp / combinatorics",
+      "definition": "Đếm cấu hình và điều kiện tránh đếm lặp."
+    },
+    {
+      "id": "C-algebra",
+      "label": "Đại số rời rạc / discrete algebra",
+      "definition": "Parity, XOR, đồng dư và biểu diễn đại số; nêu đúng miền phép toán."
+    },
+    {
+      "id": "C-invariants",
+      "label": "Bất biến / invariants",
+      "definition": "Đại lượng bảo toàn, đơn biến và giới hạn của chứng minh không thể."
+    },
+    {
+      "id": "C-coding",
+      "label": "Mã hóa và sửa lỗi / coding",
+      "definition": "Ánh xạ cấu hình sang mã; khoảng cách mã và mô hình lỗi."
+    },
+    {
+      "id": "C-state-space",
+      "label": "Không gian trạng thái / state space",
+      "definition": "Trạng thái, chuyển trạng thái và điều kiện đạt đích."
+    },
+    {
+      "id": "C-recursion",
+      "label": "Đệ quy / recursion",
+      "definition": "Bài con, điều kiện dừng và phép ghép nghiệm."
+    },
+    {
+      "id": "C-dp",
+      "label": "Quy hoạch động / dynamic programming",
+      "definition": "Ý nghĩa trạng thái, chuyển trạng thái và cấu trúc tối ưu."
+    },
+    {
+      "id": "C-geometry",
+      "label": "Hình học tính toán / computational geometry",
+      "definition": "Quan hệ hình học và giả thiết tọa độ/khoảng cách."
+    },
+    {
+      "id": "C-graphs",
+      "label": "Đồ thị và ghép cặp / graphs",
+      "definition": "Đỉnh/cạnh, ghép cặp hợp lệ và mô hình hóa phân công."
+    },
+    {
+      "id": "C-online",
+      "label": "Giải thuật online / online algorithms",
+      "definition": "Quyết định khi chưa biết tương lai và chuẩn so sánh offline."
+    },
+    {
+      "id": "C-series",
+      "label": "Tổng vô hạn và ngưỡng / series",
+      "definition": "Phân biệt tăng vô hạn của một tổng tích lũy với hội tụ; lập luận sơ cấp bằng nhóm số hạng."
+    },
+    {
+      "id": "C-subset-sum",
+      "label": "Tổng tập con và phân hoạch / subset sum and partition",
+      "definition": "Chọn tập con có tổng phù hợp hoặc phân chia một tập để kiểm soát chênh lệch tổng; yêu cầu về số phần tử của mỗi phần phải nêu riêng."
+    },
+    {
+      "id": "C-set-cover",
+      "label": "Phủ tập hợp / set cover",
+      "definition": "Chọn một họ tập con có hợp chứa toàn bộ tập mục tiêu; một tập được chọn có thể phủ nhiều phần tử. Phân biệt phủ hợp lệ với phủ ít tập hoặc ít chi phí nhất."
+    }
+  ],
+  "techniques": [
+    {
+      "id": "T-backward",
+      "label": "Suy luận ngược / backward reasoning",
+      "definition": "Giải các tình huống còn ít người/trạng thái rồi suy ngược theo đúng ưu tiên."
+    },
+    {
+      "id": "T-decision-tree",
+      "label": "Cây quyết định / decision tree",
+      "definition": "Mỗi nhánh phải ứng với một quan sát hợp lệ; lá phân biệt đủ giả thuyết."
+    },
+    {
+      "id": "T-pairing",
+      "label": "Ghép cặp so sánh / comparison pairing",
+      "definition": "Tách tập ứng viên min/max qua so sánh từng cặp."
+    },
+    {
+      "id": "T-tournament",
+      "label": "Cây đấu loại / tournament",
+      "definition": "Lưu lịch sử người thua trực tiếp thay vì chỉ giữ người thắng."
+    },
+    {
+      "id": "T-elimination",
+      "label": "Loại trừ có chứng cứ / elimination",
+      "definition": "Loại ứng viên bằng quan hệ hoặc thông tin đã chứng minh."
+    },
+    {
+      "id": "T-state-search",
+      "label": "Tìm trên trạng thái / state search",
+      "definition": "Liệt kê chuyển trạng thái hợp lệ và tối ưu theo chi phí."
+    },
+    {
+      "id": "T-cost-segments",
+      "label": "Phân đoạn chi phí / cost segmentation",
+      "definition": "Chia miền theo số chuyến/chi phí biên có cùng công thức."
+    },
+    {
+      "id": "T-encoding",
+      "label": "Thiết kế mã quan sát / observation encoding",
+      "definition": "Ánh xạ các giả thuyết sang kết quả quan sát khác nhau."
+    },
+    {
+      "id": "T-cycles",
+      "label": "Theo chu trình hoán vị / permutation cycles",
+      "definition": "Liên hệ thành công với cấu trúc chu trình của hoán vị."
+    },
+    {
+      "id": "T-counter-protocol",
+      "label": "Giao thức bộ đếm / counter protocol",
+      "definition": "Bảo đảm không đếm lặp tín hiệu và cuối cùng nhận đủ tín hiệu."
+    },
+    {
+      "id": "T-parity",
+      "label": "Parity / chẵn lẻ",
+      "definition": "Theo dõi chẵn lẻ dưới từng phép biến đổi hợp lệ."
+    },
+    {
+      "id": "T-xor",
+      "label": "Checksum XOR",
+      "definition": "Kiểm tra tác động của đúng một lần lật lên checksum."
+    },
+    {
+      "id": "T-counting",
+      "label": "Đếm cấu hình / counting",
+      "definition": "Xây dựng tương ứng và biện minh không thiếu/không lặp."
+    },
+    {
+      "id": "T-symmetry",
+      "label": "Đối xứng và chia đều / symmetry",
+      "definition": "Biến đổi đối xứng phải giữ đúng luật và lượng cần bảo toàn."
+    },
+    {
+      "id": "T-error-correction",
+      "label": "Mã sửa lỗi / error correction",
+      "definition": "Bảo đảm các vùng quan sát do lỗi không chồng nhau."
+    },
+    {
+      "id": "T-strategy-stealing",
+      "label": "Đánh cắp chiến lược / strategy stealing",
+      "definition": "Lập luận tồn tại chiến lược; không tự cung cấp thuật toán tìm nước đi."
+    },
+    {
+      "id": "T-grundy",
+      "label": "Sprague–Grundy",
+      "definition": "Áp dụng cho trò chơi impartial hữu hạn, luật normal play và thành phần độc lập."
+    },
+    {
+      "id": "T-game-positions",
+      "label": "Phân loại trạng thái thắng/thua / game positions",
+      "definition": "Chứng minh cả chuyển từ trạng thái thua và nước đi về trạng thái thua."
+    },
+    {
+      "id": "T-interval-dp",
+      "label": "DP trên đoạn / interval DP",
+      "definition": "Nêu trạng thái đoạn và mọi lựa chọn chia/loại bỏ hợp lệ."
+    },
+    {
+      "id": "T-colouring",
+      "label": "Tô màu / colouring",
+      "definition": "Chọn phép tô mà mỗi mảnh/nước đi có tính chất kiểm soát được."
+    },
+    {
+      "id": "T-potential",
+      "label": "Hàm thế / potential function",
+      "definition": "Tính thay đổi của hàm thế cho mọi loại nước đi, kể cả miền vô hạn."
+    },
+    {
+      "id": "T-linear-algebra",
+      "label": "Hệ tuyến tính trên GF(2)",
+      "definition": "Mô hình thao tác bằng cộng modulo 2 và kiểm khả thi của hệ."
+    },
+    {
+      "id": "T-modular",
+      "label": "Bất biến đồng dư / modular invariant",
+      "definition": "Chọn modulo và kiểm tra từng quy tắc chuyển trạng thái."
+    },
+    {
+      "id": "T-divide-conquer",
+      "label": "Chia để trị / divide and conquer",
+      "definition": "Chứng minh bước chia, ghép và độ phức tạp truy hồi."
+    },
+    {
+      "id": "T-greedy",
+      "label": "Tham lam / greedy",
+      "definition": "Cần lập luận trao đổi hoặc bất biến; không suy đúng từ một ví dụ."
+    },
+    {
+      "id": "T-random-partition",
+      "label": "Phân hoạch ngẫu nhiên / randomized partition",
+      "definition": "Phân biệt thời gian kỳ vọng với thời gian xấu nhất."
+    },
+    {
+      "id": "T-merge-count",
+      "label": "Đếm khi trộn / merge counting",
+      "definition": "Đếm các cặp qua biên và không đếm lặp khi ghép."
+    },
+    {
+      "id": "T-sweep",
+      "label": "Quét sự kiện / sweep line",
+      "definition": "Xử lý sự kiện cùng tọa độ và quy ước biên khoảng."
+    },
+    {
+      "id": "T-subset-sum",
+      "label": "DP tổng tập con / subset sum",
+      "definition": "Phân biệt mục tiêu quyết định, tối ưu và khôi phục nghiệm."
+    },
+    {
+      "id": "T-subset-dp",
+      "label": "DP tập con / subset DP",
+      "definition": "Nêu ý nghĩa mask và thông tin phụ cần để quyết định chuyển trạng thái."
+    },
+    {
+      "id": "T-matching",
+      "label": "Ghép cặp / matching",
+      "definition": "Chuyển ràng buộc phân công sang cạnh hợp lệ; xét điều kiện tồn tại."
+    },
+    {
+      "id": "T-competitive",
+      "label": "Phân tích cạnh tranh / competitive analysis",
+      "definition": "So chi phí online với tối ưu biết trước trên cùng một đầu vào."
+    },
+    {
+      "id": "T-scheduling",
+      "label": "Lập lịch / scheduling",
+      "definition": "Phân biệt tương thích khoảng, hạn chót, trọng số và mục tiêu."
+    },
+    {
+      "id": "T-normalization",
+      "label": "Chuẩn hóa theo tỉ lệ / normalization",
+      "definition": "Chuyển từ tọa độ thay đổi sang phần của toàn bộ được giữ nguyên bởi một phép giãn đều."
+    },
+    {
+      "id": "T-equivalent-model",
+      "label": "Biến đổi mô hình tương đương / equivalent model",
+      "definition": "Thay cách mô tả bằng một mô hình giữ đúng các quan sát cần trả lời; nêu rõ thông tin nào bị bỏ và cách phục hồi nếu câu hỏi cần nó."
+    },
+    {
+      "id": "T-induction",
+      "label": "Chứng minh quy nạp / induction",
+      "definition": "Nêu trường hợp đầu, giả thiết quy nạp và bước chuyển; với thông tin công khai phải giữ đúng thời điểm quan sát."
+    },
+    {
+      "id": "T-construction",
+      "label": "Dựng phương án / constructive method",
+      "definition": "Mô tả một phương án hợp lệ hoặc quy tắc sinh phương án; khi có cận dưới, kiểm phương án đạt cận để chứng minh tối ưu."
+    },
+    {
+      "id": "T-series-comparison",
+      "label": "Nhóm và so sánh số hạng / series comparison",
+      "definition": "Nhóm hoặc chặn các số hạng để chứng minh tổng tích lũy vượt mọi ngưỡng hoặc bị chặn; giữ đúng mô hình rời rạc và đơn vị."
+    },
+    {
+      "id": "T-prefix-sums",
+      "label": "Tổng tiền tố / prefix sums",
+      "definition": "Dùng tổng tích lũy và hiệu hai tổng để biểu diễn đại lượng trên đoạn; xử lý đúng chỉ số và trường hợp vòng."
+    },
+    {
+      "id": "T-sliding-minimum",
+      "label": "Cực tiểu cửa sổ / sliding-window minimum",
+      "definition": "Duy trì cực tiểu trên một cửa sổ di chuyển bằng deque đơn điệu; loại chỉ số hết hạn và biện minh chi phí khấu hao."
+    },
+    {
+      "id": "T-meet-in-middle",
+      "label": "Meet-in-the-middle",
+      "definition": "Chia không gian tìm kiếm thành hai phần gần bằng nhau, liệt kê riêng và ghép kết quả hiệu quả; khác quy hoạch động theo tổng giá trị."
+    },
+    {
+      "id": "T-subset-search",
+      "label": "Liệt kê tập con / subset enumeration",
+      "definition": "Duyệt các tập con hoặc gán lựa chọn tương ứng; kiểm khả thi và mục tiêu, có thể dùng cận để cắt tìm kiếm. Không gọi là DP nếu không có trạng thái và truy hồi DP."
+    },
+    {
+      "id": "T-bounds",
+      "label": "Chặn bằng cận / bounding",
+      "definition": "Lập cận đúng cho mọi phương án từ tải, số lượng hoặc ràng buộc; phân biệt cận với một nghiệm và kiểm phương án đạt cận khi khẳng định tối ưu."
+    }
+  ],
+  "cognitive_levels": [
+    {
+      "id": "C1",
+      "label": "Thực hiện",
+      "definition": "Thực hiện quy trình đã được xác định."
+    },
+    {
+      "id": "C2",
+      "label": "Lựa chọn và mô hình hóa",
+      "definition": "Tự chọn biểu diễn hoặc phối hợp kỹ thuật quen thuộc."
+    },
+    {
+      "id": "C3",
+      "label": "Phát hiện và chứng minh",
+      "definition": "Tìm bước then chốt, chứng minh đúng/tối ưu hoặc xây dựng phản ví dụ."
+    },
+    {
+      "id": "C4",
+      "label": "Khái quát và thiết kế",
+      "definition": "Đề yêu cầu khái quát, thiết kế hoặc so sánh lập luận mới."
+    }
+  ],
+  "policy": "Concept, technique, cognitive demand, prerequisites and difficulty are distinct. Stars do not assign cognitive levels. Suggested labels are not reviewed mathematics.",
+  "assignment_roles": [
+    {
+      "id": "primary",
+      "definition": "Khái niệm hoặc phương pháp chính của đề và hướng giải đang trình bày."
+    },
+    {
+      "id": "supporting",
+      "definition": "Phục vụ một bước lập luận hoặc chứng nhận của phương pháp chính."
+    },
+    {
+      "id": "alternative",
+      "definition": "Một hướng giải khác hợp lệ; không phải phương pháp trong outline chính."
+    },
+    {
+      "id": "verification",
+      "definition": "Dùng kiểm ví dụ hoặc chứng chỉ; không tự thay thế phương pháp tổng quát."
+    },
+    {
+      "id": "generalization",
+      "definition": "Khung khái quát hoặc biến thể mở rộng, vượt công cụ cần thiết cho đề hiện tại."
+    }
+  ]
+}

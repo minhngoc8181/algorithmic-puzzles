@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0060",
+  "title": "Kiến có tên: ai rơi trước và ai rơi cuối?",
+  "statement": "Sợi dây dài 2026 cm có 12 kiến A–L theo vị trí và hướng ban đầu trong bảng. Mọi kiến bò 1 cm/giây; gặp nhau thì cả hai đổi hướng tức thời, đến đầu dây thì rơi. Tên đi cùng con kiến thật, không chuyển tên cho con khác khi gặp.\n\n{{DATA}}\n\nHãy xác định thời điểm, đầu dây và thứ tự rơi của từng con kiến.",
+  "aliases": [],
+  "figure_id": "ART-ANTS12",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Dùng cùng vị trí với bài va chạm nhưng hỏi nhãn; thông tin bị bỏ ở bài trước nay phải phục hồi bằng bất biến thứ tự.",
+    "stars": 3,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-invariants",
+      "C-order"
+    ],
+    "technique_ids": [
+      "T-equivalent-model"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Phục hồi danh tính bằng thứ tự bất biến sau khi đơn giản hóa chuyển động. Các vai trò primary/supporting/alternative/verification/generalization phân biệt phương pháp đang trình bày với kiểm chứng và khái quát.",
+    "concept_roles": {
+      "C-invariants": "primary",
+      "C-order": "primary"
+    },
+    "technique_roles": {
+      "T-equivalent-model": "primary"
+    }
+  },
+  "instance": {
+    "kind": "labelled-ants",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Kiến"
+      },
+      {
+        "field": "position",
+        "label": "Vị trí cm"
+      },
+      {
+        "field": "direction",
+        "label": "Hướng"
+      }
+    ],
+    "records": [
+      {
+        "id": "A",
+        "position": 14,
+        "direction": "phải"
+      },
+      {
+        "id": "B",
+        "position": 137,
+        "direction": "trái"
+      },
+      {
+        "id": "C",
+        "position": 286,
+        "direction": "phải"
+      },
+      {
+        "id": "D",
+        "position": 419,
+        "direction": "trái"
+      },
+      {
+        "id": "E",
+        "position": 572,
+        "direction": "trái"
+      },
+      {
+        "id": "F",
+        "position": 741,
+        "direction": "phải"
+      },
+      {
+        "id": "G",
+        "position": 913,
+        "direction": "phải"
+      },
+      {
+        "id": "H",
+        "position": 1108,
+        "direction": "trái"
+      },
+      {
+        "id": "I",
+        "position": 1277,
+        "direction": "phải"
+      },
+      {
+        "id": "J",
+        "position": 1486,
+        "direction": "trái"
+      },
+      {
+        "id": "K",
+        "position": 1763,
+        "direction": "phải"
+      },
+      {
+        "id": "L",
+        "position": 1988,
+        "direction": "phải"
+      }
+    ],
+    "length": 2026,
+    "speed": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0006",
+  "catalog_headings": [
+    "AP-08"
+  ],
+  "external_source_status": "partial",
+  "external_sources": [
+    {
+      "url": "https://www.cs.princeton.edu/courses/archive/spring98/cs423/handouts/hw02/index.html",
+      "title": "Princeton CS423: finding the second largest",
+      "role": "technical-support-not-source-of-authored-numbers"
+    }
+  ]
+}

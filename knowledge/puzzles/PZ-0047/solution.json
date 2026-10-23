@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0047",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Bản đầu có: A→7, B→2, C→5, D→1, E→3, F→13, G→8, H→6, I→4, J→10, K→11, L→9. Bản thay đổi không có.",
+  "outline": "Ghép cặp hai phía và tăng ghép bằng đường tăng. Ở bản thay đổi, A,B,C,D chỉ có hợp của các lựa chọn {2,5,7}: bốn người chia ba vị trí, nên bất khả thi dù tổng số vị trí là 14. Điều kiện Hall xét mọi tập người; số chỗ toàn bộ nhiều hơn số người chưa đủ.",
+  "teaching_notes": "Khởi động tùy lớp: Tự lập 3 người, 4 vị trí, nhưng hai người chỉ chấp nhận cùng một chỗ. ",
+  "proof": null,
+  "complexity": "Đường tăng cơ bản O(VE); Hopcroft–Karp O(E√V) cho dữ liệu lớn.",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn phân biệt thiếu tổng số vị trí với thiếu lựa chọn cho một tập con sinh viên. Biến thể vẫn có 14 vị trí nhưng bốn người chỉ tới ba chỗ giúp làm rõ điều kiện Hall và ý nghĩa đường tăng."
+}

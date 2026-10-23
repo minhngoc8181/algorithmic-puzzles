@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0040",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Chi phí tối thiểu 1353.",
+  "outline": "Lần ghép cuối của đoạn i..j chia nó tại k. Đặt $F(i,j)=S(i,j)+\\min_{i\\le k<j}(F(i,k)+F(k+1,j))$, $F(i,i)=0$. Giữ điểm chia để phục hồi cây ghép; tổng đoạn lấy từ prefix sum. Lựa chọn hai khối nhỏ nhất toàn cục có thể không hợp lệ; ngay cả chọn cặp kề có tổng nhỏ nhất cũng không bảo đảm tối ưu.",
+  "teaching_notes": "Khởi động tùy lớp: Tự dựng dãy 3–5 khối và so miền lựa chọn với bài dây; ví dụ [1,100,1] chỉ để kiểm tra tính hợp lệ. ",
+  "proof": null,
+  "complexity": "O(n³) thời gian, O(n²) bộ nhớ cho truy hồi cơ bản; không hứa hẹn xử lý n rất lớn bằng bản cơ bản.",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn nhận diện ràng buộc kề nhau làm quy tắc nối dây bất kỳ mất hiệu lực. Đặt cạnh bài dây để học sinh nêu chính xác miền phương án đã thay đổi, rồi chọn trạng thái khoảng."
+}

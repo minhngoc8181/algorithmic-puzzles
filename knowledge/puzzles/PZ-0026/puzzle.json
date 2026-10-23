@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0026",
+  "title": "Bowling với năm đoạn quân rời nhau",
+  "statement": "Các quân bowling đứng ở năm đoạn rời nhau, có lần lượt 7, 10, 14, 19 và 23 quân. Mọi khoảng trống giữa các đoạn luôn giữ nguyên. Mỗi lượt được lấy một quân bất kỳ hoặc hai quân kề nhau trong cùng một đoạn. Những quân còn lại không dồn lại; một lượt có thể tạo hai đoạn mới. Ai không còn nước đi thì thua.\n\nAi có thể bảo đảm thắng và chơi như thế nào?",
+  "aliases": [],
+  "figure_id": "ART-BOWLING",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Nâng cấp cấu trúc thành 5 đoạn thay vì chỉ tăng số quân.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-games"
+    ],
+    "technique_ids": [
+      "T-grundy"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Nâng cấp cấu trúc thành 5 đoạn thay vì chỉ tăng số quân."
+  },
+  "instance": {
+    "kind": "kayles",
+    "segments": [
+      7,
+      10,
+      14,
+      19,
+      23
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 2,
+  "default_edition": "classroom",
+  "puzzles": "knowledge/puzzles",
+  "taxonomy": "knowledge/taxonomy.json",
+  "cards": "knowledge/cards",
+  "sources": "sources/registry.json",
+  "editions": "editions",
+  "publications": "publications",
+  "assets": "assets",
+  "build": "build"
+}

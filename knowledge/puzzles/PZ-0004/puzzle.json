@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0004",
+  "title": "12 đồng xu và ba lần cân",
+  "statement": "Có 12 đồng xu trông giống hệt nhau. Đúng một đồng có khối lượng khác với 11 đồng còn lại, nhưng không biết nó nặng hơn hay nhẹ hơn. Có một cân thăng bằng hai đĩa, không có quả cân chuẩn; mỗi lần cân có thể đặt một số đồng bằng nhau trên hai đĩa và biết đĩa nào nặng hơn hoặc hai đĩa cân bằng.\n\nCó thể xác định chắc chắn đồng khác biệt và nó nặng hơn hay nhẹ hơn bằng nhiều nhất ba lần cân không?",
+  "aliases": [],
+  "figure_id": "AP-02",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ 12 đồng vì giới hạn 3 phép cân là cấu trúc chặt; kiểm tra toàn bộ nhánh, không thay số làm bài mất khả thi.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-information",
+      "C-coding"
+    ],
+    "technique_ids": [
+      "T-decision-tree",
+      "T-encoding"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giữ 12 đồng vì giới hạn 3 phép cân là cấu trúc chặt; kiểm tra toàn bộ nhánh, không thay số làm bài mất khả thi."
+  }
+}

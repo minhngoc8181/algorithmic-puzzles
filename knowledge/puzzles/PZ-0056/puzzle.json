@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0056",
+  "title": "Một đống đá và ba lượng được lấy",
+  "statement": "Có một đống 2026 viên đá. Mỗi lượt chỉ được lấy đúng 1, 3 hoặc 4 viên; không được lấy quá số còn lại. Người lấy viên cuối cùng thắng.\n\nNgười đi trước có bảo đảm thắng không? Nếu có, hãy nêu một chiến lược. Nếu ban đầu có $n$ viên đá, ai có thể bảo đảm thắng?",
+  "aliases": [],
+  "figure_id": "ART-PEBBLEPILE",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Bài cơ bản một đống được đặt trước Nim; không đánh đồng nó với PZ-0025 chỉ vì cùng bắt đầu một đống.",
+    "stars": 2,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-games",
+      "C-induction"
+    ],
+    "technique_ids": [
+      "T-game-positions",
+      "T-backward"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Bài cơ bản một đống được đặt trước Nim; không đánh đồng nó với PZ-0025 chỉ vì cùng bắt đầu một đống."
+  },
+  "instance": {
+    "kind": "subtraction",
+    "n": 2026,
+    "moves": [
+      1,
+      3,
+      4
+    ]
+  }
+}

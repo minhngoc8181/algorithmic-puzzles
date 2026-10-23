@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0013",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "Có chiến lược đảm bảo chờ đủ 100 người.",
+  "outline": "Chọn một tù nhân làm bộ đếm; mỗi người còn lại chỉ bật đèn đúng một lần khi thấy tắt; người đếm tắt đèn và tăng đếm. Khi đủ 99 lần thì tuyên bố.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn thiết kế giao thức dùng trạng thái rất nhỏ để tích lũy thông tin. Điều kiện mỗi người được gọi vô số lần bảo đảm kết thúc; nó không cho một thời hạn hữu hạn chung cho mọi lịch gọi."
+}

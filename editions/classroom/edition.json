@@ -1,0 +1,578 @@
+{
+  "schema_version": 1,
+  "id": "classroom",
+  "title": "Câu đố giải thuật",
+  "edition": "2026",
+  "output_name": "algorithmic-puzzles",
+  "expected_count": 60,
+  "renderer": "renderer.py",
+  "sections": [
+    {
+      "id": 1,
+      "title": "1. Suy luận và chiến lược",
+      "puzzle_ids": [
+        "PZ-0051",
+        "PZ-0055",
+        "PZ-0016",
+        "PZ-0007",
+        "PZ-0005",
+        "PZ-0009",
+        "PZ-0021",
+        "PZ-0014",
+        "PZ-0060",
+        "PZ-0006",
+        "PZ-0003",
+        "PZ-0036",
+        "PZ-0004",
+        "PZ-0011",
+        "PZ-0008",
+        "PZ-0049",
+        "PZ-0010",
+        "PZ-0057",
+        "PZ-0017",
+        "PZ-0013",
+        "PZ-0018",
+        "PZ-0020",
+        "PZ-0015",
+        "PZ-0012"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "2. Trò chơi và quy luật",
+      "puzzle_ids": [
+        "PZ-0019",
+        "PZ-0030",
+        "PZ-0001",
+        "PZ-0056",
+        "PZ-0028",
+        "PZ-0032",
+        "PZ-0034",
+        "PZ-0033",
+        "PZ-0023",
+        "PZ-0025",
+        "PZ-0026",
+        "PZ-0027",
+        "PZ-0002",
+        "PZ-0031",
+        "PZ-0052",
+        "PZ-0022",
+        "PZ-0024",
+        "PZ-0029"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "3. Thiết kế và phân tích giải thuật",
+      "puzzle_ids": [
+        "PZ-0043",
+        "PZ-0035",
+        "PZ-0042",
+        "PZ-0050",
+        "PZ-0038",
+        "PZ-0037",
+        "PZ-0039",
+        "PZ-0044",
+        "PZ-0040",
+        "PZ-0041",
+        "PZ-0045",
+        "PZ-0046",
+        "PZ-0047",
+        "PZ-0053",
+        "PZ-0058",
+        "PZ-0054",
+        "PZ-0059",
+        "PZ-0048"
+      ]
+    }
+  ],
+  "layout": {
+    "side_figure_ids": [
+      "AP-01",
+      "AP-02",
+      "AP-03",
+      "AP-05",
+      "AP-28",
+      "AP-42",
+      "AP-50",
+      "AP-55",
+      "ART-BIRTHDAY",
+      "ART-BOWLING",
+      "ART-BRIDGE",
+      "ART-CHEST",
+      "ART-DAUGHTERS",
+      "ART-HOUSES",
+      "ART-LIGHTS",
+      "ART-MATCHES",
+      "ART-MAX2",
+      "ART-MICE",
+      "ART-MINMAX",
+      "ART-MUDDY",
+      "ART-PEBBLEPILE",
+      "ART-QUESTIONS",
+      "ART-SKIRENTAL",
+      "ART-STONES",
+      "ART-TROMINO",
+      "ART-WEIGHTS",
+      "ART-WYTHOFF",
+      "NEW-100BOXES",
+      "NEW-BULB",
+      "NEW-CHAMELEONS",
+      "NEW-COINFLIP",
+      "NEW-NUTS",
+      "NEW-PILLS",
+      "NEW-PIRATES",
+      "NEW-SOLDIERS",
+      "NEW-WOLVES"
+    ],
+    "student_hidden_figure_ids": [],
+    "cover_figure_id": "COVER",
+    "font_files": [
+      "CharisSIL-Bold.ttf",
+      "CharisSIL-BoldItalic.ttf",
+      "CharisSIL-Italic.ttf",
+      "CharisSIL-Regular.ttf",
+      "Inter-Bold.ttf",
+      "Inter-Italic.ttf",
+      "Inter-Regular.ttf"
+    ],
+    "puzzle_layouts": {
+      "PZ-0051": {
+        "mode": "banner-before",
+        "width_mm": 116,
+        "caption": "",
+        "raster_path": "ART-ANTS.jpg",
+        "effective_ppi": 301.3,
+        "crop": [
+          0,
+          0.06,
+          0,
+          0.22
+        ]
+      },
+      "PZ-0001": {
+        "mode": "side-right",
+        "width_mm": 65,
+        "caption": "",
+        "raster_path": "NEW-WOLVES.jpg",
+        "effective_ppi": 537.7
+      },
+      "PZ-0055": {
+        "mode": "side-right",
+        "width_mm": 66,
+        "caption": "",
+        "raster_path": "ART-DAUGHTERS.jpg",
+        "effective_ppi": 384.8
+      },
+      "PZ-0016": {
+        "mode": "wrap-right",
+        "width_mm": 63,
+        "caption": "",
+        "raster_path": "ART-MUDDY.jpg",
+        "effective_ppi": 483.8
+      },
+      "PZ-0007": {
+        "mode": "side-right",
+        "width_mm": 68,
+        "caption": "Trước lúc qua cầu.",
+        "raster_path": "ART-BRIDGE.jpg",
+        "effective_ppi": 448.2
+      },
+      "PZ-0005": {
+        "mode": "side-right",
+        "width_mm": 63,
+        "caption": "",
+        "raster_path": "ART-MINMAX.jpg",
+        "effective_ppi": 483.8
+      },
+      "PZ-0009": {
+        "mode": "wrap-right",
+        "width_mm": 58,
+        "caption": "",
+        "raster_path": "ART-MICE.jpg",
+        "effective_ppi": 525.5
+      },
+      "PZ-0014": {
+        "mode": "banner-before",
+        "width_mm": 110,
+        "caption": "Trích một phần đoàn người.",
+        "raster_path": "../masters/ART-HATS.png",
+        "effective_ppi": 317.7
+      },
+      "PZ-0060": {
+        "mode": "banner-before",
+        "width_mm": 114,
+        "caption": "Vị trí và hướng ban đầu được cho trong bảng.",
+        "raster_path": "ART-ANTS12.jpg",
+        "effective_ppi": 306.6,
+        "crop": [
+          0,
+          0.3,
+          0,
+          0.32
+        ]
+      },
+      "PZ-0006": {
+        "mode": "side-right",
+        "width_mm": 61,
+        "caption": "",
+        "raster_path": "ART-MAX2.jpg",
+        "effective_ppi": 499.7
+      },
+      "PZ-0003": {
+        "mode": "side-right",
+        "width_mm": 65,
+        "caption": "",
+        "raster_path": "AP-01.jpg",
+        "effective_ppi": 537.7
+      },
+      "PZ-0004": {
+        "mode": "side-right",
+        "width_mm": 59,
+        "caption": "",
+        "raster_path": "AP-02.jpg",
+        "effective_ppi": 592.4
+      },
+      "PZ-0011": {
+        "mode": "side-right",
+        "width_mm": 63,
+        "caption": "",
+        "raster_path": "AP-05.jpg",
+        "effective_ppi": 554.8
+      },
+      "PZ-0008": {
+        "mode": "side-right",
+        "width_mm": 62,
+        "caption": "",
+        "raster_path": "AP-28.jpg",
+        "effective_ppi": 563.7
+      },
+      "PZ-0010": {
+        "mode": "side-right",
+        "width_mm": 59,
+        "caption": "",
+        "raster_path": "AP-03.jpg",
+        "effective_ppi": 592.4
+      },
+      "PZ-0057": {
+        "mode": "side-right",
+        "width_mm": 64,
+        "caption": "",
+        "raster_path": "ART-BIRTHDAY.jpg",
+        "effective_ppi": 476.2
+      },
+      "PZ-0017": {
+        "mode": "wrap-right",
+        "width_mm": 59,
+        "caption": "",
+        "raster_path": "NEW-COINFLIP.jpg",
+        "effective_ppi": 592.4
+      },
+      "PZ-0013": {
+        "mode": "wrap-right",
+        "width_mm": 58,
+        "caption": "",
+        "raster_path": "NEW-BULB.jpg",
+        "effective_ppi": 602.6
+      },
+      "PZ-0002": {
+        "mode": "wrap-right",
+        "width_mm": 58,
+        "caption": "",
+        "raster_path": "NEW-PIRATES.jpg",
+        "effective_ppi": 602.6
+      },
+      "PZ-0018": {
+        "mode": "side-right",
+        "width_mm": 64,
+        "caption": "",
+        "raster_path": "ART-CHEST.jpg",
+        "effective_ppi": 476.2
+      },
+      "PZ-0015": {
+        "mode": "wrap-right",
+        "width_mm": 59,
+        "caption": "",
+        "raster_path": "ART-HOUSES.jpg",
+        "effective_ppi": 516.6
+      },
+      "PZ-0012": {
+        "mode": "wrap-right",
+        "width_mm": 60,
+        "caption": "",
+        "raster_path": "NEW-100BOXES.jpg",
+        "effective_ppi": 582.5
+      },
+      "PZ-0019": {
+        "mode": "wrap-right",
+        "width_mm": 59,
+        "caption": "",
+        "raster_path": "NEW-PILLS.jpg",
+        "effective_ppi": 592.4
+      },
+      "PZ-0056": {
+        "mode": "side-right",
+        "width_mm": 58,
+        "caption": "",
+        "raster_path": "ART-PEBBLEPILE.jpg",
+        "effective_ppi": 525.5
+      },
+      "PZ-0030": {
+        "mode": "side-right",
+        "width_mm": 64,
+        "caption": ""
+      },
+      "PZ-0028": {
+        "mode": "side-right",
+        "width_mm": 44,
+        "caption": ""
+      },
+      "PZ-0034": {
+        "mode": "side-right",
+        "width_mm": 87,
+        "model_kind": "tromino",
+        "caption": "Vị trí ô bị bỏ chỉ để minh họa.",
+        "reason": "Bảng 64×64 thiếu đúng một ô; miếng chữ L đúng ba ô, không vẽ cách lát."
+      },
+      "PZ-0033": {
+        "mode": "banner-before",
+        "width_mm": 114,
+        "caption": "Hai nhóm ếch và một tảng đá trống.",
+        "raster_path": "NEW-FROGS.jpg",
+        "effective_ppi": 306.6,
+        "crop": [
+          0,
+          0.25,
+          0,
+          0.25
+        ]
+      },
+      "PZ-0021": {
+        "mode": "side-right",
+        "width_mm": 68,
+        "caption": "",
+        "raster_path": "ART-WEIGHTS.jpg",
+        "effective_ppi": 448.2
+      },
+      "PZ-0032": {
+        "mode": "side-right",
+        "width_mm": 62,
+        "caption": "",
+        "raster_path": "NEW-CHAMELEONS.jpg",
+        "effective_ppi": 563.7
+      },
+      "PZ-0023": {
+        "mode": "side-right",
+        "width_mm": 64,
+        "caption": "",
+        "raster_path": "ART-MATCHES.jpg",
+        "effective_ppi": 476.2
+      },
+      "PZ-0025": {
+        "mode": "wrap-right",
+        "width_mm": 59,
+        "caption": "",
+        "raster_path": "ART-STONES.jpg",
+        "effective_ppi": 516.6
+      },
+      "PZ-0026": {
+        "mode": "side-right",
+        "width_mm": 70,
+        "caption": "Năm đoạn quân đứng tách rời.",
+        "raster_path": "ART-BOWLING.jpg",
+        "effective_ppi": 435.4
+      },
+      "PZ-0027": {
+        "mode": "data-inline",
+        "width_mm": 155,
+        "model_kind": "coin-row",
+        "caption": "Giá trị các đồng tiền theo thứ tự từ trái sang phải.",
+        "reason": "Đủ 18 đồng tiền, mỗi đồng mang giá trị lấy trực tiếp từ dữ kiện; dùng hàng tiền thay bảng trùng lặp."
+      },
+      "PZ-0031": {
+        "mode": "side-right",
+        "width_mm": 75,
+        "caption": "Vàng: bật; trắng: tắt.",
+        "raster_path": "ART-LIGHTS.jpg",
+        "effective_ppi": 406.4
+      },
+      "PZ-0052": {
+        "mode": "banner-before",
+        "width_mm": 104,
+        "caption": "",
+        "raster_path": "ART-RUBBERANT.jpg",
+        "effective_ppi": 336.1
+      },
+      "PZ-0022": {
+        "mode": "side-right",
+        "width_mm": 63,
+        "caption": "",
+        "raster_path": "AP-50.jpg",
+        "effective_ppi": 554.8
+      },
+      "PZ-0024": {
+        "mode": "side-right",
+        "width_mm": 59,
+        "caption": "",
+        "raster_path": "ART-WYTHOFF.jpg",
+        "effective_ppi": 516.6
+      },
+      "PZ-0020": {
+        "mode": "side-right",
+        "width_mm": 60,
+        "caption": "",
+        "raster_path": "ART-QUESTIONS.jpg",
+        "effective_ppi": 508.0
+      },
+      "PZ-0029": {
+        "mode": "wrap-right",
+        "width_mm": 61,
+        "caption": "",
+        "raster_path": "NEW-SOLDIERS.jpg",
+        "effective_ppi": 573.0
+      },
+      "PZ-0043": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Cảnh camera ngoài phố không biểu diễn các đoạn một chiều hoặc quan hệ chứa một điểm. Bảng đầu mút và luật đủ xác định bài."
+      },
+      "PZ-0035": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Các cuộn dây không cho độ dài hoặc thao tác nối hai sợi bất kỳ. Bảng độ dài đã đủ; bố trí 3×6 cuộn thêm một cấu trúc không thuộc bài."
+      },
+      "PZ-0042": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Cảnh đường quê không thể hiện vòng 16 trạm, thứ tự hay lượng xăng. Vòng một chiều và trạm cuối nối trạm đầu đã được nêu rõ."
+      },
+      "PZ-0050": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Lịch trống và giấy trên bàn không cho hạn hoặc thưởng; không làm rõ quy tắc hoàn thành cuối ngày. Dùng đề và bảng."
+      },
+      "PZ-0038": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Hai bảng trắng không thể hiện thứ hạng 24 người. Bảng xếp hạng là dữ kiện trực tiếp; không thêm đường nối gợi cách đếm nghịch thế."
+      },
+      "PZ-0036": {
+        "mode": "side-right",
+        "width_mm": 61,
+        "caption": "",
+        "raster_path": "NEW-NUTS.jpg",
+        "effective_ppi": 573.0,
+        "reason": "Hình đai ốc và bu lông làm rõ các vật được thử ghép; bài không có bảng số liệu. Giữ tranh bối cảnh gọn."
+      },
+      "PZ-0037": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Bản đồ trang trí không dùng 30 tọa độ thật, dễ bị hiểu là một nguồn dữ kiện khác. Bảng và định nghĩa khoảng cách Euclid đã đủ; không thêm một đồ thị nhiều nhãn."
+      },
+      "PZ-0039": {
+        "mode": "banner-before",
+        "width_mm": 155,
+        "model_kind": "buildings",
+        "caption": "Mỗi hình chữ nhật là một tòa nhà; số liệu chính xác ở bảng.",
+        "reason": "Mô hình hình chữ nhật là biểu diễn trực tiếp của dữ kiện (L,R,H), cho thấy sự chồng lấn, chiều cao và khoảng trống. Bảng cho số chính xác; hình không vẽ đường bao đáp án."
+      },
+      "PZ-0044": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Tranh sân khấu và người cầm kịch bản không biểu diễn khoảng thời gian hoặc xung đột lịch; tách khỏi bảng khiến bài bị rời."
+      },
+      "PZ-0040": {
+        "mode": "banner-before",
+        "width_mm": 100,
+        "caption": "Thứ tự các khối từ trái sang phải; kích thước theo bảng.",
+        "raster_path": "ART-SLIMES.jpg",
+        "effective_ppi": 304.8,
+        "crop": [
+          0,
+          0.27,
+          0,
+          0.32
+        ],
+        "reason": "Hàng 16 slime cho thấy thứ tự tuyến tính và vị trí kề nhau; bảng cho kích thước chính xác. Không coi kích thước vẽ trong tranh là tỉ lệ số liệu."
+      },
+      "PZ-0041": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Máy in trang trí không cho thấy thao tác in cùng một chữ lên một đoạn hoặc ghi đè. Luật và chuỗi 33 ô là đầu vào cần thiết; bỏ tranh máy."
+      },
+      "PZ-0045": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Cảnh người đứng quanh dây không biểu diễn điểm sức mạnh hoặc quy tắc không cần hai đội bằng số người. Đề và bảng đủ dữ kiện."
+      },
+      "PZ-0046": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Hình kiện hàng và cửa thang máy không thể hiện khối lượng, sức tải hoặc điều kiện không chia kiện. Kích thước vẽ dễ bị nhầm với khối lượng."
+      },
+      "PZ-0047": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Hình sinh viên trước bảng tin không thể hiện các danh sách chấp nhận. Không thay bằng đồ thị ghép cặp vì việc tìm cách mô hình hóa vẫn thuộc khám phá của người học."
+      },
+      "PZ-0053": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Cảnh bếp không làm rõ số bếp 2–4 hoặc điều kiện không ngắt/chuyển món; bảng thời lượng và luật mô tả đầy đủ. Áp dụng cùng tiêu chí với bài 57."
+      },
+      "PZ-0054": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Ảnh hai máy và giỏ không thể hiện các thời gian hoặc lịch làm đồng thời. Luật có giỏ chờ đã nêu rõ; bỏ ảnh để giữ cách đọc thống nhất với bài 60."
+      },
+      "PZ-0058": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Đầu bếp và món ăn không thể hiện quyền tạm dừng/chuyển bếp hoặc cấm một món chạy song song trên hai bếp. Khác biệt phải nằm rõ trong luật."
+      },
+      "PZ-0049": {
+        "mode": "wrap-right",
+        "width_mm": 60,
+        "caption": "",
+        "raster_path": "ART-SKIRENTAL.jpg",
+        "effective_ppi": 508.0,
+        "reason": "Bối cảnh thuê/mua thiết bị trượt tuyết nhận diện câu chuyện; không có bảng dài cần đối chiếu. Giữ hình gọn bên cạnh văn xuôi."
+      },
+      "PZ-0048": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Cảnh họp không biểu diễn quan hệ ứng viên–ủy ban và có thể khiến người đọc liên tưởng sai tới bài phân công. Giữ bảng các tập ủy ban và luật đại diện đồng thời."
+      },
+      "PZ-0059": {
+        "mode": "text-only",
+        "caption": "",
+        "reason": "Ảnh hai máy không thể hiện chuyển ngay sau khi giặt hoặc quyền để máy giặt rảnh trước mẻ mới. Đề và bảng đủ; ảnh không giúp phân biệt bản không được chờ."
+      }
+    },
+    "label_font_pt": 10,
+    "caption_font_pt": 9.5,
+    "student_body_font_pt": 11,
+    "instructor_body_font_pt": 11,
+    "minimum_raster_ppi": 300,
+    "text_image_gap_mm": 5
+  },
+  "renderer_dependencies": [
+    "tools/figure_models.py",
+    "tools/artwork.py",
+    "tools/common.py",
+    "tools/puzzles.py"
+  ],
+  "pedagogy": {
+    "difficulty_order": "nondecreasing-within-section",
+    "rating_status": "proposed"
+  },
+  "pagination": {
+    "student_breaks_before": [
+      "PZ-0053",
+      "PZ-0054"
+    ],
+    "instructor_breaks_before": [
+      "PZ-0024"
+    ]
+  }
+}

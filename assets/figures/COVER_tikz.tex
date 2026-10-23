@@ -1,0 +1,37 @@
+\begin{tikzpicture}[font=\sffamily]
+% Colors
+\definecolor{coverink}{HTML}{1A1D20}
+\definecolor{covergold}{HTML}{D4931A}
+
+% Main Image
+\node[inner sep=0pt] (coverimg) at (0,0) {\includegraphics[width=16cm]{cover_3d.png}};
+
+% Labels underneath
+\node[below] at (-5.4, -4.0) {%
+  \hyperref[sec:1]{%
+    \begin{tabular}{@{}l@{\hspace{0.5ex}}l@{}}
+      {\fontsize{20}{24}\selectfont\bfseries\color{coverink}1.} & {\fontsize{20}{24}\selectfont\bfseries\color{coverink}Suy luận}\\[3pt]
+      & {\fontsize{17}{21}\selectfont\bfseries\color{covergold!90!black}\& Chiến lược}
+    \end{tabular}%
+  }%
+};
+
+\node[below] at (0, -4.0) {%
+  \hyperref[sec:2]{%
+    \begin{tabular}{@{}l@{\hspace{0.5ex}}l@{}}
+      {\fontsize{20}{24}\selectfont\bfseries\color{coverink}2.} & {\fontsize{20}{24}\selectfont\bfseries\color{coverink}Trò chơi}\\[3pt]
+      & {\fontsize{17}{21}\selectfont\bfseries\color{covergold!90!black}\& Quy luật}
+    \end{tabular}%
+  }%
+};
+
+\node[below] at (5.4, -4.0) {%
+  \hyperref[sec:3]{%
+    \begin{tabular}{@{}l@{\hspace{0.5ex}}l@{}}
+      {\fontsize{20}{24}\selectfont\bfseries\color{coverink}3.} & {\fontsize{20}{24}\selectfont\bfseries\color{coverink}Thiết kế}\\[3pt]
+      & {\fontsize{17}{21}\selectfont\bfseries\color{covergold!90!black}\& Phân tích}\\[3pt]
+      & {\fontsize{17}{21}\selectfont\bfseries\color{covergold!90!black}Giải thuật}
+    \end{tabular}%
+  }%
+};
+\end{tikzpicture}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0054",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "214 phút. Một thứ tự tối ưu theo Johnson: L, D, H, F, C, I, A, G, J, K, B, E.",
+  "outline": "Tồn tại lịch tối ưu dùng cùng thứ tự trên hai máy khi có chỗ chờ. Xếp các mẻ giặt<sấy trước, tăng theo thời gian giặt; các mẻ còn lại sau, giảm theo thời gian sấy. Mỗi lượt máy sấy bắt đầu ở max(thời điểm giặt xong, lúc máy sấy rảnh). Lập luận đổi chỗ hai mẻ kề cho quy tắc Johnson; DP trên tất cả tập con kiểm chứng số phút độc lập với phép sắp.",
+  "teaching_notes": "Khởi động tùy lớp: Tự tạo hai mẻ mà xếp theo tổng thời gian cho kết quả khác với xếp theo điều kiện đúng.",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn khai thác thứ tự công đoạn và lập timeline cho hai máy. Bộ đệm chờ là một quyền của mô hình; giải thích quy tắc Johnson qua đổi chỗ hơn là học thuộc cách xếp."
+}

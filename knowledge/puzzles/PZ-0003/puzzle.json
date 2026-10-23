@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0003",
+  "title": "25 con ngựa và 5 làn đua",
+  "statement": "Có 25 con ngựa có tốc độ cố định, đôi một khác nhau; chúng không bị mệt và thứ tự nhanh chậm không đổi. Mỗi cuộc đua có nhiều nhất năm con vì trường đua chỉ có năm làn. Không có đồng hồ: sau mỗi cuộc đua chỉ biết thứ tự về đích của các con đã tham gia. Cần ít nhất bao nhiêu cuộc đua để xác định chắc chắn ba con ngựa nhanh nhất theo đúng thứ tự nhất, nhì, ba?",
+  "aliases": [],
+  "figure_id": "AP-01",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ 25 và 5 làn: cấu trúc chứng minh mới là thách thức. Bổ sung lập luận tối thiểu thay vì tăng số ngựa tùy ý.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-order",
+      "C-information"
+    ],
+    "technique_ids": [
+      "T-tournament",
+      "T-elimination"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giữ 25 và 5 làn: cấu trúc chứng minh mới là thách thức. Bổ sung lập luận tối thiểu thay vì tăng số ngựa tùy ý."
+  }
+}

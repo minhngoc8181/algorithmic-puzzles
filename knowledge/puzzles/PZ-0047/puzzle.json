@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0047",
+  "title": "Phân công 12 sinh viên vào 14 vị trí",
+  "statement": "Có 12 sinh viên A–L và 14 vị trí đánh số 1–14. Mỗi vị trí nhận nhiều nhất một người; mỗi sinh viên cần đúng một vị trí thuộc danh sách chấp nhận dưới đây. Có thể để vị trí trống.\n\n{{DATA}}\n\nCó thể phân công đủ tất cả sinh viên không? Nếu có, hãy đưa ra một phương án. Nếu C chỉ nhận vị trí 5 và D chỉ nhận các vị trí 2, 5, 7, còn các danh sách khác giữ nguyên, câu trả lời thay đổi thế nào?",
+  "aliases": [],
+  "figure_id": "ART-MATCHING14",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "5→12 sinh viên/14 chỗ; thêm tình huống thiếu chỗ cục bộ không nhìn ra bằng tổng số lượng.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-optimization",
+      "C-graphs"
+    ],
+    "technique_ids": [
+      "T-matching"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "5→12 sinh viên/14 chỗ; thêm tình huống thiếu chỗ cục bộ không nhìn ra bằng tổng số lượng."
+  },
+  "instance": {
+    "kind": "matching",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Sinh viên"
+      },
+      {
+        "field": "accepts",
+        "label": "Vị trí nhận"
+      }
+    ],
+    "records": [
+      {
+        "id": "A",
+        "accepts": [
+          2,
+          7
+        ]
+      },
+      {
+        "id": "B",
+        "accepts": [
+          2,
+          5,
+          7
+        ]
+      },
+      {
+        "id": "C",
+        "accepts": [
+          1,
+          5
+        ]
+      },
+      {
+        "id": "D",
+        "accepts": [
+          1,
+          2,
+          5,
+          7
+        ]
+      },
+      {
+        "id": "E",
+        "accepts": [
+          1,
+          3,
+          4,
+          8
+        ]
+      },
+      {
+        "id": "F",
+        "accepts": [
+          4,
+          8,
+          9,
+          13
+        ]
+      },
+      {
+        "id": "G",
+        "accepts": [
+          3,
+          8,
+          10
+        ]
+      },
+      {
+        "id": "H",
+        "accepts": [
+          6,
+          9,
+          11
+        ]
+      },
+      {
+        "id": "I",
+        "accepts": [
+          4,
+          6,
+          10,
+          14
+        ]
+      },
+      {
+        "id": "J",
+        "accepts": [
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "id": "K",
+        "accepts": [
+          6,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "id": "L",
+        "accepts": [
+          9,
+          11,
+          12,
+          14
+        ]
+      }
+    ],
+    "positions": 14
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0037",
+  "title": "Cặp địa điểm gần nhất trên bản đồ",
+  "statement": "Bản đồ có 30 địa điểm phân biệt. Tọa độ và mã điểm được cho trong bảng; khoảng cách là khoảng cách Euclid, không làm tròn trước khi so sánh.\n\n{{DATA}}\n\nCặp địa điểm nào gần nhau nhất và khoảng cách là bao nhiêu? Hãy tìm một phương pháp áp dụng cho một tập điểm lớn bất kỳ.",
+  "aliases": [],
+  "figure_id": "ART-CLOSESTPAIR",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "30 điểm, có cặp qua nhóm và yêu cầu trả mọi cặp nếu hòa; tọa độ là dữ liệu chính xác, hình không thay bảng.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-geometry",
+      "C-recursion"
+    ],
+    "technique_ids": [
+      "T-divide-conquer"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "30 điểm, có cặp qua nhóm và yêu cầu trả mọi cặp nếu hòa; tọa độ là dữ liệu chính xác, hình không thay bảng."
+  },
+  "instance": {
+    "kind": "closest-pair",
+    "columns": [
+      {
+        "field": "id",
+        "label": "Điểm"
+      },
+      {
+        "field": "x",
+        "label": "x"
+      },
+      {
+        "field": "y",
+        "label": "y"
+      }
+    ],
+    "records": [
+      {
+        "id": "P01",
+        "x": 523,
+        "y": 374
+      },
+      {
+        "id": "P02",
+        "x": 527,
+        "y": 366
+      },
+      {
+        "id": "P03",
+        "x": 305,
+        "y": 76
+      },
+      {
+        "id": "P04",
+        "x": 60,
+        "y": 386
+      },
+      {
+        "id": "P05",
+        "x": 511,
+        "y": 58
+      },
+      {
+        "id": "P06",
+        "x": 725,
+        "y": 34
+      },
+      {
+        "id": "P07",
+        "x": 417,
+        "y": 263
+      },
+      {
+        "id": "P08",
+        "x": 242,
+        "y": 639
+      },
+      {
+        "id": "P09",
+        "x": 563,
+        "y": 151
+      },
+      {
+        "id": "P10",
+        "x": 503,
+        "y": 46
+      },
+      {
+        "id": "P11",
+        "x": 23,
+        "y": 255
+      },
+      {
+        "id": "P12",
+        "x": 930,
+        "y": 267
+      },
+      {
+        "id": "P13",
+        "x": 174,
+        "y": 219
+      },
+      {
+        "id": "P14",
+        "x": 399,
+        "y": 485
+      },
+      {
+        "id": "P15",
+        "x": 644,
+        "y": 319
+      },
+      {
+        "id": "P16",
+        "x": 36,
+        "y": 163
+      },
+      {
+        "id": "P17",
+        "x": 283,
+        "y": 447
+      },
+      {
+        "id": "P18",
+        "x": 729,
+        "y": 378
+      },
+      {
+        "id": "P19",
+        "x": 810,
+        "y": 226
+      },
+      {
+        "id": "P20",
+        "x": 331,
+        "y": 247
+      },
+      {
+        "id": "P21",
+        "x": 889,
+        "y": 384
+      },
+      {
+        "id": "P22",
+        "x": 541,
+        "y": 130
+      },
+      {
+        "id": "P23",
+        "x": 724,
+        "y": 186
+      },
+      {
+        "id": "P24",
+        "x": 419,
+        "y": 266
+      },
+      {
+        "id": "P25",
+        "x": 90,
+        "y": 504
+      },
+      {
+        "id": "P26",
+        "x": 370,
+        "y": 369
+      },
+      {
+        "id": "P27",
+        "x": 393,
+        "y": 315
+      },
+      {
+        "id": "P28",
+        "x": 347,
+        "y": 494
+      },
+      {
+        "id": "P29",
+        "x": 915,
+        "y": 246
+      },
+      {
+        "id": "P30",
+        "x": 847,
+        "y": 244
+      }
+    ]
+  },
+  "figure_model": null
+}

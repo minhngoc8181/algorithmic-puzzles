@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0006",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "$n+\\lceil\\log_2n\\rceil-2$ lần cân; với $n=2026$ là 2035.",
+  "outline": "Tổ chức cây đấu loại gần cân bằng, cho phép một số kiện được qua vòng không cần cân. Có 2025 lần cân để tìm kiện nặng nhất; nó thắng trực tiếp nhiều nhất 11 đối thủ. Kiện nặng nhì thuộc tập đối thủ đó, cần thêm nhiều nhất 10 lần. Đối thủ thích nghi chọn người thắng mang chứng nhận lớn hơn: để bao phủ 2026 kiện, người thắng cuối phải có ít nhất 11 đối thủ trực tiếp; cần loại tiếp ít nhất 10 ứng viên nặng nhì.",
+  "teaching_notes": "Khởi động tùy lớp: Dùng 5 hoặc 7 kiện, ghi lại đúng các đối thủ thua trực tiếp, thay vì sắp xếp toàn bộ. ",
+  "proof": null,
+  "complexity": "O(n) so sánh; O(n) lưu cây hoặc O(log n) danh sách thua của người thắng cuối.",
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Kết quả cân trước là chứng cứ tái sử dụng, không nên bỏ rồi tìm lớn nhì từ đầu. Đối chiếu số phép so sánh của cây đấu không đầy; bye không tạo một đối thủ đã thua."
+}

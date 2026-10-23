@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0026",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "XOR ban đầu là 7. Người đi trước thắng: ở đoạn 1, bỏ 1 quân từ vị trí 2 (đếm từ trái trong đoạn).",
+  "outline": "Với một hàng nguyên vẹn, chỉ cần lấy quân giữa (n lẻ) hoặc hai quân giữa (n chẵn), rồi phản chiếu mọi nước: tăng 12 lên 2026 không làm ý tưởng khó hơn. Biến thể năm đoạn phá đối xứng đó. Tính g(n) từ các cách bỏ 1 hoặc 2 quân và XOR hai đoạn còn lại; ghép năm trò con bằng XOR.",
+  "teaching_notes": "Khởi động tùy lớp: Cho một hàng nguyên vẹn để người học phát hiện chiến lược đối xứng, rồi hỏi vì sao không áp dụng ngay cho năm hàng khác độ dài. ",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn phát hiện khi đối xứng còn dùng được và khi nó bị phá bởi dữ kiện. Cho giải một hàng liền trước; năm đoạn khác độ dài buộc học sinh chuyển từ phản chiếu sang kết hợp các trạng thái trò con."
+}

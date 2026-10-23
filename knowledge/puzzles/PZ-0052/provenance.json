@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0052",
+  "catalog_headings": [],
+  "external_source_status": "partial",
+  "external_sources": [
+    {
+      "url": "https://arxiv.org/abs/2101.03890",
+      "title": "Ting-Yang Hsiao, The Ant on a Rubber Rope Paradox",
+      "role": "technical-support-not-source-of-authored-numbers"
+    }
+  ]
+}

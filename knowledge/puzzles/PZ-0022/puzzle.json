@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "PZ-0022",
+  "title": "Chocolate có một ô độc",
+  "statement": "Một thanh chocolate hình chữ nhật có $m$ hàng và $n$ cột ô vuông, với $m,n>1$. Ô dưới cùng bên trái có độc. Hai người lần lượt chơi. Mỗi lượt phải chọn một ô còn lại và ăn cả ô đó lẫn tất cả ô còn lại vừa ở phía trên (hoặc cùng hàng) vừa ở bên phải (hoặc cùng cột) của nó. Ai buộc phải ăn ô độc thì thua.\n\nNếu cả hai đều chơi tốt nhất, người đi trước hay người đi sau có thể bảo đảm chiến thắng?",
+  "aliases": [],
+  "figure_id": "AP-50",
+  "difficulty": {
+    "status": "proposed",
+    "basis": "knowledge/difficulty-rubric.md",
+    "target_population": "Người học đã có nền tảng suy luận và lập trình cơ bản; chưa được cho trước kỹ thuật giải.",
+    "rationale": "Giữ m,n vì đã là mệnh đề tổng quát; strategy stealing chứng minh tồn tại, không tự tạo một thuật toán nước đầu.",
+    "stars": 4,
+    "assessed_on": "2026-10-11"
+  },
+  "analysis": {
+    "status": "suggested",
+    "concept_ids": [
+      "C-games"
+    ],
+    "technique_ids": [
+      "T-strategy-stealing"
+    ],
+    "prerequisite_ids": [],
+    "cognitive_level": null,
+    "rationale": "Giữ m,n vì đã là mệnh đề tổng quát; strategy stealing chứng minh tồn tại, không tự tạo một thuật toán nước đầu."
+  }
+}

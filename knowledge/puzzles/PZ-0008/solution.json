@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "puzzle_id": "PZ-0008",
+  "status": "draft",
+  "scope": "answer-and-outline",
+  "answer": "533 1/3 quả.",
+  "outline": "Phân tích chi phí chuyển một km khi còn hơn 2000, còn 1000-2000, và còn tối đa 1000 chuối.",
+  "teaching_notes": "",
+  "proof": null,
+  "complexity": null,
+  "optimality": null,
+  "evidence": null,
+  "pedagogical_notes": "Rèn đổi mô hình vận chuyển thành tốc độ tiêu hao theo lượng hàng còn lại. Các điểm đổi giai đoạn không tùy ý; bản số thực giúp tập trung lập luận, trước khi xét biến thể chuối nguyên và điểm dừng nguyên."
+}

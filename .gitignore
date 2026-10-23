@@ -1,0 +1,44 @@
+# ── Đầu ra build: dựng lại bằng `python build.py` ──────────────────────────
+/build/
+
+# ── Vùng riêng từng máy: nháp, ảnh chờ duyệt ───────────────────────────────
+/local/
+
+# ── Biến thể ảnh không dùng cho xuất bản ───────────────────────────────────
+/assets/figures/*_gray.jpg
+/assets/figures/*_gray.png
+
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# ── LaTeX intermediates (nếu biên dịch tay ngoài build/) ───────────────────
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# ── Môi trường do công cụ bên ngoài sinh ───────────────────────────────────
+/tstex_modules/
+
+# ── Editor / OS ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.bak
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
